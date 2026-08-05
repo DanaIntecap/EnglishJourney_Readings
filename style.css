@@ -296,4 +296,19 @@ button {
 @media (max-width: 600px) {
     .banner h1 { font-size: 34px; }
     .rsvp-word { font-size: 30px; }
+
+    /* ---------- Pronunciation Practice ---------- */
+.pronunciation-box {
+    background: #f5f7fa;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pronunciation-box h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #00205b;
+    margin-top: 0;
+}
 }
