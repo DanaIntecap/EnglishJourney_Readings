@@ -378,3 +378,110 @@ btnCheckAnswers.addEventListener('click', () => {
     quizResult.classList.remove('hidden');
     quizResult.textContent = `Puntaje: ${correctCount}/${total}  (${pct}%)`;
 });
+/* ============================================================
+   Pronunciation Practice — Speech Recognition
+   Agregar este bloque a tu script.js existente.
+   Requiere que el HTML tenga: #btnMic, #speechResult, #speechFeedback
+   ============================================================ */
+
+(function () {
+  const btnMic = document.getElementById("btnMic");
+  const speechResult = document.getElementById("speechResult");
+  const speechFeedback = document.getElementById("speechFeedback");
+
+  // 1) Verificar soporte del navegador
+  const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  if (!SpeechRecognitionAPI) {
+    btnMic.disabled = true;
+    btnMic.textContent = "🎤 No disponible en este navegador";
+    return;
+  }
+
+  // 2) Configurar el reconocimiento
+  const recognition = new SpeechRecognitionAPI();
+  recognition.lang = "en-US";        // inglés, para practicar pronunciación
+  recognition.continuous = false;    // se detiene solo al terminar de hablar
+  recognition.interimResults = true; // muestra texto mientras se habla
+
+  let isListening = false;
+
+  // 3) Click del botón: iniciar / detener
+  btnMic.addEventListener("click", () => {
+    if (isListening) {
+      recognition.stop();
+      return;
+    }
+
+    speechResult.classList.remove("hidden");
+    speechFeedback.classList.add("hidden");
+    speechResult.textContent = "Escuchando...";
+
+    recognition.start();
+  });
+
+  // 4) Cuando empieza a escuchar
+  recognition.onstart = () => {
+    isListening = true;
+    btnMic.textContent = "⏹ Stop Recording";
+  };
+
+  // 5) Resultados en tiempo real (parciales y finales)
+  recognition.onresult = (event) => {
+    let transcript = "";
+    for (let i = 0; i < event.results.length; i++) {
+      transcript += event.results[i][0].transcript;
+    }
+    speechResult.textContent = transcript;
+
+    // Si el resultado ya es final, comparar contra el texto de la lectura
+    if (event.results[event.results.length - 1].isFinal) {
+      compararConTexto(transcript);
+    }
+  };
+
+  // 6) Cuando termina de escuchar (por silencio, error, o stop manual)
+  recognition.onend = () => {
+    isListening = false;
+    btnMic.textContent = "🎤 Start Recording";
+  };
+
+  recognition.onerror = (event) => {
+    isListening = false;
+    btnMic.textContent = "🎤 Start Recording";
+    speechResult.textContent = "No se detectó audio. Intenta de nuevo.";
+    console.warn("Speech recognition error:", event.error);
+  };
+
+  // 7) Comparación simple entre lo escuchado y el texto de la lectura
+  function compararConTexto(transcript) {
+    // ⚠️ AJUSTAR: reemplaza "readingText.textContent" por la variable
+    // o elemento donde tu script.js guarda el texto de la lectura actual.
+    const textoOriginal = document.getElementById("readingText").textContent;
+
+    const limpiar = (str) =>
+      str.toLowerCase().replace(/[.,!?"']/g, "").trim().split(/\s+/);
+
+    const palabrasOriginal = limpiar(textoOriginal);
+    const palabrasDichas = limpiar(transcript);
+
+    let coincidencias = 0;
+    palabrasDichas.forEach((palabra) => {
+      if (palabrasOriginal.includes(palabra)) coincidencias++;
+    });
+
+    const porcentaje = palabrasOriginal.length
+      ? Math.round((coincidencias / palabrasOriginal.length) * 100)
+      : 0;
+
+    speechFeedback.classList.remove("hidden");
+
+    if (porcentaje >= 70) {
+      speechFeedback.textContent = `✅ ¡Buen trabajo! Coincidencia: ${porcentaje}%`;
+      speechFeedback.style.color = "#008D36";
+    } else {
+      speechFeedback.textContent = `🔁 Sigue practicando. Coincidencia: ${porcentaje}%`;
+      speechFeedback.style.color = "#c0392b";
+    }
+  }
+})();
