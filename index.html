@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Journey Reading Practice</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tu hoja de estilos externa -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Logo institucional superior -->
+    <div class="logo-intecap">
+        <img src="images/logo-intecap.png" alt="INTECAP">
+    </div>
+
+    <!-- Banner central -->
+    <div class="banner">
+        <div class="logo-center">
+            <img src="images/ingles-para-todos.png" alt="English Journey">
+        </div>
+        <h1>ENGLISH JOURNEY</h1>
+        <h2>Reading Practice & RSVP</h2>
+    </div>
+
+    <!-- Instrucciones pedagógicas -->
+    <div style="background: #eaffea; padding: 20px; border-radius: 15px; margin-bottom: 20px; color: #00205b;">
+        <h3 style="margin-top: 0;">🎯 Objetivo de Aprendizaje</h3>
+        <p style="margin-bottom: 15px;">Desarrollar la comprensión lectora y la fluidez cognitiva en inglés mediante la técnica de lectura rápida (RSVP) y la validación de ideas principales.</p>
+        
+        <h3 style="margin-top: 0;">📌 Instrucciones de uso:</h3>
+        <ul style="margin-bottom: 0;">
+            <li><strong>Filtra tu lectura:</strong> Selecciona tu Nivel, Unidad y la Lectura que deseas explorar.</li>
+            <li><strong>Entrena tu agilidad:</strong> Ajusta la velocidad en el visor rápido (RSVP) o lee el texto completo a tu propio ritmo.</li>
+            <li><strong>Ponte a prueba:</strong> Responde las preguntas de comprensión al final para consolidar lo aprendido.</li>
+        </ul>
+    </div>
+
+    <!-- Filtros de selección -->
+    <div class="filters">
+        <select id="level-select">
+            <option value="" disabled selected>Select Level</option>
+        </select>
+        <select id="unit-select" disabled>
+            <option value="" disabled selected>Select Unit</option>
+        </select>
+        <select id="reading-select" disabled>
+            <option value="" disabled selected>Select Reading</option>
+        </select>
+    </div>
+
+    <!-- Área principal de lectura (Tarjeta) -->
+    <div id="reading-content" class="card hidden">
+        <div class="badges">
+            <span id="badge-level" class="badge level">Nivel</span>
+            <span id="badge-unit" class="badge unit">Unidad</span>
+        </div>
+
+        <h2 id="reading-title" class="question"></h2>
+        
+        <div style="text-align: center; margin-bottom: 20px;">
+            <img id="reading-image" src="" alt="Contexto visual de la lectura" style="max-width: 100%; border-radius: 10px;">
+        </div>
+
+        <!-- Visor de Lectura Rápida (RSVP) -->
+        <div class="hint-box" style="margin-bottom: 20px;">
+            <div style="margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center;">
+                <label for="speed-select"><strong>Speed:</strong></label>
+                <select id="speed-select" style="width: auto; padding: 5px;">
+                    <option value="100">100 WPM</option>
+                    <option value="150">150 WPM</option>
+                    <option value="200" selected>200 WPM</option>
+                    <option value="250">250 WPM</option>
+                    <option value="300">300 WPM</option>
+                    <option value="400">400 WPM</option>
+                </select>
+            </div>
+
+            <div id="rsvp-viewer" style="background: white; padding: 30px; font-size: 32px; font-weight: bold; border-radius: 10px; margin-bottom: 15px; font-family: 'Poppins', sans-serif;">
+                <span id="current-word">Ready</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px;">
+                <button id="btn-play" class="btn-primary">▶ Play</button>
+                <button id="btn-pause" class="btn-listen">⏸ Pause</button>
+                <button id="btn-resume" class="btn-listen">▶ Resume</button>
+                <button id="btn-restart" style="background: #e0e0e0; color: #333;">⏹ Restart</button>
+            </div>
+
+            <!-- Progreso visual -->
+            <div class="counter" style="display: flex; justify-content: space-between; font-size: 14px; margin-top: 15px;">
+                <span id="word-count">Palabra 0 de 0</span>
+                <span id="percentage">0%</span>
+                <span id="time-elapsed">00:00</span>
+            </div>
+            <div style="width: 100%; background: #ccc; border-radius: 5px; height: 10px; margin-top: 10px;">
+                <div id="progress-fill" style="width: 0%; background: #008D36; height: 10px; border-radius: 5px;"></div>
+            </div>
+        </div>
+
+        <!-- Texto completo (Oculto/Visible según diseño) -->
+        <div id="full-text" class="answer-box" style="text-align: left; line-height: 1.6; font-size: 16px;"></div>
+
+        <!-- Botón de PDF -->
+        <div style="margin-top: 20px;">
+            <a id="btn-download-pdf" href="#" target="_blank" style="text-decoration: none;">
+                <button class="btn-primary" style="width: auto; padding: 12px 30px;">📄 Descargar PDF</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sistema de Preguntas -->
+    <div id="quiz-section" class="card hidden">
+        <h2 style="font-family: 'Poppins', sans-serif; color: #00205b;">Comprehension Check</h2>
+        <div id="questions-container" style="text-align: left; margin-bottom: 20px;"></div>
+        
+        <button id="btn-submit-quiz" class="btn-primary">Submit Answers</button>
+        
+        <div id="quiz-results" class="answer-box hidden">
+            <h3 id="score-display" style="color: #008D36;"></h3>
+            <p id="score-percentage"></p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
