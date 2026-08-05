@@ -112,6 +112,19 @@
 
         <!-- Texto completo -->
         <div id="readingText" class="reading-text"></div>
+
+        <!-- Práctica de Pronunciación (Speech Recognition) -->
+<div class="pronunciation-box">
+    <h3>Pronunciation Practice</h3>
+    <p style="font-size: 14px; margin-bottom: 15px; text-align: center;">Read the text out loud to check your pronunciation.</p>
+    
+    <div style="text-align: center; margin-bottom: 15px;">
+        <button id="btnMic" class="btn-listen">🎤 Start Recording</button>
+    </div>
+    
+    <div id="speechResult" class="answer-box hidden" style="font-size: 16px; margin-bottom: 10px; min-height: 40px;"></div>
+    <div id="speechFeedback" class="hidden" style="font-size: 18px; font-weight: bold; text-align: center;"></div>
+</div>
         
         <!-- Sistema de Preguntas -->
         <div class="quiz-box">
