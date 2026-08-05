@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Tu hoja de estilos externa -->
+    <!-- Conexión a tu CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,13 +18,13 @@
 
     <!-- Logo institucional superior -->
     <div class="logo-intecap">
-        <img src="images/logo-intecap.png" alt="INTECAP">
+        <img src="images/logo-intecap.png" alt="INTECAP" onerror="this.style.display='none'">
     </div>
 
     <!-- Banner central -->
     <div class="banner">
         <div class="logo-center">
-            <img src="images/ingles-para-todos.png" alt="English Journey">
+            <img src="images/ingles-para-todos.png" alt="English Journey" onerror="this.style.display='none'">
         </div>
         <h1>ENGLISH JOURNEY</h1>
         <h2>Reading Practice & RSVP</h2>
@@ -45,35 +45,45 @@
 
     <!-- Filtros de selección -->
     <div class="filters">
-        <select id="level-select">
-            <option value="" disabled selected>Select Level</option>
+        <select id="selectNivel">
+            <option value="" disabled selected>Selecciona Nivel</option>
         </select>
-        <select id="unit-select" disabled>
-            <option value="" disabled selected>Select Unit</option>
+        <select id="selectUnidad" disabled>
+            <option value="" disabled selected>Selecciona Unidad</option>
         </select>
-        <select id="reading-select" disabled>
-            <option value="" disabled selected>Select Reading</option>
+        <select id="selectLectura" disabled>
+            <option value="" disabled selected>Selecciona Lectura</option>
         </select>
     </div>
 
     <!-- Área principal de lectura (Tarjeta) -->
-    <div id="reading-content" class="card hidden">
+    <div id="readingCard" class="card hidden">
         <div class="badges">
-            <span id="badge-level" class="badge level">Nivel</span>
-            <span id="badge-unit" class="badge unit">Unidad</span>
+            <span id="badgeNivel" class="badge level">Nivel</span>
+            <span id="badgeUnidad" class="badge unit">Unidad</span>
+            <span id="badgeDificultad" class="badge topic">Dificultad</span>
         </div>
 
-        <h2 id="reading-title" class="question"></h2>
+        <h2 id="readingTitle" class="reading-title"></h2>
         
-        <div style="text-align: center; margin-bottom: 20px;">
-            <img id="reading-image" src="" alt="Contexto visual de la lectura" style="max-width: 100%; border-radius: 10px;">
+        <div style="text-align: center;">
+            <img id="readingImage" class="reading-image" src="" alt="Contexto visual">
+        </div>
+        
+        <div class="reading-actions">
+            <button id="btnListen" class="btn-listen">🔊 Escuchar Lectura (TTS)</button>
+            <a id="btnPdf" href="#" target="_blank" class="btn-link">
+                <button class="btn-secondary">📄 Descargar PDF</button>
+            </a>
         </div>
 
         <!-- Visor de Lectura Rápida (RSVP) -->
-        <div class="hint-box" style="margin-bottom: 20px;">
-            <div style="margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center;">
-                <label for="speed-select"><strong>Speed:</strong></label>
-                <select id="speed-select" style="width: auto; padding: 5px;">
+        <div class="rsvp-box">
+            <h3>Visor de Lectura Rápida (RSVP)</h3>
+            
+            <div style="margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 10px;">
+                <label for="rsvpSpeed"><strong>Speed:</strong></label>
+                <select id="rsvpSpeed" style="width: auto; padding: 5px;">
                     <option value="100">100 WPM</option>
                     <option value="150">150 WPM</option>
                     <option value="200" selected>200 WPM</option>
@@ -83,54 +93,41 @@
                 </select>
             </div>
 
-            <div id="rsvp-viewer" style="background: white; padding: 30px; font-size: 32px; font-weight: bold; border-radius: 10px; margin-bottom: 15px; font-family: 'Poppins', sans-serif;">
-                <span id="current-word">Ready</span>
+            <div class="rsvp-word">
+                <span id="rsvpWord">Ready</span>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px;">
-                <button id="btn-play" class="btn-primary">▶ Play</button>
-                <button id="btn-pause" class="btn-listen">⏸ Pause</button>
-                <button id="btn-resume" class="btn-listen">▶ Resume</button>
-                <button id="btn-restart" style="background: #e0e0e0; color: #333;">⏹ Restart</button>
+            <div class="rsvp-controls">
+                <button id="btnPlay" class="btn-primary">▶ Play / Resume</button>
+                <button id="btnPause" class="btn-secondary">⏸ Pause</button>
+                <button id="btnRestart" style="background: #e0e0e0; color: #333;">⏹ Restart</button>
             </div>
 
             <!-- Progreso visual -->
-            <div class="counter" style="display: flex; justify-content: space-between; font-size: 14px; margin-top: 15px;">
-                <span id="word-count">Palabra 0 de 0</span>
-                <span id="percentage">0%</span>
-                <span id="time-elapsed">00:00</span>
+            <div class="progress-bar">
+                <div id="rsvpProgressFill" class="progress-fill"></div>
             </div>
-            <div style="width: 100%; background: #ccc; border-radius: 5px; height: 10px; margin-top: 10px;">
-                <div id="progress-fill" style="width: 0%; background: #008D36; height: 10px; border-radius: 5px;"></div>
-            </div>
+            <div id="rsvpStats" class="rsvp-stats">Palabra 0 de 0 · 0% completado · 00:00</div>
         </div>
 
-        <!-- Texto completo (Oculto/Visible según diseño) -->
-        <div id="full-text" class="answer-box" style="text-align: left; line-height: 1.6; font-size: 16px;"></div>
-
-        <!-- Botón de PDF -->
-        <div style="margin-top: 20px;">
-            <a id="btn-download-pdf" href="#" target="_blank" style="text-decoration: none;">
-                <button class="btn-primary" style="width: auto; padding: 12px 30px;">📄 Descargar PDF</button>
-            </a>
-        </div>
-    </div>
-
-    <!-- Sistema de Preguntas -->
-    <div id="quiz-section" class="card hidden">
-        <h2 style="font-family: 'Poppins', sans-serif; color: #00205b;">Comprehension Check</h2>
-        <div id="questions-container" style="text-align: left; margin-bottom: 20px;"></div>
+        <!-- Texto completo -->
+        <div id="readingText" class="reading-text"></div>
         
-        <button id="btn-submit-quiz" class="btn-primary">Submit Answers</button>
-        
-        <div id="quiz-results" class="answer-box hidden">
-            <h3 id="score-display" style="color: #008D36;"></h3>
-            <p id="score-percentage"></p>
+        <!-- Sistema de Preguntas -->
+        <div class="quiz-box">
+            <h3>Comprehension Check</h3>
+            <div id="quizContainer"></div>
+            
+            <button id="btnCheckAnswers" class="btn-primary">Submit Answers</button>
+            
+            <div id="quizResult" class="quiz-result hidden"></div>
         </div>
+
     </div>
 
 </div>
 
+<!-- Conexión a tu JS -->
 <script src="script.js"></script>
 </body>
 </html>
