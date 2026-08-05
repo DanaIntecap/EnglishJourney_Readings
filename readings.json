@@ -1,0 +1,118 @@
+[
+  {
+    "id": "RA11_1",
+    "nivel": "A1.1",
+    "unidad": "1",
+    "titulo": "Greetings and alphabet",
+    "dificultad": "Basic",
+    "imagen": "images/RA11_1.png",
+    "audio": "audio/RA11_1.mp3",
+    "modoAudio": "tts",
+    "pdf": "pdf/RA11_1.pdf",
+    "texto": "Good <strong>afternoon</strong>! My name is Paulo. I am from <strong>Brazil</strong>. In my English class, we practice <strong>capital letters</strong> and <strong>small letters</strong>. I know the <strong>vowels</strong> and <strong>consonants</strong>. How are you? I am very happy today. <strong>Nice to meet you!</strong>",
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Where is he from?",
+        "opciones": ["Mexico", "Guatemala", "Brazil"],
+        "correcta": "Brazil"
+      },
+      {
+        "pregunta": "How is he?",
+        "opciones": ["He is very happy.", "He is very sad.", "He is not happy."],
+        "correcta": "He is very happy."
+      }
+    ],
+    "preguntas_vf": [
+      { "pregunta": "His name is Marcos.", "correcta": false },
+      { "pregunta": "The students practice capital letters and small letters", "correcta": true },
+      { "pregunta": "He is in an English class", "correcta": true }
+    ]
+  },
+  {
+    "id": "RA11_2",
+    "nivel": "A1.1",
+    "unidad": "4",
+    "titulo": "The big S Supermarket",
+    "dificultad": "Basic",
+    "imagen": "images/RA11_2.jpg",
+    "audio": "audio/RA11_2.mp3",
+    "modoAudio": "tts",
+    "pdf": "pdf/RA11_2.pdf",
+    "texto": "We are at the <strong>supermarket</strong>. The name of this supermarket is \"The big S\". The <strong>watermelons</strong> and <strong>oranges</strong> are on <strong>sale</strong>. The <strong>carrots</strong> are in front of the <strong>tomatoes</strong>. I check the regular price of the <strong>milk</strong> and the <strong>bread</strong>. It is a good day to shop.",
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Which fruits are on sale?",
+        "opciones": ["Apples and bananas", "Watermelons and oranges", "Tomatoes and carrots"],
+        "correcta": "Watermelons and oranges"
+      },
+      {
+        "pregunta": "Where are the carrots?",
+        "opciones": ["Next to the milk", "Behind the tomatoes", "In front of the tomatoes"],
+        "correcta": "In front of the tomatoes"
+      }
+    ],
+    "preguntas_vf": [
+      { "pregunta": "The watermelons are on sale.", "correcta": true },
+      { "pregunta": "The carrots are behind the tomatoes.", "correcta": false },
+      { "pregunta": "It is a good day to shop.", "correcta": true }
+    ]
+  },
+  {
+    "id": "RA11_3",
+    "nivel": "A1.1",
+    "unidad": "3",
+    "titulo": "My german friend Alex",
+    "dificultad": "Basic",
+    "imagen": "images/RA11_3.png",
+    "audio": "audio/RA11_3.mp3",
+    "modoAudio": "tts",
+    "pdf": "pdf/RA11_3.pdf",
+    "texto": "Hi! Let me tell you about my <strong>friend</strong> Alex. My friend is from <strong>Germany</strong>, but now he lives in <strong>China</strong>. His <strong>favorite food</strong> are <strong>American meat</strong> and <strong>Guatemalan apples</strong>. He eats them every <strong>Sunday</strong>. His favorite number is <strong>100</strong>. He is a very kind person. How old is he? He is <strong>30</strong> years old. We are good friends, and we like to study English together when we connect on Teams or Whatsapp.",
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Where is the friend from?",
+        "opciones": ["Germany", "China", "Brazil"],
+        "correcta": "Germany"
+      },
+      {
+        "pregunta": "What is his favorite food?",
+        "opciones": ["Bread and milk", "Apples and oranges", "Meat and apples"],
+        "correcta": "Meat and apples"
+      }
+    ],
+    "preguntas_vf": [
+      { "pregunta": "The friend lives in China.", "correcta": true },
+      { "pregunta": "His favorite number is 30.", "correcta": false },
+      { "pregunta": "We like to study German", "correcta": false }
+    ]
+  },
+  {
+    "id": "RA11_4",
+    "nivel": "A1.1",
+    "unidad": "Midterm Review",
+    "titulo": "The Global Bakery",
+    "dificultad": "Advanced",
+    "imagen": "images/RA11_4.png",
+    "audio": "audio/RA11_4.mp3",
+    "modoAudio": "tts",
+    "pdf": "pdf/RA11_4.pdf",
+    "texto": "Let me give you a tour by my <strong>favorite</strong> store. This is 'The Global Bakery'. The <strong>bread</strong> here is very good. The owner is Mr. <strong>Cook</strong>; he is from <strong>Greece</strong>, but the coffee is from <strong>Brazil</strong>. On Thursdays, the <strong>Japanese</strong> rice cookies are <strong>on sale</strong>, and on Fridays you can buy <strong>Italian</strong> paninis! Today is <strong>Tuesday</strong>, and the bakery is very busy. People love to buy <strong>French</strong> products like the baguettes. They are delicious! I need <strong>11</strong> croissants for a meeting. The price is <strong>fourteen dollars ($14)</strong>. I have a coupon: <strong>$14 minus $3.50 is $10.50.</strong> They always give coupons to the regular customers. Now you <strong>see why</strong> this is my <strong>favorite</strong> bakery!",
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Where is the coffee from?",
+        "opciones": ["Greece", "Brazil", "Italy"],
+        "correcta": "Brazil"
+      },
+      {
+        "pregunta": "How much does the speaker pay after using the coupon?",
+        "opciones": ["$14.00", "$3.50", "$10.50"],
+        "correcta": "$10.50"
+      }
+    ],
+    "preguntas_vf": [
+      { "pregunta": "On Tuesdays Italian products are on sale.", "correcta": false },
+      { "pregunta": "You can buy Chinese cookies on Thursdays", "correcta": false },
+      { "pregunta": "Today is Tuesday and I buy French products", "correcta": true }
+    ]
+  }
+]
