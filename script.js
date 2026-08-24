@@ -161,7 +161,14 @@ function renderReading(data) {
     readingText.innerHTML = data.texto;
 
     btnPdf.href = data.pdf;
-
+    
+// --- NUEVO: Ajustar velocidad automática según el nivel ---
+    if (data.nivel === "A1.1" || data.dificultad === "Principiante") {
+        rsvpSpeed.value = "60"; // O la velocidad lenta por defecto que prefieras
+    } else {
+        rsvpSpeed.value = "100"; // Valor estándar para otros niveles
+    }
+    // ---------------------------------------------------------
     stopRsvp();
     prepareRsvp(data.texto);
 
