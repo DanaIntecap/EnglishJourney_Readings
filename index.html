@@ -11,6 +11,46 @@
 
     <!-- Conexión a tu CSS -->
     <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Estilos específicos para el acordeón (por si no quieres agregarlos en línea) */
+        details.instrucciones-desplegables {
+            background: #f8f9fa;
+            border-left: 8px solid #0060AA;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        details.instrucciones-desplegables summary {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #0060AA;
+            outline: none;
+        }
+        .instrucciones-contenido {
+            margin-top: 15px;
+            cursor: default;
+            color: #333;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+        }
+        .instrucciones-contenido h3 {
+            color: #008D36;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .instrucciones-contenido ul {
+            padding-left: 20px;
+        }
+        .instrucciones-contenido li {
+            margin-bottom: 8px;
+        }
+    </style>
 </head>
 <body>
 
@@ -30,18 +70,36 @@
         <h2>Reading Practice & RSVP</h2>
     </div>
 
-    <!-- Instrucciones pedagógicas -->
-    <div style="background: #eaffea; padding: 20px; border-radius: 15px; margin-bottom: 20px; color: #00205b;">
-        <h3 style="margin-top: 0;">🎯 Objetivo de Aprendizaje</h3>
-        <p style="margin-bottom: 15px;">Desarrollar la comprensión lectora y la fluidez cognitiva en inglés mediante la técnica de lectura rápida (RSVP) y la validación de ideas principales.</p>
+    <!-- Ficha Técnica e Instrucciones (Acordeón Desplegable) -->
+    <details class="instrucciones-desplegables">
+        <summary>📖 Ver Ficha Técnica e Instrucciones de la Actividad</summary>
         
-        <h3 style="margin-top: 0;">📌 Instrucciones de uso:</h3>
-        <ul style="margin-bottom: 0;">
-            <li><strong>Filtra tu lectura:</strong> Selecciona tu Nivel, Unidad y la Lectura que deseas explorar.</li>
-            <li><strong>Entrena tu agilidad:</strong> Ajusta la velocidad en el visor rápido (RSVP) o lee el texto completo a tu propio ritmo.</li>
-            <li><strong>Ponte a prueba:</strong> Responde las preguntas de comprensión al final para consolidar lo aprendido.</li>
-        </ul>
-    </div>
+        <div class="instrucciones-contenido">
+            <p style="margin: 5px 0;"><strong>Skill:</strong> Reading</p>
+            <p style="margin: 5px 0;"><strong>CEFR Level:</strong> Multilevel</p>
+            <p style="margin: 15px 0;"><strong>Descripción:</strong> Actividad interactiva diseñada para entrenar la agilidad visual, reduciendo la subvocalización al desplegar textos palabra por palabra a una velocidad programable (RSVP).</p>
+
+            <h3>🎯 Objetivo de Aprendizaje</h3>
+            <p>Desarrollar la comprensión lectora y la fluidez cognitiva en inglés mediante la técnica de lectura rápida y la validación de ideas principales.</p>
+            
+            <h3>📌 Instrucciones</h3>
+            <ul>
+                <li>Selecciona tu Nivel, Unidad y la Lectura que deseas explorar en los filtros iniciales.</li>
+                <li>Ajusta la velocidad de palabras por minuto en el visor rápido (RSVP).</li>
+                <li>Inicia la reproducción y mantén la vista fija en el texto dinámico.</li>
+                <li>Lee el texto completo a tu propio ritmo únicamente como repaso si es necesario.</li>
+                <li>Responde las preguntas de comprensión al final para consolidar lo aprendido.</li>
+            </ul>
+
+            <h3>✅ Criterios de Éxito</h3>
+            <ul style="margin-bottom: 0;">
+                <li>Mantiene la concentración sostenida durante el ejercicio cronometrado.</li>
+                <li>Identifica la idea principal del texto leído.</li>
+                <li>Responde correctamente a las preguntas de comprobación finales.</li>
+                <li>Aumenta progresivamente su tolerancia a mayores velocidades de lectura sin perder comprensión.</li>
+            </ul>
+        </div>
+    </details>
 
     <!-- Filtros de selección -->
     <div class="filters">
