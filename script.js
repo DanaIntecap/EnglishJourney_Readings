@@ -408,7 +408,7 @@ btnCheckAnswers.addEventListener('click', () => {
   // 2) Configurar el reconocimiento
   const recognition = new SpeechRecognitionAPI();
   recognition.lang = "en-US";        // inglés, para practicar pronunciación
-  recognition.continuous = false;    // se detiene solo al terminar de hablar
+  recognition.continuous = true;    // no se detiene solo al terminar de hablar
   recognition.interimResults = true; // muestra texto mientras se habla
 
   let isListening = false;
@@ -433,18 +433,17 @@ btnCheckAnswers.addEventListener('click', () => {
     btnMic.textContent = "⏹ Stop Recording";
   };
 
-  // 5) Resultados en tiempo real (parciales y finales)
+// 5) Resultados en tiempo real (parciales y finales)
   recognition.onresult = (event) => {
     let transcript = "";
+    // Recorremos todos los resultados acumulados en la sesión
     for (let i = 0; i < event.results.length; i++) {
-      transcript += event.results[i][0].transcript;
+      transcript += event.results[i][0].transcript + " ";
     }
-    speechResult.textContent = transcript;
+    speechResult.textContent = transcript.trim();
 
-    // Si el resultado ya es final, comparar contra el texto de la lectura
-    if (event.results[event.results.length - 1].isFinal) {
-      compararConTexto(transcript);
-    }
+    // Nota: Como ahora es continuo, la validación final se hará 
+    // cuando el usuario presione el botón de Stop para detenerlo manualmente.
   };
 
   // 6) Cuando termina de escuchar (por silencio, error, o stop manual)
