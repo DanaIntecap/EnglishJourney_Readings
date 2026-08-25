@@ -15,14 +15,43 @@ body {
     box-shadow: 0 6px 20px rgba(0,0,0,.15);
 }
 
-.logo-intecap {
-    text-align: left;
+.logos-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
 
+.logo-intecap {
+    text-align: left;
+}
+
 .logo-intecap img {
     max-height: 45px;
+}
+
+.logo-derecha {
+    text-align: right;
+}
+
+.logo-derecha img {
+    max-height: 45px;
+}
+
+/* Aviso de uso (no es tarea) */
+.usage-notice {
+    background: #fff4e5;
+    border: 1px solid #f0c37c;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #7a4a00;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .banner {
