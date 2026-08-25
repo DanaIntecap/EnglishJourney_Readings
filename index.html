@@ -50,22 +50,52 @@
         .instrucciones-contenido li {
             margin-bottom: 8px;
         }
+
+        /* Ficha Pedagógica: mismo patrón visual que la ficha técnica,
+           pero con acento distinto para identificarla como guía docente */
+        details.ficha-pedagogica {
+            background: #f3effa;
+            border-left: 8px solid #6a3fa0;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        details.ficha-pedagogica summary {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #6a3fa0;
+            outline: none;
+        }
+        details.ficha-pedagogica .instrucciones-contenido h3 {
+            color: #6a3fa0;
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
 
-    <!-- Logo institucional superior -->
-    <div class="logo-intecap">
-        <img src="images/logo-intecap.png" alt="INTECAP" onerror="this.style.display='none'">
+    <!-- Logos institucionales: INTECAP izquierda / English Journey derecha -->
+    <div class="logos-row">
+        <div class="logo-intecap">
+            <img src="images/logo-intecap.png" alt="INTECAP" onerror="this.style.display='none'">
+        </div>
+        <div class="logo-derecha">
+            <img src="images/ingles-para-todos.png" alt="English Journey" onerror="this.style.display='none'">
+        </div>
+    </div>
+
+    <!-- Aviso de uso: texto fijo, igual en todas las unidades -->
+    <div class="usage-notice">
+        📌 Uso: 🚫 Esta actividad no está diseñada para dejarse como tarea. Su propósito es facilitar la práctica guiada, el acompañamiento docente y el apoyo inmediato al estudiante durante la sesión de clase.
     </div>
 
     <!-- Banner central -->
     <div class="banner">
-        <div class="logo-center">
-            <img src="images/ingles-para-todos.png" alt="English Journey" onerror="this.style.display='none'">
-        </div>
         <h1>ENGLISH JOURNEY</h1>
         <h2>Reading Practice & RSVP</h2>
     </div>
@@ -97,6 +127,39 @@
                 <li>Identifica la idea principal del texto leído.</li>
                 <li>Responde correctamente a las preguntas de comprobación finales.</li>
                 <li>Aumenta progresivamente su tolerancia a mayores velocidades de lectura sin perder comprensión.</li>
+            </ul>
+        </div>
+    </details>
+
+    <!-- Ficha Pedagógica para el Instructor (Acordeón Desplegable, aparte de la ficha técnica) -->
+    <details class="ficha-pedagogica">
+        <summary>👩‍🏫 Ver Ficha Pedagógica (Guía para el Instructor)</summary>
+
+        <div class="instrucciones-contenido">
+            <h3>1. Preparación y Contexto Visual</h3>
+            <ul>
+                <li><strong>Proyección Inicial:</strong> El tutor debe compartir la pantalla mostrando el visor RSVP junto con la imagen de referencia de la lectura.</li>
+                <li><strong>Activación:</strong> Antes de configurar el visor, realiza una breve introducción verbal del contexto para preparar cognitivamente a los estudiantes.</li>
+            </ul>
+
+            <h3>2. Modelado de Botones (Demostración Frontal)</h3>
+            <ul>
+                <li><strong>Ajuste de Velocidad (Speed):</strong> Muestra el menú desplegable y ajústalo a una velocidad conservadora (ej. 150 WPM). Explica a la clase que el objetivo inicial es mantener el enfoque visual continuo, no la velocidad extrema.</li>
+                <li><strong>Inicio (▶ Play / Resume):</strong> Al hacer clic, pide a los estudiantes que fijen su atención exclusivamente en el cuadro gris central donde se proyectan las palabras.</li>
+                <li><strong>Pausa Estratégica (⏸ Pause):</strong> Detén la lectura a la mitad. Aprovecha el momento para hacer una pregunta rápida de sondeo (ej. "Who are we reading about?") y asegurar que nadie haya perdido el hilo.</li>
+                <li><strong>Reinicio (⏹ Restart):</strong> Utiliza este botón solo si la clase indica que hubo un problema de conexión o pérdida colectiva de atención, regresando el texto y el porcentaje de progreso a cero.</li>
+            </ul>
+
+            <h3>3. Ejecución y Monitoreo</h3>
+            <ul>
+                <li><strong>Práctica en Salas:</strong> Si utilizas salas pequeñas (Breakout Rooms), asigna a un estudiante como el "Host" para que comparta su pantalla y maneje los controles del visor mientras su grupo lee.</li>
+                <li><strong>Silencio Activo:</strong> Asegúrate de que los micrófonos estén silenciados durante la reproducción del RSVP para evitar distracciones auditivas y reducir activamente la subvocalización.</li>
+            </ul>
+
+            <h3>4. Consolidación del Aprendizaje</h3>
+            <ul style="margin-bottom: 0;">
+                <li><strong>Validación:</strong> Una vez finalizado el texto en el visor, desplázate a la sección de preguntas de comprobación final.</li>
+                <li><strong>Debate:</strong> Lee cada pregunta en voz alta y pide a los estudiantes que debatan o voten por la respuesta correcta antes de confirmarla.</li>
             </ul>
         </div>
     </details>
