@@ -196,9 +196,15 @@
         
        <div class="reading-actions">
     <button id="btnListen" class="btn-listen">🔊 Escuchar Lectura (TTS)</button>
+    <button id="btnPauseSpeech" class="btn-secondary" disabled>⏸ Pausar</button>
+    <button id="btnStopSpeech" class="btn-secondary" disabled>⏹ Detener</button>
     <a id="btnPdf" href="#" download class="btn-link">
         <button class="btn-secondary">📄 Descargar PDF</button>
     </a>
+</div>
+<div class="speech-progress" aria-label="Control de progreso de la lectura por voz">
+    <input id="speechSeek" type="range" min="0" max="0" value="0" step="1" disabled>
+    <span id="speechPosition">Fragmento 0 de 0</span>
 </div>
 
         <!-- Visor de Lectura Rápida (RSVP) -->
