@@ -26,6 +26,10 @@ const readingTitle = document.getElementById('readingTitle');
 const readingImage = document.getElementById('readingImage');
 const readingText = document.getElementById('readingText');
 const btnListen = document.getElementById('btnListen');
+const btnPauseSpeech = document.getElementById('btnPauseSpeech');
+const btnStopSpeech = document.getElementById('btnStopSpeech');
+const speechSeek = document.getElementById('speechSeek');
+const speechPosition = document.getElementById('speechPosition');
 const btnPdf = document.getElementById('btnPdf');
 
 const rsvpSpeed = document.getElementById('rsvpSpeed');
@@ -170,6 +174,7 @@ function renderReading(data) {
     }
     // ---------------------------------------------------------
     stopRsvp();
+    stopSpeech();
     prepareRsvp(data.texto);
 
     renderQuiz(data);
@@ -180,12 +185,15 @@ function renderReading(data) {
 function resetCard() {
     readingCard.classList.add('hidden');
     stopRsvp();
+    stopSpeech();
     currentReading = null;
 }
 
 // =====================================================
 // TTS - Text to Speech (temporal, hasta tener audio grabado)
 // =====================================================
+let speechChunks = [], speechChunkIndex = 0, speechPaused = false;
+
 btnListen.addEventListener('click', () => {
     if (!currentReading) return;
 
@@ -195,14 +203,36 @@ btnListen.addEventListener('click', () => {
     }
 
     window.speechSynthesis.cancel();
-
-    const plainText = stripHtml(currentReading.texto);
-    const utterance = new SpeechSynthesisUtterance(plainText);
-    utterance.lang = 'en-US';
-    utterance.rate = 0.95;
-
-    window.speechSynthesis.speak(utterance);
+    speechChunks = stripHtml(currentReading.texto).split(/(?<=[.!?])\s+/).filter(Boolean);
+    speechChunkIndex = 0; speechPaused = false;
+    speechSeek.max = Math.max(0, speechChunks.length - 1); speechSeek.value = 0; speechSeek.disabled = false;
+    btnPauseSpeech.disabled = false; btnStopSpeech.disabled = false; btnPauseSpeech.textContent = '⏸ Pausar';
+    speakSpeechChunk();
 });
+
+function speakSpeechChunk() {
+    if (speechChunkIndex >= speechChunks.length) { stopSpeech(); return; }
+    speechPosition.textContent = `Fragmento ${speechChunkIndex + 1} de ${speechChunks.length}`;
+    speechSeek.value = speechChunkIndex;
+    const utterance = new SpeechSynthesisUtterance(speechChunks[speechChunkIndex]);
+    utterance.lang = 'en-US'; utterance.rate = 0.95;
+    utterance.onend = () => { if (!speechPaused) { speechChunkIndex++; speakSpeechChunk(); } };
+    window.speechSynthesis.speak(utterance);
+}
+btnPauseSpeech.addEventListener('click', () => {
+    if (speechPaused) { speechPaused = false; window.speechSynthesis.resume(); btnPauseSpeech.textContent = '⏸ Pausar'; }
+    else { speechPaused = true; window.speechSynthesis.pause(); btnPauseSpeech.textContent = '▶ Reanudar'; }
+});
+btnStopSpeech.addEventListener('click', stopSpeech);
+speechSeek.addEventListener('input', () => {
+    speechChunkIndex = Number(speechSeek.value); speechPaused = false; window.speechSynthesis.cancel(); speakSpeechChunk();
+});
+function stopSpeech() {
+    // Keep the end callback from starting another fragment after cancel().
+    window.speechSynthesis.cancel(); speechPaused = true; speechChunkIndex = 0;
+    btnPauseSpeech.disabled = true; btnStopSpeech.disabled = true; speechSeek.disabled = true;
+    speechPosition.textContent = `Fragmento 0 de ${speechChunks.length}`;
+}
 
 function stripHtml(html) {
     const tmp = document.createElement('div');
