@@ -181,6 +181,9 @@ button {
     margin-bottom: 20px;
 }
 
+.speech-progress { display:flex; align-items:center; gap:10px; max-width:620px; margin: -10px auto 20px; color:#555; font-size:14px; }
+.speech-progress input { flex:1; accent-color:#0060AA; }
+
 .reading-actions button,
 .reading-actions a {
     padding: 12px 20px;
