@@ -30,6 +30,7 @@ const btnPauseSpeech = document.getElementById('btnPauseSpeech');
 const btnStopSpeech = document.getElementById('btnStopSpeech');
 const speechSeek = document.getElementById('speechSeek');
 const speechPosition = document.getElementById('speechPosition');
+const speechSpeed = document.getElementById('speechSpeed');
 const btnPdf = document.getElementById('btnPdf');
 
 const rsvpSpeed = document.getElementById('rsvpSpeed');
@@ -215,7 +216,10 @@ function speakSpeechChunk() {
     speechPosition.textContent = `Fragmento ${speechChunkIndex + 1} de ${speechChunks.length}`;
     speechSeek.value = speechChunkIndex;
     const utterance = new SpeechSynthesisUtterance(speechChunks[speechChunkIndex]);
-    utterance.lang = 'en-US'; utterance.rate = 0.95;
+    utterance.lang = 'en-US';
+    // Estimate from a 150 WPM base; actual cadence depends on the installed voice.
+    const requestedWpm = Number(speechSpeed.value);
+    utterance.rate = ([60, 80, 100, 150].includes(requestedWpm) ? requestedWpm : 100) / 150;
     utterance.onend = () => { if (!speechPaused) { speechChunkIndex++; speakSpeechChunk(); } };
     window.speechSynthesis.speak(utterance);
 }

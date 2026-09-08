@@ -206,6 +206,16 @@
     <input id="speechSeek" type="range" min="0" max="0" value="0" step="1" disabled>
     <span id="speechPosition">Fragmento 0 de 0</span>
 </div>
+<div style="text-align: center; margin-bottom: 20px;">
+    <label for="speechSpeed"><strong>Velocidad del audio:</strong></label>
+    <select id="speechSpeed" aria-describedby="speechSpeedHint" style="width: auto; padding: 5px;">
+        <option value="60">60 WPM</option>
+        <option value="80">80 WPM</option>
+        <option value="100" selected>100 WPM</option>
+        <option value="150">150 WPM</option>
+    </select>
+    <p id="speechSpeedHint" style="font-size: 14px;">Palabras por minuto aproximadas. Los cambios se aplican al siguiente fragmento.</p>
+</div>
 
         <!-- Visor de Lectura Rápida (RSVP) -->
         <div class="rsvp-box">
