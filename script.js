@@ -51,7 +51,7 @@ init();
 
 async function init() {
     try {
-        const res = await fetch('readings.json');
+        const res = await fetch('readings.json', { cache: 'no-store' });
         readings = await res.json();
         populateNiveles();
     } catch (err) {
