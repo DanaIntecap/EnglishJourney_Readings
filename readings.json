@@ -189,11 +189,11 @@
     "unidad": "1",
     "titulo": "My Life in Canada",
     "dificultad": "Intermediate",
-    "imagen": "images/a1.2/unit1/mylifeincanada.png",
+    "imagen": "images/a1.2/unit1/mylifeincanada.avif",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "I am a <strong>young</strong> student. I am living in Canada, so every day I put some <strong>cream</strong> on my face because it is very <strong>cold</strong> outside. I drink a cup of <strong>hot</strong> coffee for a <strong>fast</strong> start to my day.\n\nThis is a picture of me. I am the curly girl that is smiling. I am <strong>thin</strong>, and a little tall. I am currently living in a new apartment with other students. I always try to be <strong>nice</strong> and <strong>polite</strong> with them. They say I'm creative and funny. This is an <strong>old</strong> building, but my bedroom is very <strong>comfortable</strong>.",
+    "texto": "I am a <strong><strong>young</strong></strong> student. I am living in Canada, so every day I put some <strong><strong>cream</strong></strong> on my face because it is very <strong><strong>cold</strong></strong> outside. I drink a cup of <strong><strong>hot</strong></strong> coffee for a <strong><strong>fast</strong></strong> start to my day.\n\nThis is a picture of me. I am the curly girl that is smiling. I am <strong><strong>thin</strong></strong>, and a little tall. I am currently living in a new apartment with other students. I always try to be <strong><strong>nice</strong></strong> and <strong><strong>polite</strong></strong> with them. They say I'm creative and funny. This is an <strong><strong>old</strong></strong> building, but my bedroom is very <strong><strong>comfortable</strong></strong>.",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "Why does the student put cream on her face?",
@@ -235,11 +235,11 @@
     "unidad": "5",
     "titulo": "The Real Routine of Cristiano Ronaldo",
     "dificultad": "Intermediate",
-    "imagen": "images/a1.2/unit5/cristianoronaldo.png",
+    "imagen": "images/a1.2/unit5/therealroutineofcristianoronaldo.jpg",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "What does Cristiano Ronaldo do away from the football cameras? His routine includes exercise, good food and family time.\n\nIn the morning, he <strong>drinks water</strong>, takes a short cold bath and <strong>takes a shower</strong>. He enjoys some morning sunlight before his coffee. To stay fit, he <strong>runs</strong> on the pitch and <strong>lifts weights</strong> in the gym. He <strong>eats</strong> fish, chicken, fruit and vegetables, and tries to avoid sugary foods.\n\nCristiano also <strong>takes care of his body</strong> through rest. He checks his sleep with a small device on his wrist. His routine is not only about hard training.\n\nIn his free time, he <strong>spends time with his partner and children</strong>. Family time helps him relax. He also <strong>plays padel</strong> with close friends and likes to <strong>watch fights</strong>. Even a famous football player needs time for other interests and the people he loves.",
+    "texto": "What does Cristiano Ronaldo do away from the football cameras? His routine includes exercise, good food and family time.\n\nIn the morning, he <strong><strong>drinks water</strong></strong>, takes a short cold bath and <strong><strong>takes a shower</strong></strong>. He enjoys some morning sunlight before his coffee. To stay fit, he <strong><strong>runs</strong></strong> on the pitch and <strong><strong>lifts weights</strong></strong> in the gym. He <strong><strong>eats</strong></strong> fish, chicken, fruit and vegetables, and tries to avoid sugary foods.\n\nCristiano also <strong><strong>takes care of his body</strong></strong> through rest. He checks his sleep with a small device on his wrist. His routine is not only about hard training.\n\nIn his free time, he <strong><strong>spends time with his partner and children</strong></strong>. Family time helps him relax. He also <strong><strong>plays padel</strong></strong> with close friends and likes to <strong><strong>watch fights</strong></strong>. Even a famous football player needs time for other interests and the people he loves.",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "How does Cristiano check his sleep?",
@@ -281,11 +281,11 @@
     "unidad": "5",
     "titulo": "The Real Routine of Lester Martínez",
     "dificultad": "Intermediate",
-    "imagen": "images/a1.2/unit5/lestermartinez.png",
+    "imagen": "images/a1.2/unit5/therealroutineoflestermartinez.png",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Lester Martínez is a professional boxer from Petén, Guatemala. His work takes him far from home, but Guatemala remains an important part of his life.\n\nHe <strong>trains</strong> in Guatemala and the United States. During training camps, he <strong>practices with other boxers</strong> and works closely with his coaches. These practice fights prepare him for the ring. Food experts help him <strong>eat well</strong>, keep his energy up and <strong>control his weight</strong>. Before a fight, he pays special attention to his food and water.\n\nWhat does he miss away from home? Tortillas and Guatemalan food! He wants to enjoy these foods with <strong>family and friends</strong> when he returns. For Lester, going home means more than a break from boxing.\n\nThere is also a lighter side to his training. In one video on social media, he <strong>dances</strong> with Terence Crawford after a practice fight. They enjoy the song “Tu Sonrisa.” His training camp includes hard work, but also music and fun with a friend.",
+    "texto": "Lester Martínez is a professional boxer from Petén, Guatemala. His work takes him far from home, but Guatemala remains an important part of his life.\n\nHe <strong><strong>trains</strong></strong> in Guatemala and the United States. During training camps, he <strong><strong>practices with other boxers</strong></strong> and works closely with his coaches. These practice fights prepare him for the ring. Food experts help him <strong><strong>eat well</strong></strong>, keep his energy up and <strong><strong>control his weight</strong></strong>. Before a fight, he pays special attention to his food and water.\n\nWhat does he miss away from home? Tortillas and Guatemalan food! He wants to enjoy these foods with <strong><strong>family and friends</strong></strong> when he returns. For Lester, going home means more than a break from boxing.\n\nThere is also a lighter side to his training. In one video on social media, he <strong><strong>dances</strong></strong> with Terence Crawford after a practice fight. They enjoy the song “Tu Sonrisa.” His training camp includes hard work, but also music and fun with a friend.",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "Who helps Lester with his food and weight?",
@@ -327,11 +327,11 @@
     "unidad": "5",
     "titulo": "The Scientist Who Saved Millions",
     "dificultad": "Intermediate",
-    "imagen": "images/a1.2/unit5/tuyouyou.png",
+    "imagen": "images/a1.2/unit5/thescientistwhosavedmillions.jpg",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "A Big Problem: Tu Youyou is a scientist in China. She wants to help people. There is a terrible sickness called malaria. Many people get sick, and doctors need a new <strong>cure</strong>.\n\nLooking for Answers: Tu Youyou does not give up. She reads very old books about traditional medicine and plants. She studies day and night, testing hundreds of different <strong>herbs</strong> to find a solution.\n\nThe Secret Plant: Finally, she finds a special plant called sweet wormwood. She discovers a clever way to get the medicine from the plant using cold liquids instead of hot ones, so the medicine does not break.\n\nA Great Success: The new medicine is called <strong>artemisinin</strong>. It works perfectly and cures the sickness. Tu Youyou saves millions of lives around the world and wins the Nobel Prize in Medicine.",
+    "texto": "A Big Problem: Tu Youyou is a scientist in China. She wants to help people. There is a terrible sickness called malaria. Many people get sick, and doctors need a new <strong><strong>cure</strong></strong>.\n\nLooking for Answers: Tu Youyou does not give up. She reads very old books about traditional medicine and plants. She studies day and night, testing hundreds of different <strong><strong>herbs</strong></strong> to find a solution.\n\nThe Secret Plant: Finally, she finds a special plant called sweet wormwood. She discovers a clever way to get the medicine from the plant using cold liquids instead of hot ones, so the medicine does not break.\n\nA Great Success: The new medicine is called <strong><strong>artemisinin</strong></strong>. It works perfectly and cures the sickness. Tu Youyou saves millions of lives around the world and wins the Nobel Prize in Medicine.",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "Where does Tu Youyou look for answers?",
@@ -373,11 +373,11 @@
     "unidad": "5",
     "titulo": "Boyan Slat – Cleaning the Oceans",
     "dificultad": "Advanced",
-    "imagen": "images/a2.1/unit5/boyanslat.png",
+    "imagen": "images/a2.1/unit5/boyanslatcleaningtheoceans.jpg",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Boyan Slat is a young Dutch inventor. When he was sixteen years old, he went diving in Greece and saw more plastic bags than fish in the sea. He felt deeply inspired to solve this global environmental problem. He was determined to make the oceans <strong>as clean as a whistle</strong> again.\n\nBoyan is an active and passionate leader. At the beginning, some people doubted his project. A few critics said he was just a fast talker who wanted easy attention. However, Boyan stayed confident. He designed advanced technology to trap plastic waste in rivers before it reaches the sea. His organization, The Ocean Cleanup, became one of the largest cleaning projects in history.\n\nToday, Boyan focuses on <strong>constructive solutions</strong> for our planet. His floating barriers are more productive than traditional boats with nets, and his team maintains a reliable system in the water. Thanks to his work, many rivers are now cleaner than before.",
+    "texto": "Boyan Slat is a young Dutch inventor. When he was sixteen years old, he went diving in Greece and saw more plastic bags than fish in the sea. He felt deeply inspired to solve this global environmental problem. He was determined to make the oceans <strong><strong>as clean as a whistle</strong></strong> again.\n\nBoyan is an active and passionate leader. At the beginning, some people doubted his project. A few critics said he was just a fast talker who wanted easy attention. However, Boyan stayed confident. He designed advanced technology to trap plastic waste in rivers before it reaches the sea. His organization, The Ocean Cleanup, became one of the largest cleaning projects in history.\n\nToday, Boyan focuses on <strong><strong>constructive solutions</strong></strong> for our planet. His floating barriers are more productive than traditional boats with nets, and his team maintains a reliable system in the water. Thanks to his work, many rivers are now cleaner than before.",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "Why is collecting plastic in rivers important for Boyan’s goal?",
@@ -419,11 +419,11 @@
     "unidad": "5",
     "titulo": "Katherine Johnson: A Brilliant Mind",
     "dificultad": "Intermediate",
-    "imagen": "images/a2.1/unit5/katherinejohnson.png",
+    "imagen": "images/a2.1/unit5/katherinejohnsonabrilliantmind.jpg",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Katherine Johnson was an extraordinary African American mathematician who worked for NASA. From an early age, Katherine was an <strong>energetic</strong> and <strong>enthusiastic</strong> student. She loved numbers and was always the brightest pupil in her school.\n\nDuring the Space Race, NASA needed experts to calculate complex trajectories for astronauts. Katherine was a <strong>visionary</strong> thinker with a special talent for geometry. She was remarkably <strong>diligent</strong> with her calculations. In the 1960s, NASA began using <strong>sophisticated</strong> electronic machines, but the astronauts trusted Katherine more. Her work was more <strong>accurate</strong> than the early computers, and she showed the world that women were fully <strong>capable</strong> of leading scientific missions.\n\nKatherine felt deeply <strong>accountable</strong> for the lives of the astronauts. She was always <strong>committed</strong> to excellence and checked every equation several times. Even though she became one of the most important figures in space history, she was never <strong>big headed</strong>; she remained humble and always praised the power of teamwork.",
+    "texto": "Katherine Johnson was an extraordinary African American mathematician who worked for NASA. From an early age, Katherine was an <strong><strong>energetic</strong></strong> and <strong><strong>enthusiastic</strong></strong> student. She loved numbers and was always the brightest pupil in her school.\n\nDuring the Space Race, NASA needed experts to calculate complex trajectories for astronauts. Katherine was a <strong><strong>visionary</strong></strong> thinker with a special talent for geometry. She was remarkably <strong><strong>diligent</strong></strong> with her calculations. In the 1960s, NASA began using <strong><strong>sophisticated</strong></strong> electronic machines, but the astronauts trusted Katherine more. Her work was more <strong><strong>accurate</strong></strong> than the early computers, and she showed the world that women were fully <strong><strong>capable</strong></strong> of leading scientific missions.\n\nKatherine felt deeply <strong><strong>accountable</strong></strong> for the lives of the astronauts. She was always <strong><strong>committed</strong></strong> to excellence and checked every equation several times. Even though she became one of the most important figures in space history, she was never <strong><strong>big headed</strong></strong>; she remained humble and always praised the power of teamwork.",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "Why did NASA need Katherine Johnson?",
@@ -469,7 +469,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Last year, I found a job opening at a new bookstore in my town. It was a wonderful <strong>opportunity</strong> for me because I love reading. However, more than thirty people applied for the position, so I felt that getting the job would <strong>be a long shot</strong>.\n\nOn the morning of the interview, my best friend texted me: \"<strong>Break a leg</strong>!\" That message made me smile and gave me confidence. \n\nAt the store, I met the manager. I stayed calm and <strong>focused</strong> on every question. We talked about my professional <strong>goals</strong> for the future. I looked at the manager and said: \"<strong>I can</strong> learn your cash register system fast, and I am a <strong>reliable</strong> worker who is always on time.\" \n\nAt the end of our conversation, I smiled and said: \"Thank you for your time. <strong>I look forward to</strong> hearing from you soon.\" The next day, the manager called me to say I got the job!",
+    "texto": "Last year, I found a job opening at a new bookstore in my town. It was a wonderful <strong><strong>opportunity</strong></strong> for me because I love reading. However, more than thirty people applied for the position, so I felt that getting the job would <strong><strong>be a long shot</strong></strong>.\n\nOn the morning of the interview, my best friend texted me: \"<strong><strong>Break a leg</strong></strong>!\" That message made me smile and gave me confidence. \n\nAt the store, I met the manager. I stayed calm and <strong><strong>focused</strong></strong> on every question. We talked about my professional <strong><strong>goals</strong></strong> for the future. I looked at the manager and said: \"<strong><strong>I can</strong></strong> learn your cash register system fast, and I am a <strong><strong>reliable</strong></strong> worker who is always on time.\" \n\nAt the end of our conversation, I smiled and said: \"Thank you for your time. <strong><strong>I look forward to</strong></strong> hearing from you soon.\" The next day, the manager called me to say I got the job!",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "Where did the speaker apply for a job?",
@@ -515,7 +515,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Two years ago, I applied for a job as a receptionist at an international hotel. I studied interview questions every evening because I did not want my preparation to <strong>go down the drain</strong>.\n\nDuring the interview, the front desk manager asked about my previous work. I talked about my customer service <strong>experience</strong> in a small café. I also explained how my computer <strong>skills</strong> could help me register guests quickly. Before the meeting, I visited their website and read their <strong>mission statement</strong>. They wanted to make every traveler feel at home, and I expressed my sincere <strong>respect</strong> for that value.\n\nThe manager told me that the schedule changes often. I told her that I am very <strong>flexible</strong> with morning and evening shifts. I also explained that I am a <strong>methodical</strong> person who likes to follow checklists and keep the reception desk clean and organized. She was very happy with my answers, and I started working there the following week.",
+    "texto": "Two years ago, I applied for a job as a receptionist at an international hotel. I studied interview questions every evening because I did not want my preparation to <strong><strong>go down the drain</strong></strong>.\n\nDuring the interview, the front desk manager asked about my previous work. I talked about my customer service <strong><strong>experience</strong></strong> in a small café. I also explained how my computer <strong><strong>skills</strong></strong> could help me register guests quickly. Before the meeting, I visited their website and read their <strong><strong>mission statement</strong></strong>. They wanted to make every traveler feel at home, and I expressed my sincere <strong><strong>respect</strong></strong> for that value.\n\nThe manager told me that the schedule changes often. I told her that I am very <strong><strong>flexible</strong></strong> with morning and evening shifts. I also explained that I am a <strong><strong>methodical</strong></strong> person who likes to follow checklists and keep the reception desk clean and organized. She was very happy with my answers, and I started working there the following week.",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "What job did the speaker apply for?",
@@ -561,7 +561,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Last month, our neighborhood organized a big donation campaign for a local shelter.\nWe wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\n• First, we shared important information and news about the event on social media.\n• Many neighbors <strong>arrived</strong> and brought old <strong>luggage</strong> filled with winter <strong>clothes</strong> made of <strong>wool</strong> and <strong>cotton</strong>.\n• For the food bank, families collected a lot of <strong>produce</strong>, especially <strong>onions</strong> and <strong>carrots</strong>.\n• We didn't accept raw <strong>seafood</strong> or <strong>poultry</strong> products because we didn't have refrigerators at the park.\n• Instead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\n• A local store helped us and provided some dairy products, like boxes of milk that didn't need cold temperatures.\n• Some volunteers built small boxes using wood and steel to organize all the donations.\n• At the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!\nLast month, our neighborhood organized a big donation campaign for a local shelter. We wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\nFirst, we shared important information and news about the event on social media.\nMany neighbors arrived and brought old luggage filled with winter clothes made of wool and cotton.\nFor the food bank, families collected a lot of produce, especially onions and carrots.\nWe didn't accept raw seafood or poultry products because we didn't have refrigerators at the park.\nInstead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\nA local store helped us and provided some dairy products, like boxes of milk that didn't need cold temperatures.\nSome volunteers built small boxes using wood and steel to organize all the donations.\nAt the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!",
+    "texto": "Last month, our neighborhood organized a big donation campaign for a local shelter.\nWe wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\n• First, we shared important information and news about the event on social media.\n• Many neighbors <strong><strong>arrived</strong></strong> and brought old <strong><strong>luggage</strong></strong> filled with winter <strong><strong>clothes</strong></strong> made of <strong><strong>wool</strong></strong> and <strong><strong>cotton</strong></strong>.\n• For the food bank, families collected a lot of <strong><strong>produce</strong></strong>, especially <strong><strong>onions</strong></strong> and <strong><strong>carrots</strong></strong>.\n• We didn't accept raw <strong><strong>seafood</strong></strong> or <strong><strong>poultry</strong></strong> products because we didn't have refrigerators at the park.\n• Instead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\n• A local store helped us and provided some dairy products, like boxes of milk that didn't need cold temperatures.\n• Some volunteers built small boxes using wood and steel to organize all the donations.\n• At the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!\nLast month, our neighborhood organized a big donation campaign for a local shelter. We wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\nFirst, we shared important information and news about the event on social media.\nMany neighbors arrived and brought old luggage filled with winter clothes made of wool and cotton.\nFor the food bank, families collected a lot of produce, especially onions and carrots.\nWe didn't accept raw seafood or poultry products because we didn't have refrigerators at the park.\nInstead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\nA local store helped us and provided some dairy products, like boxes of milk that didn't need cold temperatures.\nSome volunteers built small boxes using wood and steel to organize all the donations.\nAt the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "Who did the neighborhood want to help?",
@@ -607,7 +607,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Last month, I started an internship at a new office. On my first morning, our manager organized a group project. She explained that building good <strong>interpersonal</strong> connections is the first step to successful collaboration.\n\nAt first, I felt nervous, but the team welcomed me warmly. After the first two days, our tasks were running smoothly, and I said to myself, \"<strong>So far, so good</strong>.\" I wanted to be a helpful <strong>team player</strong>, so I practiced my <strong>communication skills</strong> by listening carefully to my coworkers. During our planning meetings, I spoke with calm <strong>assertiveness</strong> to share my opinions politely. This daily practice gave me more <strong>self-confidence</strong>.\n\nOur project required good <strong>time management</strong> because we had only three days to prepare the final presentation. When we had doubts about our project plan, we used <strong>critical thinking</strong> to analyze the situation. We also shared the <strong>decision-making</strong> process by voting on the best ideas. Working long hours was tiring, but my partner smiled and said, \"<strong>No pain, no gain</strong>!\"\n\nOn Wednesday, a computer error deleted our presentation file. We were suddenly <strong>back to square one</strong>, but nobody panicked. We applied quick <strong>problem-solving</strong> methods and recreated the slides together. Thanks to our honest <strong>teamwork</strong> and strong <strong>work ethic</strong>, we finished the project before the deadline. At the end of the week, our supervisor gave us <strong>constructive feedback</strong> and praised our great rapport.",
+    "texto": "Last month, I started an internship at a new office. On my first morning, our manager organized a group project. She explained that building good <strong><strong>interpersonal</strong></strong> connections is the first step to successful collaboration.\n\nAt first, I felt nervous, but the team welcomed me warmly. After the first two days, our tasks were running smoothly, and I said to myself, \"<strong><strong>So far, so good</strong></strong>.\" I wanted to be a helpful <strong><strong>team player</strong></strong>, so I practiced my <strong><strong>communication skills</strong></strong> by listening carefully to my coworkers. During our planning meetings, I spoke with calm <strong><strong>assertiveness</strong></strong> to share my opinions politely. This daily practice gave me more <strong><strong>self-confidence</strong></strong>.\n\nOur project required good <strong><strong>time management</strong></strong> because we had only three days to prepare the final presentation. When we had doubts about our project plan, we used <strong><strong>critical thinking</strong></strong> to analyze the situation. We also shared the <strong><strong>decision-making</strong></strong> process by voting on the best ideas. Working long hours was tiring, but my partner smiled and said, \"<strong><strong>No pain, no gain</strong></strong>!\"\n\nOn Wednesday, a computer error deleted our presentation file. We were suddenly <strong><strong>back to square one</strong></strong>, but nobody panicked. We applied quick <strong><strong>problem-solving</strong></strong> methods and recreated the slides together. Thanks to our honest <strong><strong>teamwork</strong></strong> and strong <strong><strong>work ethic</strong></strong>, we finished the project before the deadline. At the end of the week, our supervisor gave us <strong><strong>constructive feedback</strong></strong> and praised our great rapport.",
     "preguntas_opcion_multiple": [
       {
         "pregunta": "How did the team choose the best ideas?",
@@ -640,6 +640,98 @@
       {
         "pregunta": "The team finished the project before the deadline.",
         "correcta": true
+      }
+    ]
+  },
+  {
+    "id": "ra12_7",
+    "nivel": "A1.2",
+    "unidad": "5",
+    "titulo": "Organic Food: Healthy and Local?",
+    "dificultad": "Intermediate",
+    "imagen": "images/a1.2/unit5/organicfoodhealthyandlocal.png",
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "Organic food is food that is produced without using chemicals.\n\nPeople buy organic food because they think it is healthy. But is it healthy for the planet?\n\nMost people think that organic food is grown by small local farmers. But today, giant food companies like Coca Cola also grow organic food. Many of these big companies still use conventional farming methods that are very bad for the environment, even if the food they grow is more \"healthy.\"\n\nAnother problem is that a lot of organic food actually comes from faraway countries. Gases from the trucks and airplanes that we use to transport our groceries across continents and countries are a major cause of global warming.\n\nWhat can you do if you want to buy organic food, but you also want to help the environment?\n\nOne solution is to support your local farmer and encourage him to grow organic food. You can also join a community agriculture program. Members help pay for seeds, fertilizer, water, equipment, etc., and in return, the farm provides a healthy supply of fresh food.\n\nSo the answer is to buy organic, but also buy local!",
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Why do many people buy organic food?",
+        "opciones": [
+          "Because they think it is healthy.",
+          "Because it is always cheap.",
+          "Because it comes from airplanes."
+        ],
+        "correcta": "Because they think it is healthy."
+      },
+      {
+        "pregunta": "What is one way to help the environment?",
+        "opciones": [
+          "Buy organic food from faraway countries.",
+          "Support a local farmer.",
+          "Use more conventional farming methods."
+        ],
+        "correcta": "Support a local farmer."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "Organic food always comes from small local farmers.",
+        "correcta": false
+      },
+      {
+        "pregunta": "Transporting food long distances can cause global warming.",
+        "correcta": true
+      },
+      {
+        "pregunta": "A community agriculture program can provide fresh food.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "id": "ra12_8",
+    "nivel": "A1.2",
+    "unidad": "5",
+    "titulo": "A Green Box: Is It Organic?",
+    "dificultad": "Intermediate",
+    "imagen": "images/a1.2/unit5/agreenboxisitorganic.jpg",
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "Emma is at the supermarket with her dad. She wants some cereal for breakfast.\n\n“Look! This box is green. It has a tree and the words “100% natural.” Is it organic?” she asks.\n\n“Let’s read the label,” says Dad. “A picture of a tree does not mean the food is organic.”\n\nThey look at another box. It has a small circle with the words “USDA Organic.”\n\n“This is an official seal in the United States,” Dad explains. “Farmers and food companies must follow special rules to use it.”\n\n“Does it mean all the ingredients are organic?” asks Emma.\n\n“Not always. For cereal with this seal, at least 95% of the ingredients must be organic. Water and salt do not count.”\n\nEmma looks at the two boxes again.\n\n“So, a green box and a nice picture are not enough!”\n\n“That’s right. Read the words, too.”\n\nBefore they buy the cereal, Emma checks one more thing: the price!\n\nUseful words\nlabel: etiqueta\nseal: sello\nrules: reglas\nat least: al menos\nenough: suficiente",
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "What does a green box with a tree prove?",
+        "opciones": [
+          "That the food is cheap.",
+          "That the food is organic.",
+          "Nothing by itself."
+        ],
+        "correcta": "Nothing by itself."
+      },
+      {
+        "pregunta": "How many ingredients must be organic for the USDA seal?",
+        "opciones": [
+          "At least 50%.",
+          "At least 75%.",
+          "At least 95%."
+        ],
+        "correcta": "At least 95%."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "The words “100% natural” always mean “organic.”",
+        "correcta": false
+      },
+      {
+        "pregunta": "The USDA Organic seal is an official seal in the United States.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Water and salt count as organic ingredients.",
+        "correcta": false
       }
     ]
   }
