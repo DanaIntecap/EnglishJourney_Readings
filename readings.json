@@ -1419,5 +1419,57 @@
         "correcta": true
       }
     ]
+  },
+  {
+    "id": "ra21_9",
+    "nivel": "A2.1",
+    "unidad": "4",
+    "titulo": "Erling Haaland and Carrots",
+    "dificultad": "Basic",
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "<strong>Erling Haaland and Carrots</strong>\n\nErling Haaland is a famous football player from Norway. He likes to eat carrots as a snack. Many people see videos of him eating carrots.\n\nIn 2026, more people in Norway started buying carrots. Some farmers said this happened because of Haaland. They called it the “Haaland Effect.”\n\nMany children like Haaland. Some children started eating carrots instead of candy. A few children even called carrots “Haaland candy.”\n\nHaaland was also in a vegetable advertisement during the World Cup. This helped more people see him eating healthy food.\n\nToday, carrots are very popular in Norway. Many people think Haaland helped make them more popular.",
+    "vocabulario": [
+      {
+        "termino": "healthy",
+        "traduccion": "saludable",
+        "definicion": "good for your body"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Where is Erling Haaland from?",
+        "opciones": [
+          "Norway.",
+          "Spain.",
+          "Germany."
+        ],
+        "correcta": "Norway."
+      },
+      {
+        "pregunta": "What vegetable does Haaland like to eat?",
+        "opciones": [
+          "Potatoes.",
+          "Carrots.",
+          "Onions."
+        ],
+        "correcta": "Carrots."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "The story happens in Spain.",
+        "correcta": false
+      },
+      {
+        "pregunta": "Some children started eating carrots instead of candy.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Farmers called the trend the “Haaland Effect.”",
+        "correcta": true
+      }
+    ]
   }
 ]
