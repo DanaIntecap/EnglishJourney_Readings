@@ -1335,7 +1335,7 @@
   },
   {
     "id": "ra12_13",
-    "nivel": "A1.2",
+    "nivel": "A2.1",
     "unidad": "5",
     "titulo": "Backstreet Boys vs. NSYNC: Which Boy Band Was More Successful?",
     "dificultad": "Intermediate",
@@ -1426,6 +1426,7 @@
     "unidad": "4",
     "titulo": "Erling Haaland and Carrots",
     "dificultad": "Basic",
+    "imagen": "images/a2.1/unit4/erlinghaalandandcarrots.png",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
