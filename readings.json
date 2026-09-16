@@ -1472,5 +1472,92 @@
         "correcta": true
       }
     ]
+  },
+  {
+    "id": "ra21_10",
+    "nivel": "A2.1",
+    "unidad": "5",
+    "titulo": "Australia vs. Canada: Job Opportunities Abroad",
+    "dificultad": "Intermediate",
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "<strong>Australia vs. Canada: Job Opportunities Abroad</strong>\n\nMany Latin Americans consider Australia and Canada when looking for better job opportunities abroad. Canada is often more popular because it has immigration programs for skilled workers and a large multicultural population. Nearly <strong>23% of Canada's population consists of immigrants</strong>, so newcomers can meet people from many different cultures.\n\nOn the other hand, Australia usually offers higher salaries in some industries, especially construction, mining, and engineering. About <strong>31% of Australia's population was born overseas</strong>, which is a higher proportion than Canada's. This also makes Australia a very multicultural country.\n\nCanada is generally colder than Australia, but many people think it is easier to settle there because of its immigrant-friendly policies. For many newcomers, Canada is one of the most accessible countries for starting a new life.\n\nAustralia is warmer than Canada and has a relaxed outdoor lifestyle that attracts many immigrants. However, it is farther from Latin America, so visiting family can be more difficult and expensive. Canada has larger Latin American communities, while Australia has some of the highest wages in the world.\n\nBoth countries are safer than many Latin American countries and offer a high quality of life. Choosing between them depends on personal priorities. If someone wants the easiest immigration process, Canada may be the best option. If someone prefers a warmer climate and potentially higher earnings, Australia could be the better choice.",
+    "vocabulario": [
+      {
+        "termino": "skilled worker",
+        "traduccion": "trabajador calificado",
+        "definicion": "a person trained to do a specific type of work"
+      },
+      {
+        "termino": "multicultural",
+        "traduccion": "multicultural",
+        "definicion": "including people from many different cultures"
+      },
+      {
+        "termino": "wages",
+        "traduccion": "salarios",
+        "definicion": "money that workers receive for their work"
+      },
+      {
+        "termino": "overseas",
+        "traduccion": "en el extranjero",
+        "definicion": "in or from another country across the sea"
+      },
+      {
+        "termino": "settle",
+        "traduccion": "establecerse",
+        "definicion": "to begin living permanently in a new place"
+      },
+      {
+        "termino": "immigrant-friendly",
+        "traduccion": "favorable para inmigrantes",
+        "definicion": "welcoming and supportive toward immigrants"
+      },
+      {
+        "termino": "accessible",
+        "traduccion": "accesible",
+        "definicion": "relatively easy to enter, reach, or use"
+      },
+      {
+        "termino": "priorities",
+        "traduccion": "prioridades",
+        "definicion": "the things that are most important to a person"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Why is Canada often popular with skilled workers?",
+        "opciones": [
+          "It has immigration programs and a multicultural population.",
+          "It is warmer than Australia.",
+          "It is closer to every Latin American country."
+        ],
+        "correcta": "It has immigration programs and a multicultural population."
+      },
+      {
+        "pregunta": "In which industries can Australia offer higher salaries?",
+        "opciones": [
+          "Construction, mining, and engineering.",
+          "Only education and tourism.",
+          "Farming and fishing only."
+        ],
+        "correcta": "Construction, mining, and engineering."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "Canada is generally colder than Australia.",
+        "correcta": true
+      },
+      {
+        "pregunta": "About 31% of Australia's population was born overseas.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Australia is closer to Latin America than Canada.",
+        "correcta": false
+      }
+    ]
   }
 ]
