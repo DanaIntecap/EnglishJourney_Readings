@@ -193,7 +193,7 @@
     "unidad": "1",
     "titulo": "My Life in Canada",
     "dificultad": "Intermediate",
-    "imagen": "images/a1.2/unit1/mylifeincanada.png",
+    "imagen": "images/a1.2/unit1/mylifeincanada.avif",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -244,7 +244,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "What does Cristiano Ronaldo do away from the football cameras? His routine includes exercise, good food and family time.\n\nIn the morning, he <strong>drinks water</strong>, takes a short cold bath and <strong>takes a shower</strong>. He enjoys some morning sunlight before his coffee. To stay fit, he <strong>runs</strong> on the pitch and <strong>lifts weights</strong> in the gym. He <strong>eats</strong> fish, chicken, fruit and vegetables, and tries to avoid sugary foods.\n\nCristiano also <strong>takes care of his body</strong> through rest. He checks his sleep with a small device on his wrist. His routine is not only about hard training.\n\nIn his free time, he <strong>spends time with his partner and children</strong>. Family time helps him relax. He also <strong>plays padel</strong> with close friends and likes to <strong>watch fights</strong>. Even a famous football player needs time for other interests and the people he loves.",
+    "texto": "What does Cristiano Ronaldo do away from the football cameras? His routine includes exercise, good food and family time.\n\nIn the morning, he <strong>drinks water</strong>, takes a short cold bath and <strong>takes a shower</strong>. He enjoys some morning sunlight before his coffee. To stay fit, he <strong>runs</strong> on the pitch and <strong>lifts weights</strong> in the gym. \n\nHe <strong>eats</strong> fish, chicken, fruit and vegetables, and tries to avoid sugary foods. Cristiano also <strong>takes care of his body</strong> through rest. He checks his sleep with a small device on his wrist. His routine is not only about hard training.\n\nIn his free time, he <strong>spends time with his partner and children</strong>. Family time helps him relax. He also <strong>plays padel</strong> with close friends and likes to <strong>watch fights</strong>. Even a famous football player needs time for other interests and the people he loves.",
     "vocabulario": [],
     "preguntas_opcion_multiple": [
       {
@@ -338,7 +338,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "A Big Problem: Tu Youyou is a scientist in China. She wants to help people. There is a terrible sickness called malaria. Many people get sick, and doctors need a new <strong>cure</strong>.\n\nLooking for Answers: Tu Youyou does not give up. She reads very old books about traditional medicine and plants. She studies day and night, testing hundreds of different <strong>herbs</strong> to find a solution.\n\nThe Secret Plant: Finally, she finds a special plant called sweet wormwood. She discovers a clever way to get the medicine from the plant using cold liquids instead of hot ones, so the medicine does not break.\n\nA Great Success: The new medicine is called <strong>artemisinin</strong>. It works perfectly and cures the sickness. Tu Youyou saves millions of lives around the world and wins the Nobel Prize in Medicine.",
+    "texto": "<strong> A Big Problem</strong>: Tu Youyou is a scientist in China. She wants to help people. There is a terrible sickness called malaria. Many people get sick, and doctors need a new <strong>cure</strong>.\n\nLooking for Answers: Tu Youyou does not give up. She reads very old books about traditional medicine and plants. She studies day and night, testing hundreds of different <strong>herbs</strong> to find a solution.\nFinally, she finds a special plant called sweet wormwood. She discovers a clever way to get the medicine from the plant using cold liquids instead of hot ones, so the medicine does not break.\n\nA Great Success: The new medicine is called <strong>artemisinin</strong>. It works perfectly and cures the sickness. Tu Youyou saves millions of lives around the world and wins the Nobel Prize in Medicine.",
     "vocabulario": [],
     "preguntas_opcion_multiple": [
       {
@@ -573,7 +573,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Last month, our neighborhood organized a big donation campaign for a local shelter.\nWe wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\n• First, we shared important information and news about the event on social media.\n• Many neighbors <strong>arrived</strong> and brought old <strong>luggage</strong> filled with winter <strong>clothes</strong> made of <strong>wool</strong> and <strong>cotton</strong>.\n• For the food bank, families collected a lot of <strong>produce</strong>, especially <strong>onions</strong> and <strong>carrots</strong>.\n• We didn't accept raw <strong>seafood</strong> or <strong>poultry</strong> products because we didn't have refrigerators at the park.\n• Instead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\n• A local store helped us and provided some dairy products, like boxes of milk that didn't need cold temperatures.\n• Some volunteers built small boxes using wood and steel to organize all the donations.\n• At the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!\nLast month, our neighborhood organized a big donation campaign for a local shelter. We wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\nFirst, we shared important information and news about the event on social media.\nMany neighbors arrived and brought old luggage filled with winter clothes made of wool and cotton.\nFor the food bank, families collected a lot of produce, especially onions and carrots.\nWe didn't accept raw seafood or poultry products because we didn't have refrigerators at the park.\nInstead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\nA local store helped us and provided some dairy products, like boxes of milk that didn't need cold temperatures.\nSome volunteers built small boxes using wood and steel to organize all the donations.\nAt the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!",
+    "texto": "Last month, our neighborhood organized a big donation campaign for a local shelter.\nWe wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\n• First, we shared important <strong>information and news</strong> about the event on social media.\n• Many neighbors <strong>arrived</strong> and brought old <strong>luggage</strong> filled with winter <strong>clothes</strong> made of <strong>wool</strong> and <strong>cotton</strong>.\n• For the food bank, families collected a lot of <strong>produce</strong>, especially <strong>onions</strong> and <strong>carrots</strong>.\n• We didn't accept raw <strong>seafood</strong> or <strong>poultry</strong> products because we didn't have refrigerators at the park.\n• Instead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\n• A local store helped us and provided some <strong>dairy</strong> products.\n• Some volunteers built small boxes using wood and steel to organize all the donations.\n• At the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!\n",
     "vocabulario": [],
     "preguntas_opcion_multiple": [
       {
@@ -1051,7 +1051,7 @@
     ]
   },
   {
-    "id": "ra21_6",
+    "id": "ra21_11",
     "nivel": "A2.1",
     "unidad": "6",
     "titulo": "Marjane Satrapi's Rights and Responsibilities",
@@ -1212,13 +1212,13 @@
     ],
     "preguntas_opcion_multiple": [
       {
-        "pregunta": "Which destination is larger, Hawaii or Puerto Rico?",
+        "pregunta": "Which destination is warmer, Hawaii or Puerto Rico?",
         "opciones": [
           "Hawaii.",
           "Puerto Rico.",
-          "They are the same size."
+          "Hawaii is as warm as Puerto Rico."
         ],
-        "correcta": "Hawaii."
+        "correcta": "Hawaii is as warm as Puerto Rico."
       },
       {
         "pregunta": "Which destination is closer to Guatemala?",
@@ -1648,7 +1648,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "<strong>Simone Biles Raises the Bar</strong>\n\nSimone Biles is a famous gymnast from the United States. She is one of the best gymnasts in history.\n\nSimone works very hard. She can do very difficult skills that many gymnasts cannot do. Because of this, she changed the sport of gymnastics.\n\nPeople say Simone Biles <strong>raised the bar</strong>. This means she made the standard higher. Other gymnasts now try to reach her level.\n\nOne of her famous skills is called <strong>The Biles II</strong>. Even today, many people use this name. The skill is very difficult and shows Simone's talent.\n\nSimone inspires athletes around the world. She teaches people that hard work and courage can help them achieve great things.\n\nBecause of her success, gymnastics is different today. Simone Biles raised the bar for everyone.",
+    "texto": "<strong>Simone Biles Raises the Bar</strong>\n\nSimone Biles is a famous gymnast from the United States. She is one of the best gymnasts in history.\n\nSimone works very hard. She can do very difficult skills that many gymnasts cannot do. Because of this, she changed the sport of gymnastics.\n\nPeople say Simone Biles <strong>raised the bar</strong>. This means she made the standard higher. Other gymnasts now try to reach her level. One of her famous skills is called <strong>The Biles II</strong>. Even today, many people use this name. The skill is very difficult and shows Simone's talent.\n\nSimone inspires athletes around the world. She teaches people that hard work and courage can help them achieve great things. Because of her success, gymnastics is different today. Simone Biles raised the bar for everyone.",
     "vocabulario": [
       {
         "termino": "gymnast",
@@ -1731,7 +1731,7 @@
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "<strong>James Cameron Pulls the Plug</strong>\n\nJames Cameron is a famous movie director.\n\nHe plans to make a comedy movie about terrorists. The name of the movie is <em>True Lies 2</em>.\n\nHowever, the terrible tragedy of September 11 happens in the real world. James changes his mind. He thinks terrorism is not a funny topic anymore.\n\nSo, he <strong>pulls the plug</strong> on the movie. Literally, this phrase means to disconnect an electrical cable. Figuratively, it means that he cancels the project completely. He never films it.\n\nThis action shows his ethical personality. He respects real-world problems and cares about people's feelings.",
+    "texto": "<strong>James Cameron Pulls the Plug</strong>\n\nJames Cameron is a famous movie director. He plans to make a comedy movie about terrorists. The name of the movie is <em>True Lies 2</em>.\n\nHowever, the terrible tragedy of September 11 happens in the real world. James changes his mind. He thinks terrorism is not a funny topic anymore.\nSo, he <strong>pulls the plug</strong> on the movie. Literally, this phrase means to disconnect an electrical cable. Figuratively, it means that he cancels the project completely. He never films it.\n\nThis action shows his ethical personality. He respects real-world problems and cares about people's feelings.",
     "vocabulario": [
       {
         "termino": "movie director",
