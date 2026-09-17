@@ -192,6 +192,7 @@ button {
 
 .reading-text {
     text-align: left;
+    white-space: pre-line;
     background: white;
     padding: 20px;
     border-radius: 14px;
