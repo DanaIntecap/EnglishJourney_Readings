@@ -1637,5 +1637,88 @@
         "correcta": true
       }
     ]
+  },
+  {
+    "id": "ra12_6",
+    "nivel": "A1.2",
+    "unidad": "1",
+    "titulo": "Simone Biles Raises the Bar",
+    "dificultad": "Basic",
+    "imagen": "images/a1.2/unit1/simonebilesraisesthebar.png",
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "<strong>Simone Biles Raises the Bar</strong>\n\nSimone Biles is a famous gymnast from the United States. She is one of the best gymnasts in history.\n\nSimone works very hard. She can do very difficult skills that many gymnasts cannot do. Because of this, she changed the sport of gymnastics.\n\nPeople say Simone Biles <strong>raised the bar</strong>. This means she made the standard higher. Other gymnasts now try to reach her level.\n\nOne of her famous skills is called <strong>The Biles II</strong>. Even today, many people use this name. The skill is very difficult and shows Simone's talent.\n\nSimone inspires athletes around the world. She teaches people that hard work and courage can help them achieve great things.\n\nBecause of her success, gymnastics is different today. Simone Biles raised the bar for everyone.",
+    "vocabulario": [
+      {
+        "termino": "gymnast",
+        "traduccion": "gimnasta",
+        "definicion": "a person who performs gymnastics"
+      },
+      {
+        "termino": "skill",
+        "traduccion": "habilidad o movimiento",
+        "definicion": "an ability or movement learned through practice"
+      },
+      {
+        "termino": "standard",
+        "traduccion": "estándar o nivel",
+        "definicion": "a level used to measure quality or performance"
+      },
+      {
+        "termino": "talent",
+        "traduccion": "talento",
+        "definicion": "a natural ability to do something well"
+      },
+      {
+        "termino": "courage",
+        "traduccion": "valentía",
+        "definicion": "the ability to act even when something is difficult or frightening"
+      },
+      {
+        "termino": "achieve",
+        "traduccion": "lograr",
+        "definicion": "to successfully reach a goal"
+      },
+      {
+        "termino": "raise the bar",
+        "traduccion": "aumentar el nivel",
+        "definicion": "to make a standard higher or more difficult to reach"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Where is Simone Biles from?",
+        "opciones": [
+          "The United States.",
+          "Norway.",
+          "Canada."
+        ],
+        "correcta": "The United States."
+      },
+      {
+        "pregunta": "What does “raise the bar” mean?",
+        "opciones": [
+          "To make the standard higher.",
+          "To make the standard lower.",
+          "To stop practicing a skill."
+        ],
+        "correcta": "To make the standard higher."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "Simone Biles only does easy skills.",
+        "correcta": false
+      },
+      {
+        "pregunta": "The Biles II is a famous gymnastics skill.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Simone inspires athletes around the world.",
+        "correcta": true
+      }
+    ]
   }
 ]
