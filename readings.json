@@ -611,7 +611,7 @@
     ]
   },
   {
-    "id": "ra21_4_internship",
+    "id": "ra21_6",
     "nivel": "A2.1",
     "unidad": "4",
     "titulo": "Teamwork at My First Internship",
@@ -1557,6 +1557,84 @@
       {
         "pregunta": "Australia is closer to Latin America than Canada.",
         "correcta": false
+      }
+    ]
+  },
+  {
+    "id": "ra12_5",
+    "nivel": "A1.2",
+    "unidad": "1",
+    "titulo": "A Big Problem in Space",
+    "dificultad": "Intermediate",
+    "imagen": "images/a1.2/unit1/abigprobleminspace.png",
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "<strong>A Big Problem in Space</strong>\n\nThree astronauts travel to space on Apollo 13. Two days into the trip, an oxygen tank explodes. It is a serious emergency. The spacecraft loses electricity, water, and air. The astronauts are far away from Earth and are in great danger.\n\nIn Houston, Texas, flight director Gene Kranz calls his entire team to Mission Control. He needs <strong>to rally the troops</strong>. The engineers are worried and scared, but Gene stays calm.\n\nHe explains the situation clearly. He tells them, “Do not panic, and do not guess. Look at what still works and find solutions. Our only job is to bring our team home.”\n\nThe team works together immediately:\n- One group calculates a new flight path around the Moon.\n- Another group finds ways to save battery power and water.\n- In a special room, engineers use simple items like tape, plastic bags, and socks to build an air filter for the astronauts.\n\nEveryone works day and night without stopping. After four days, the three astronauts land safely in the Pacific Ocean. Gene Kranz rallies the troops, and great teamwork saves three lives. This story is portrayed in the movie <em>Apollo 13</em>, starring Tom Hanks.",
+    "vocabulario": [
+      {
+        "termino": "astronaut",
+        "traduccion": "astronauta",
+        "definicion": "a person who travels and works in space"
+      },
+      {
+        "termino": "oxygen tank",
+        "traduccion": "tanque de oxígeno",
+        "definicion": "a container that stores oxygen"
+      },
+      {
+        "termino": "spacecraft",
+        "traduccion": "nave espacial",
+        "definicion": "a vehicle designed to travel in space"
+      },
+      {
+        "termino": "flight director",
+        "traduccion": "director de vuelo",
+        "definicion": "the person who leads a mission control team"
+      },
+      {
+        "termino": "air filter",
+        "traduccion": "filtro de aire",
+        "definicion": "a device that removes harmful material from the air"
+      },
+      {
+        "termino": "rally the troops",
+        "traduccion": "reunir y motivar al equipo",
+        "definicion": "to bring people together and motivate them to reach a goal"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "What happens two days into the Apollo 13 trip?",
+        "opciones": [
+          "An oxygen tank explodes.",
+          "The astronauts land on the Moon.",
+          "The spacecraft returns to Earth."
+        ],
+        "correcta": "An oxygen tank explodes."
+      },
+      {
+        "pregunta": "What do the engineers use to build an air filter?",
+        "opciones": [
+          "Metal tools and glass.",
+          "Tape, plastic bags, and socks.",
+          "Wood, paper, and water."
+        ],
+        "correcta": "Tape, plastic bags, and socks."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "The astronauts are close to Earth when the emergency happens.",
+        "correcta": false
+      },
+      {
+        "pregunta": "Gene Kranz tells the team not to panic or guess.",
+        "correcta": true
+      },
+      {
+        "pregunta": "After four days, the astronauts land safely in the Pacific Ocean.",
+        "correcta": true
       }
     ]
   }
