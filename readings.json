@@ -1803,5 +1803,118 @@
         "correcta": true
       }
     ]
+  },
+  {
+    "id": "ra12_15",
+    "nivel": "A1.2",
+    "unidad": "6",
+    "titulo": "A Day at the Office",
+    "dificultad": "Intermediate",
+    "imagen": null,
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "<strong>A Day at the Office</strong>\n\nEvery day is busy at Bright Ideas Company. <strong>Daniel is a Sales Representative.</strong> He <strong>goes to work</strong> at 8:00 a.m. and <strong>starts work</strong> at 8:30. In the morning, he <strong>makes phone calls</strong> and <strong>talks to customers</strong>. He also <strong>makes appointments</strong> with new clients. He keeps a yellow notebook on his desk and writes down each customer's name before a call. Daniel <strong>believes</strong> good communication helps the company <strong>achieve</strong> its goals.\n\n<strong>Sofia is a Marketing Specialist.</strong> She usually <strong>starts work</strong> at 8:30 a.m., but on Mondays she arrives at 7:00 to prepare a special meeting. Every Monday, she <strong>attends a meeting</strong> with the marketing team. She <strong>prepares reports</strong> about marketing campaigns and <strong>focuses</strong> on new ideas. Her team <strong>advertises</strong> the company's products on social media and <strong>promotes</strong> special offers. Sofia <strong>anticipates</strong> customers' needs to help <strong>boost</strong> sales.\n\n<strong>Carlos is a Project Manager.</strong> He usually <strong>attends meetings</strong> with different departments and <strong>gives presentations</strong> about new projects. He also <strong>talks to customers</strong> and checks his team's results. Carlos <strong>believes</strong> everybody <strong>benefits from</strong> good teamwork.\n\nHis team works hard to <strong>achieve</strong> its objectives. When they have new projects, they sometimes <strong>finish work</strong> at 7:00 p.m. On these evenings, Carlos always orders dinner for them and pays them for the extra hours. They share pizza around the meeting table before going home. He thanks his team for <strong>keeping their eyes on the prize</strong>: finishing the project well.",
+    "vocabulario": [
+      {
+        "termino": "sales representative",
+        "traduccion": "representante de ventas",
+        "definicion": "a person who sells products or services for a company"
+      },
+      {
+        "termino": "marketing specialist",
+        "traduccion": "especialista en marketing",
+        "definicion": "a person who helps a company attract customers"
+      },
+      {
+        "termino": "project manager",
+        "traduccion": "gerente de proyectos",
+        "definicion": "a person who organizes a project and its team"
+      },
+      {
+        "termino": "make appointments",
+        "traduccion": "concertar citas",
+        "definicion": "to arrange times to meet people"
+      },
+      {
+        "termino": "prepare reports",
+        "traduccion": "preparar informes",
+        "definicion": "to write information about work or results"
+      },
+      {
+        "termino": "achieve",
+        "traduccion": "lograr",
+        "definicion": "to succeed in reaching a goal"
+      },
+      {
+        "termino": "focus on",
+        "traduccion": "concentrarse en",
+        "definicion": "to give your attention to something"
+      },
+      {
+        "termino": "advertise",
+        "traduccion": "anunciar",
+        "definicion": "to tell people about a product or service"
+      },
+      {
+        "termino": "promote",
+        "traduccion": "promocionar",
+        "definicion": "to help people become interested in a product or offer"
+      },
+      {
+        "termino": "anticipate",
+        "traduccion": "anticipar",
+        "definicion": "to think about what someone will need before they ask"
+      },
+      {
+        "termino": "boost sales",
+        "traduccion": "aumentar las ventas",
+        "definicion": "to help a company sell more"
+      },
+      {
+        "termino": "benefit from",
+        "traduccion": "beneficiarse de",
+        "definicion": "to get something good from something"
+      },
+      {
+        "termino": "keep your eyes on the prize",
+        "traduccion": "mantener la vista en la meta",
+        "definicion": "to stay focused on your goal"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "What does Daniel write in his yellow notebook?",
+        "opciones": [
+          "The price of the pizza.",
+          "Each customer's name.",
+          "The names of new projects."
+        ],
+        "correcta": "Each customer's name."
+      },
+      {
+        "pregunta": "Why does Sofia arrive at 7:00 a.m. on Mondays?",
+        "opciones": [
+          "To prepare a special meeting.",
+          "To order dinner for the team.",
+          "To give a presentation to customers."
+        ],
+        "correcta": "To prepare a special meeting."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "Daniel starts work at 8:00 a.m.",
+        "correcta": false
+      },
+      {
+        "pregunta": "Carlos pays his team for the extra hours they work.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Keeping their eyes on the prize means staying focused on their goal.",
+        "correcta": true
+      }
+    ]
   }
 ]
