@@ -1916,5 +1916,186 @@
         "correcta": true
       }
     ]
+  },
+  {
+    "id": "ra12_16",
+    "nivel": "A1.2",
+    "unidad": "3",
+    "titulo": "Sarah’s Café",
+    "dificultad": "Basic",
+    "imagen": null,
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "Sarah loves coffee, so she decides to <strong>manage</strong> a small café in her town. She wants to <strong>sell</strong> fresh drinks and delicious bread. First, she needs to <strong>buy</strong> modern machines and <strong>invest</strong> her savings into the store. Running a business has difficult moments: she has to <strong>bite the bullet</strong> and spend money on expensive permits. Sometimes, customers <strong>complain</strong> about high prices when she has to <strong>charge for</strong> extra milk or delivery. Still, Sarah tries to <strong>avoid</strong> stress and <strong>look at the big picture</strong>: her dream is to build a happy community space.",
+    "vocabulario": [
+      {
+        "termino": "manage",
+        "traduccion": "administrar",
+        "definicion": "to organize and run a business"
+      },
+      {
+        "termino": "sell",
+        "traduccion": "vender",
+        "definicion": "to give something to someone in exchange for money"
+      },
+      {
+        "termino": "buy",
+        "traduccion": "comprar",
+        "definicion": "to get something by paying money"
+      },
+      {
+        "termino": "invest",
+        "traduccion": "invertir",
+        "definicion": "to use money to help a business grow"
+      },
+      {
+        "termino": "bite the bullet",
+        "traduccion": "afrontar algo difícil",
+        "definicion": "to do something difficult or unpleasant that is necessary"
+      },
+      {
+        "termino": "complain",
+        "traduccion": "quejarse",
+        "definicion": "to say that you are unhappy about something"
+      },
+      {
+        "termino": "charge for",
+        "traduccion": "cobrar por",
+        "definicion": "to ask someone to pay for a product or service"
+      },
+      {
+        "termino": "avoid",
+        "traduccion": "evitar",
+        "definicion": "to stay away from something or prevent it"
+      },
+      {
+        "termino": "look at the big picture",
+        "traduccion": "ver el panorama general",
+        "definicion": "to think about the whole situation and your main goal"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "What does Sarah want to sell?",
+        "opciones": [
+          "Modern machines and permits.",
+          "Fresh drinks and delicious bread.",
+          "Recycled t-shirts."
+        ],
+        "correcta": "Fresh drinks and delicious bread."
+      },
+      {
+        "pregunta": "Why does Sarah have to bite the bullet?",
+        "opciones": [
+          "She needs to pay for expensive permits.",
+          "She wants to stop selling coffee.",
+          "She needs to send emails to customers."
+        ],
+        "correcta": "She needs to pay for expensive permits."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "Sarah invests her savings into the café.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Sarah never charges for extra milk or delivery.",
+        "correcta": false
+      },
+      {
+        "pregunta": "Sarah wants to build a happy community space.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "id": "ra12_17",
+    "nivel": "A1.2",
+    "unidad": "3",
+    "titulo": "Lucas’s Recycled T-Shirts",
+    "dificultad": "Basic",
+    "imagen": null,
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "Lucas wants to <strong>develop</strong> a brand of recycled t-shirts. To start the company, he has to <strong>jump through hoops</strong> with lots of government paperwork, but he stays patient. Finally, city officials <strong>approve</strong> his business license. Lucas sends regular emails to <strong>inform</strong> his customers about how the clothes are made. He is very honest: if an order is late, he is quick to <strong>admit</strong> the error and fix it immediately. When people <strong>accept</strong> sustainable habits, sales <strong>increase</strong> and plastic waste begins to <strong>decrease</strong>.",
+    "vocabulario": [
+      {
+        "termino": "develop",
+        "traduccion": "desarrollar",
+        "definicion": "to create or improve something over time"
+      },
+      {
+        "termino": "jump through hoops",
+        "traduccion": "superar muchos trámites",
+        "definicion": "to complete many difficult steps to achieve something"
+      },
+      {
+        "termino": "approve",
+        "traduccion": "aprobar",
+        "definicion": "to officially agree to or allow something"
+      },
+      {
+        "termino": "inform",
+        "traduccion": "informar",
+        "definicion": "to give someone information"
+      },
+      {
+        "termino": "admit",
+        "traduccion": "admitir",
+        "definicion": "to say that something is true, especially a mistake"
+      },
+      {
+        "termino": "accept",
+        "traduccion": "aceptar",
+        "definicion": "to agree to use or do something"
+      },
+      {
+        "termino": "increase",
+        "traduccion": "aumentar",
+        "definicion": "to become greater in number or amount"
+      },
+      {
+        "termino": "decrease",
+        "traduccion": "disminuir",
+        "definicion": "to become smaller in number or amount"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "What kind of products does Lucas want to develop?",
+        "opciones": [
+          "Modern coffee machines.",
+          "Plastic bottles.",
+          "Recycled t-shirts."
+        ],
+        "correcta": "Recycled t-shirts."
+      },
+      {
+        "pregunta": "What does Lucas do if an order is late?",
+        "opciones": [
+          "He admits the error and fixes it immediately.",
+          "He stops informing his customers.",
+          "He closes his company."
+        ],
+        "correcta": "He admits the error and fixes it immediately."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "City officials approve Lucas’s business license.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Lucas sends emails about how his clothes are made.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Plastic waste increases when people accept sustainable habits.",
+        "correcta": false
+      }
+    ]
   }
 ]
