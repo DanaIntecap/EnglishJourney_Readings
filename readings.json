@@ -2097,5 +2097,83 @@
         "correcta": false
       }
     ]
+  },
+  {
+    "id": "ra12_18",
+    "nivel": "A1.2",
+    "unidad": "3",
+    "titulo": "Sixto Rodriguez Finds His Fans",
+    "dificultad": "Basic",
+    "imagen": null,
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "In the 1970s, Sixto Rodriguez records two beautiful albums in Detroit, but people in the United States do not <strong>buy</strong> his music. Rodriguez has to <strong>bite the bullet</strong> and work in difficult construction jobs to live. He does not know that thousands of young people in South Africa <strong>accept</strong> his songs as anthems of freedom. Over the years, his popularity begins to <strong>increase</strong> across the ocean, but nobody in South Africa knows who he is. Two loyal fans decide to <strong>look at the big picture</strong> and search for the truth. After years of questions, they finally <strong>inform</strong> Rodriguez of his legendary status, and he travels to play massive concerts for thousands of happy fans.",
+    "vocabulario": [
+      {
+        "termino": "buy",
+        "traduccion": "comprar",
+        "definicion": "to get something by paying money"
+      },
+      {
+        "termino": "bite the bullet",
+        "traduccion": "afrontar algo difícil",
+        "definicion": "to do something difficult or unpleasant that is necessary"
+      },
+      {
+        "termino": "accept",
+        "traduccion": "aceptar",
+        "definicion": "to welcome or agree to something"
+      },
+      {
+        "termino": "increase",
+        "traduccion": "aumentar",
+        "definicion": "to become greater in number or amount"
+      },
+      {
+        "termino": "look at the big picture",
+        "traduccion": "ver el panorama general",
+        "definicion": "to think about the whole situation and the main goal"
+      },
+      {
+        "termino": "inform",
+        "traduccion": "informar",
+        "definicion": "to give someone information"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Where does Rodriguez record his two albums?",
+        "opciones": [
+          "In South Africa.",
+          "In Detroit.",
+          "In New York."
+        ],
+        "correcta": "In Detroit."
+      },
+      {
+        "pregunta": "Who searches for the truth about Rodriguez?",
+        "opciones": [
+          "Two loyal fans.",
+          "His construction coworkers.",
+          "Two American singers."
+        ],
+        "correcta": "Two loyal fans."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "People in the United States buy many copies of his music in the 1970s.",
+        "correcta": false
+      },
+      {
+        "pregunta": "Many young people in South Africa accept his songs as anthems of freedom.",
+        "correcta": true
+      },
+      {
+        "pregunta": "Rodriguez travels to play concerts after learning about his fans.",
+        "correcta": true
+      }
+    ]
   }
 ]
