@@ -4,7 +4,7 @@
     "nivel": "A1.1",
     "unidad": "3",
     "titulo": "Greetings and alphabet",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "imagen": "images/a1.1/unit3/greetingsandalphabet.png",
     "audio": null,
     "modoAudio": "tts",
@@ -51,7 +51,7 @@
     "nivel": "A1.1",
     "unidad": "3",
     "titulo": "The big S Supermarket",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "imagen": "images/a1.1/unit3/thebigssupermarket.jpg",
     "audio": null,
     "modoAudio": "tts",
@@ -98,7 +98,7 @@
     "nivel": "A1.1",
     "unidad": "3",
     "titulo": "My german friend Alex",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "imagen": "images/a1.1/unit3/mygermanfriendalex.png",
     "audio": null,
     "modoAudio": "tts",
@@ -145,7 +145,7 @@
     "nivel": "A1.1",
     "unidad": "4",
     "titulo": "The Global Bakery",
-    "dificultad": "Advanced",
+    "dificultad": "Challenging ●●●",
     "imagen": "images/a1.1/unit4/theglobalbakery.png",
     "audio": null,
     "modoAudio": "tts",
@@ -192,7 +192,7 @@
     "nivel": "A1.2",
     "unidad": "1",
     "titulo": "My Life in Canada",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a1.2/unit1/mylifeincanada.avif",
     "audio": null,
     "modoAudio": "tts",
@@ -239,7 +239,7 @@
     "nivel": "A1.2",
     "unidad": "5",
     "titulo": "The Real Routine of Cristiano Ronaldo",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a1.2/unit5/therealroutineofcristianoronaldo.jpg",
     "audio": null,
     "modoAudio": "tts",
@@ -286,7 +286,7 @@
     "nivel": "A1.2",
     "unidad": "5",
     "titulo": "The Real Routine of Lester Martínez",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a1.2/unit5/therealroutineoflestermartinez.png",
     "audio": null,
     "modoAudio": "tts",
@@ -333,7 +333,7 @@
     "nivel": "A1.2",
     "unidad": "5",
     "titulo": "The Scientist Who Saved Millions",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a1.2/unit5/thescientistwhosavedmillions.jpg",
     "audio": null,
     "modoAudio": "tts",
@@ -380,7 +380,7 @@
     "nivel": "A2.1",
     "unidad": "5",
     "titulo": "Boyan Slat – Cleaning the Oceans",
-    "dificultad": "Advanced",
+    "dificultad": "Challenging ●●●",
     "imagen": "images/a2.1/unit5/boyanslatcleaningtheoceans.jpg",
     "audio": null,
     "modoAudio": "tts",
@@ -427,7 +427,7 @@
     "nivel": "A2.1",
     "unidad": "5",
     "titulo": "Katherine Johnson: A Brilliant Mind",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a2.1/unit5/katherinejohnsonabrilliantmind.jpg",
     "audio": null,
     "modoAudio": "tts",
@@ -474,8 +474,8 @@
     "nivel": "A2.1",
     "unidad": "6",
     "titulo": "The bookstore interview",
-    "dificultad": "Basic",
-    "imagen": "images/a2.1/unit6/thebookstoreinterview.png",
+    "dificultad": "Introductory ●○○",
+    "imagen": null,
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -521,8 +521,8 @@
     "nivel": "A2.1",
     "unidad": "6",
     "titulo": "The receptionist position",
-    "dificultad": "Basic",
-    "imagen": "images/a2.1/unit6/thehotelinterview.png",
+    "dificultad": "Introductory ●○○",
+    "imagen": null,
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -568,12 +568,12 @@
     "nivel": "A2.1",
     "unidad": "6",
     "titulo": "The neighborhood donation campaign",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "imagen": "images/a2.1/unit6/theneighborhooddonationcampaign.png",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
-    "texto": "Last month, our neighborhood organized a big donation campaign for a local shelter.\nWe wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\n• First, we shared important <strong>information and news</strong> about the event on social media.\n• Many neighbors <strong>arrived</strong> and brought old <strong>luggage</strong> filled with winter <strong>clothes</strong> made of <strong>wool</strong> and <strong>cotton</strong>.\n• For the food bank, families collected a lot of <strong>produce</strong>, especially <strong>onions</strong> and <strong>carrots</strong>.\n• We didn't accept raw <strong>seafood</strong> or <strong>poultry</strong> products because we didn't have refrigerators at the park.\n• Instead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\n• A local store helped us and provided some <strong>dairy</strong> products.\n• Some volunteers built small boxes using wood and steel to organize all the donations.\n• At the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!\n",
+    "texto": "Last month, our neighborhood organized a big donation campaign for a local shelter.\nWe wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\n• First, we shared important <strong>information</strong> and news about the event on social media.\n• Many neighbors <strong>arrived</strong> and brought old <strong>luggage</strong> filled with winter <strong>clothes</strong> made of <strong>wool</strong> and <strong>cotton</strong>.\n• For the food bank, families collected a lot of <strong>produce</strong>, especially <strong>onions</strong> and <strong>carrots</strong>.\n• We didn't accept raw <strong>seafood</strong> or <strong>poultry</strong> products because we didn't have refrigerators at the park.\n• Instead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\n• A local store helped us and provided some <strong>dairy</strong> products.\n• Some volunteers built small boxes using wood and steel to organize all the donations.\n• At the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!\n",
     "vocabulario": [],
     "preguntas_opcion_multiple": [
       {
@@ -615,7 +615,7 @@
     "nivel": "A2.1",
     "unidad": "4",
     "titulo": "Teamwork at My First Internship",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a2.1/unit4/teamworkatmyfirstinternship.png",
     "audio": null,
     "modoAudio": "tts",
@@ -662,7 +662,7 @@
     "nivel": "A1.2",
     "unidad": "4",
     "titulo": "Organic Food: Healthy and Local?",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a1.2/unit4/organicfoodhealthyandlocal.png",
     "audio": null,
     "modoAudio": "tts",
@@ -709,7 +709,7 @@
     "nivel": "A1.2",
     "unidad": "4",
     "titulo": "A Green Box: Is It Organic?",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a1.2/unit4/agreenboxisitorganic.jpg",
     "audio": null,
     "modoAudio": "tts",
@@ -756,7 +756,7 @@
     "nivel": "A1.2",
     "unidad": "5",
     "titulo": "How to Pack an Emergency Backpack",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -836,14 +836,15 @@
         "pregunta": "You should check the backpack every month.",
         "correcta": false
       }
-    ]
+    ],
+    "imagen": null
   },
   {
     "id": "ra12_10",
     "nivel": "A1.2",
     "unidad": "5",
     "titulo": "How to Stay Safe During an Earthquake",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -913,14 +914,15 @@
         "pregunta": "After leaving a damaged building, you should go to an open area away from buildings, trees, and power lines.",
         "correcta": true
       }
-    ]
+    ],
+    "imagen": null
   },
   {
     "id": "ra12_11",
     "nivel": "A1.2",
     "unidad": "5",
     "titulo": "Paula Nicho Cumez's Daily Routine",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -985,14 +987,15 @@
         "pregunta": "Paula never stops learning about her culture and sharing it through her art.",
         "correcta": true
       }
-    ]
+    ],
+    "imagen": null
   },
   {
     "id": "ra12_12",
     "nivel": "A1.2",
     "unidad": "4",
     "titulo": "The Baby's Tenth Day Celebration",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "imagen": "images/a1.2/unit4/thebabystenthdaycelebration.png",
     "audio": null,
     "modoAudio": "tts",
@@ -1055,7 +1058,7 @@
     "nivel": "A2.1",
     "unidad": "6",
     "titulo": "Marjane Satrapi's Rights and Responsibilities",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -1125,14 +1128,15 @@
         "pregunta": "Marjane had to study, respect her teachers, and follow school policies, while her parents had to protect her and help her understand the changes in Iran.",
         "correcta": true
       }
-    ]
+    ],
+    "imagen": null
   },
   {
     "id": "ra21_7",
     "nivel": "A2.1",
     "unidad": "5",
     "titulo": "Hawaii vs. Puerto Rico",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a2.1/unit5/hawaiivspuertorico.png",
     "audio": null,
     "modoAudio": "tts",
@@ -1250,7 +1254,7 @@
     "nivel": "A2.1",
     "unidad": "5",
     "titulo": "Digital Credit Cards vs. Physical Credit Cards",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a2.1/unit5/digitalcreditcardsvsphysicalcreditcards.png",
     "audio": null,
     "modoAudio": "tts",
@@ -1338,7 +1342,7 @@
     "nivel": "A2.1",
     "unidad": "5",
     "titulo": "Backstreet Boys vs. NSYNC: Which Boy Band Was More Successful?",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -1418,14 +1422,15 @@
         "pregunta": "Justin Timberlake became the most successful solo artist from either group.",
         "correcta": true
       }
-    ]
+    ],
+    "imagen": null
   },
   {
     "id": "ra21_9",
     "nivel": "A2.1",
     "unidad": "4",
     "titulo": "Erling Haaland and Carrots",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "imagen": "images/a2.1/unit4/erlinghaalandandcarrots.png",
     "audio": null,
     "modoAudio": "tts",
@@ -1478,7 +1483,7 @@
     "nivel": "A2.1",
     "unidad": "5",
     "titulo": "Australia vs. Canada: Job Opportunities Abroad",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -1558,14 +1563,15 @@
         "pregunta": "Australia is closer to Latin America than Canada.",
         "correcta": false
       }
-    ]
+    ],
+    "imagen": null
   },
   {
     "id": "ra12_5",
     "nivel": "A1.2",
     "unidad": "1",
     "titulo": "A Big Problem in Space",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": "images/a1.2/unit1/abigprobleminspace.png",
     "audio": null,
     "modoAudio": "tts",
@@ -1643,7 +1649,7 @@
     "nivel": "A1.2",
     "unidad": "1",
     "titulo": "Simone Biles Raises the Bar",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "imagen": "images/a1.2/unit1/simonebilesraisesthebar.png",
     "audio": null,
     "modoAudio": "tts",
@@ -1726,7 +1732,7 @@
     "nivel": "A1.2",
     "unidad": "1",
     "titulo": "James Cameron Pulls the Plug",
-    "dificultad": "Basic",
+    "dificultad": "Introductory ●○○",
     "imagen": "images/a1.2/unit1/jamescameronpullstheplug.png",
     "audio": null,
     "modoAudio": "tts",
@@ -1809,7 +1815,7 @@
     "nivel": "A1.2",
     "unidad": "6",
     "titulo": "A Day at the Office",
-    "dificultad": "Intermediate",
+    "dificultad": "Progressive ●●○",
     "imagen": null,
     "audio": null,
     "modoAudio": "tts",
@@ -1922,8 +1928,8 @@
     "nivel": "A1.2",
     "unidad": "3",
     "titulo": "Sarah’s Café",
-    "dificultad": "Basic",
-    "imagen": null,
+    "dificultad": "Introductory ●○○",
+    "imagen": "images/a1.2/unit3/sarahscafe.jpg",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -2015,8 +2021,8 @@
     "nivel": "A1.2",
     "unidad": "3",
     "titulo": "Lucas’s Recycled T-Shirts",
-    "dificultad": "Basic",
-    "imagen": null,
+    "dificultad": "Introductory ●○○",
+    "imagen": "images/a1.2/unit3/lucassrecycledtshirts.jpg",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -2103,8 +2109,8 @@
     "nivel": "A1.2",
     "unidad": "3",
     "titulo": "Sixto Rodriguez Finds His Fans",
-    "dificultad": "Basic",
-    "imagen": null,
+    "dificultad": "Introductory ●○○",
+    "imagen": "images/a1.2/unit3/sixtorodriguezfindshisfans.webp",
     "audio": null,
     "modoAudio": "tts",
     "pdf": null,
@@ -2172,6 +2178,293 @@
       },
       {
         "pregunta": "Rodriguez travels to play concerts after learning about his fans.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "id": "ra12_19",
+    "nivel": "A1.2",
+    "unidad": "3",
+    "titulo": "Inktober and Nature in Guatemala",
+    "dificultad": "Progressive ●●○",
+    "imagen": null,
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "Today is October 1st, and an exciting art challenge is starting! MUSHNAT, the Museum of Natural History in Guatemala, <strong>is hosting</strong> the Inktober challenge about native species of Guatemala. At the beginning of the month, the museum shares the official list: one unique species for each day of October. Right now, children and adults from everywhere <strong>are participating</strong> with great enthusiasm. Some participants are beginners and others are professional artists, but they are all sharing a deep love for nature and learning. They believe an important idea: we do not protect what we do not love, and we do not love what we do not know. Every single day, the museum <strong>is posting</strong> all the drawings on its official Instagram account. The artists are working very hard, and on the last day of October, MUSHNAT <strong>is giving</strong> special prizes to the most constant participants. https://www.instagram.com/mushnatusac/?hl=en",
+    "vocabulario": [],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "What is the theme of the Inktober challenge at MUSHNAT?",
+        "opciones": [
+          "Modern art from Europe",
+          "Native species of Guatemala",
+          "History of world museums"
+        ],
+        "correcta": "Native species of Guatemala"
+      },
+      {
+        "pregunta": "Where does the museum post the drawings every day?",
+        "opciones": [
+          "On its official Instagram account.",
+          "In a local newspaper.",
+          "On a television show."
+        ],
+        "correcta": "On its official Instagram account."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "Only professional artists can participate in the challenge.",
+        "correcta": false
+      },
+      {
+        "pregunta": "The museum shares a list with one unique species for each day of October.",
+        "correcta": true
+      },
+      {
+        "pregunta": "MUSHNAT gives special prizes to constant participants on the last day of October.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "id": "ra12_20",
+    "nivel": "A1.2",
+    "unidad": "4",
+    "titulo": "Cooking with Loroco",
+    "dificultad": "Introductory ●○○",
+    "imagen": "images/a1.2/unit4/cookingwithloroco.jpg",
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "Loroco is a <strong>special flower</strong> used in Central American food. In Guatemala, <strong>many</strong> people use loroco to prepare delicious dishes. It has a strong smell and a special <strong>flavor</strong>. One popular dish is <strong>chicken with loroco</strong>. To prepare it, we need <strong>some chicken</strong>, <strong>some loroco</strong>, <strong>an onion</strong>, and <strong>a few tomatoes</strong>. We also need <strong>a little salt</strong> and <strong>some cream</strong>. We don't need <strong>much oil</strong>, but we need <strong>a lot of flavor</strong>! Loroco is also excellent with <strong>cheese</strong>. Some people make <strong>pupusas with cheese and loroco</strong>, and others add it to <strong>soups</strong>, <strong>rice</strong>, or <strong>sauces</strong>. Are there <strong>many ingredients</strong> in these dishes? Sometimes! But you don't need <strong>any difficult ingredients</strong> to enjoy loroco. With <strong>a few vegetables</strong>, <strong>some cheese</strong>, and <strong>a little loroco</strong>, you can prepare something delicious. For <strong>many families</strong>, loroco is more than an ingredient. It is part of <strong>traditional food</strong> and a flavor that makes a meal special.",
+    "vocabulario": [],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "What is loroco?",
+        "opciones": [
+          "A sweet dessert from Mexico",
+          "A special flower used in Central American food",
+          "A cold drink with fruit"
+        ],
+        "correcta": "A special flower used in Central American food"
+      },
+      {
+        "pregunta": "What ingredients do you need for chicken with loroco?",
+        "opciones": [
+          "Chicken, loroco, onion, tomatoes, salt, and cream",
+          "Beef, potatoes, carrots, and a lot of oil",
+          "Fish, rice, bread, and sugar"
+        ],
+        "correcta": "Chicken, loroco, onion, tomatoes, salt, and cream"
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "Loroco has a strong smell and a special flavor.",
+        "correcta": true
+      },
+      {
+        "pregunta": "You need a lot of oil to prepare chicken with loroco.",
+        "correcta": false
+      },
+      {
+        "pregunta": "Some people make pupusas with cheese and loroco.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "id": "ra11_5",
+    "nivel": "A1.1",
+    "unidad": "2",
+    "titulo": "Translating adresses",
+    "dificultad": "Progressive ●●○",
+    "imagen": null,
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "In Guatemala, addresses are <strong>special</strong>. In <strong>Guatemala City</strong>, people use words like <strong>calle</strong>, <strong>avenida</strong>, and <strong>zona</strong>. A common address is <strong>6a Avenida, Zona 1</strong>. A <strong>calle</strong> is a <strong>street</strong> and an <strong>avenida</strong> is an <strong>avenue</strong>. But when we speak English, we usually keep these names in <strong>Spanish</strong>. Outside the capital, addresses <strong>change</strong>. You can see words like <strong>municipio</strong>, <strong>aldea</strong>, <strong>cantón</strong>, and <strong>colonia</strong>. These words are not easy to <strong>translate</strong>. The United States uses words like <strong>city</strong>, <strong>town</strong>, <strong>village</strong>, <strong>drive</strong>, or <strong>lane</strong>. They are not the same thing. For this reason, do not translate your local <strong>address</strong>. Keep the original words so people can find your <strong>home</strong>. Learning English is not only about new <strong>words</strong>. It is also about learning how different people <strong>live</strong> and organize their <strong>communities</strong>. Every country has a unique way to show the <strong>way</strong>.",
+    "vocabulario": [
+      {
+        "termino": "address",
+        "traduccion": "dirección",
+        "definicion": "the details of where a building or home is located"
+      },
+      {
+        "termino": "street",
+        "traduccion": "calle",
+        "definicion": "a road in a city or town with houses or buildings"
+      },
+      {
+        "termino": "avenue",
+        "traduccion": "avenida",
+        "definicion": "a broad street or road"
+      },
+      {
+        "termino": "translate",
+        "traduccion": "traducir",
+        "definicion": "to change words from one language into another"
+      },
+      {
+        "termino": "community",
+        "traduccion": "comunidad",
+        "definicion": "a group of people living in the same area"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Why should you keep your local address in Spanish?",
+        "opciones": [
+          "So people can easily find your home.",
+          "Because English has no words for streets.",
+          "Because the post office is always closed."
+        ],
+        "correcta": "So people can easily find your home."
+      },
+      {
+        "pregunta": "Which words are commonly used outside Guatemala City?",
+        "opciones": [
+          "Drive, lane, and village",
+          "Street, avenue, and highway",
+          "Municipio, aldea, and cantón"
+        ],
+        "correcta": "Municipio, aldea, and cantón"
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "In Guatemala City, addresses often use calle, avenida, and zona.",
+        "correcta": true
+      },
+      {
+        "pregunta": "The text advises you to translate your home address into English.",
+        "correcta": false
+      },
+      {
+        "pregunta": "Learning English also includes understanding how communities organize themselves.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "id": "ra11_6",
+    "nivel": "A1.1",
+    "unidad": "3",
+    "titulo": "The Man on the Green Cover",
+    "dificultad": "Introductory ●○○",
+    "imagen": null,
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "Look at this man. His name is Al-Khwarizmi. He lived a long time ago. He is the father of algebra.\n\nToday, his face is on old stamps. But in Latin America, his face is very famous for a different reason: the green cover of the Álgebra de Baldor!\n\nRight now, students all over the world open their notebooks. They look at the green book. They read math problems. They write numbers, letters, and equations.\n\nFor example, they can write: 50 + 50 = 100. They say, “Fifty plus fifty equals one hundred.” They can also write: 100 - 25 = 75. They say, “One hundred minus twenty-five equals seventy-five.”\n\nIn algebra, students also use letters. For example: x + 20 = 100. What is x? The answer is 80! Eighty plus twenty equals one hundred.\n\nStudents also practice other math signs: + means plus, - means minus, × means times, ÷ means divided by, and = means equals.\n\nSometimes students say, “Oh no, more homework!” Al-Khwarizmi is quiet on the cover, but his math is in every school. Students practice numbers and equations every day!",
+    "vocabulario": [
+      {
+        "termino": "office supply",
+        "traduccion": "artículos de oficina",
+        "definicion": "materials and equipment used in an office"
+      },
+      {
+        "termino": "hit it out of the park",
+        "traduccion": "hacer un trabajo excelente",
+        "definicion": "to do something exceptionally well"
+      },
+      {
+        "termino": "shape up or ship out",
+        "traduccion": "mejorar o marcharse",
+        "definicion": "to improve work or behavior, or leave"
+      },
+      {
+        "termino": "coworker",
+        "traduccion": "compañero de trabajo",
+        "definicion": "a person with whom one works"
+      },
+      {
+        "termino": "shelf",
+        "traduccion": "estante",
+        "definicion": "a flat surface to hold objects"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Why is Al-Khwarizmi's face famous in Latin America?",
+        "opciones": [
+          "Because it appears on the cover of Álgebra de Baldor.",
+          "Because he was an international soccer player.",
+          "Because he lives in Guatemala today."
+        ],
+        "correcta": "Because it appears on the cover of Álgebra de Baldor."
+      },
+      {
+        "pregunta": "In the equation \"x + 20 = 100\", what is the value of x?",
+        "opciones": [
+          "50",
+          "75",
+          "80"
+        ],
+        "correcta": "80"
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "Al-Khwarizmi is known as the father of algebra.",
+        "correcta": true
+      },
+      {
+        "pregunta": "The math sign \"+\" means minus.",
+        "correcta": false
+      },
+      {
+        "pregunta": "In algebra, students practice both numbers and letters.",
+        "correcta": true
+      }
+    ]
+  },
+  {
+    "id": "ra12_21",
+    "nivel": "A1.2",
+    "unidad": "2",
+    "titulo": "My new office job",
+    "dificultad": "Progressive ●●○",
+    "imagen": "images/a1.2/unit2/mynewofficejob.jpg",
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "Today, I am <strong>starting</strong> a new job at an office supply company. My new boss is nice and polite. The boss is <strong>teaching</strong> me about the company, and I am <strong>learning</strong> quickly. I think I am <strong>hitting it out of the park!</strong>\n\nThe company is <strong>investing</strong> a lot of money in new products. The new products are <strong>arriving</strong> next week. Everyone is <strong>working hard</strong> to prepare the office. My coworkers are <strong>saying</strong> that we need to <strong>shape up or ship out</strong> because the company wants to be successful.\n\nRight now, I am organizing <strong>sticky notes</strong>, <strong>envelopes</strong>, and <strong>highlighters</strong>. My coworker is putting <strong>staplers</strong> and <strong>tape dispensers</strong> on the <strong>shelves</strong>. Another coworker is carrying <strong>clipboards</strong> around the office.\n\nThe office also has many <strong>desks</strong>, <strong>filing cabinets</strong>, and <strong>waste baskets</strong>. Everyone is doing an important job. We are <strong>helping</strong> customers and <strong>preparing</strong> for the new products.",
+    "vocabulario": [],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "What type of company is the speaker working for?",
+        "opciones": [
+          "An office supply company.",
+          "A computer repair shop.",
+          "A clothing factory."
+        ],
+        "correcta": "An office supply company."
+      },
+      {
+        "pregunta": "What items is the speaker organizing right now?",
+        "opciones": [
+          "Staplers and tape dispensers.",
+          "Sticky notes, envelopes, and highlighters.",
+          "Clipboards and filing cabinets."
+        ],
+        "correcta": "Sticky notes, envelopes, and highlighters."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "The new boss is nice and polite.",
+        "correcta": true
+      },
+      {
+        "pregunta": "The speaker is putting staplers on the shelves.",
+        "correcta": false
+      },
+      {
+        "pregunta": "New products are arriving next week.",
         "correcta": true
       }
     ]
