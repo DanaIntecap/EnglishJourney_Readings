@@ -325,18 +325,28 @@ button {
     margin-top: 15px;
 }
 
-/* ===== RESPONSIVE ===== */
-@media (max-width: 600px) {
-    .banner h1 { font-size: 34px; }
-    .rsvp-word { font-size: 30px; }
+/* Reading text and pronunciation practice */
+.reading-practice-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 300px);
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 25px;
+}
 
-    /* ---------- Pronunciation Practice ---------- */
+.reading-practice-layout .reading-text {
+    min-width: 0;
+    margin-bottom: 0;
+    overflow-wrap: anywhere;
+}
+
 .pronunciation-box {
+    min-width: 0;
     background: #f5f7fa;
     border-radius: 15px;
     padding: 20px;
-    margin-top: 20px;
     text-align: center;
+    overflow-wrap: anywhere;
 }
 
 .pronunciation-box h3 {
@@ -344,4 +354,15 @@ button {
     color: #00205b;
     margin-top: 0;
 }
+
+.pronunciation-box button { max-width: 100%; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 800px) {
+    .reading-practice-layout { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .banner h1 { font-size: 34px; }
+    .rsvp-word { font-size: 30px; }
 }

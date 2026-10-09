@@ -13,7 +13,7 @@
 
     <!-- Conexión a tu CSS -->
     <link rel="stylesheet" href="style.css">
-    
+
     <style>
         /* Estilos específicos para el acordeón (por si no quieres agregarlos en línea) */
         details.instrucciones-desplegables {
@@ -105,7 +105,7 @@
     <!-- Ficha Técnica e Instrucciones (Acordeón Desplegable) -->
     <details class="instrucciones-desplegables">
         <summary>📖 Ver Ficha Técnica e Instrucciones de la Actividad</summary>
-        
+
         <div class="instrucciones-contenido">
             <p style="margin: 5px 0;"><strong>Skill:</strong> Reading</p>
             <p style="margin: 5px 0;"><strong>CEFR Level:</strong> Multilevel</p>
@@ -113,7 +113,7 @@
 
             <h3>🎯 Objetivo de Aprendizaje</h3>
             <p>Desarrollar la comprensión lectora y la fluidez cognitiva en inglés mediante la técnica de lectura rápida y la validación de ideas principales.</p>
-            
+
             <h3>📌 Instrucciones</h3>
             <ul>
                 <li>Selecciona tu Nivel, Unidad y la Lectura que deseas explorar en los filtros iniciales.</li>
@@ -139,8 +139,8 @@
 
         <div class="instrucciones-contenido">
              <h3>1. Tiempo estimado</h3>
-            <p>5 mins           
-            </p>            
+            <p>5 mins
+            </p>
             <h3>2. Preparación y Contexto Visual</h3>
             <ul>
                 <li><strong>Proyección Inicial:</strong> El tutor debe compartir la pantalla mostrando el visor RSVP junto con la imagen de referencia de la lectura.</li>
@@ -150,7 +150,7 @@
             <h3>3. Modelado</h3>
             <ul>
                 <li>El tutor presenta el visor RSVP, ajusta una velocidad adecuada, demuestra las funciones básicas (iniciar, pausar y reiniciar) y realiza preguntas breves de comprobación durante la lectura.</li>
-                <li><strong>Pausa Estratégica (⏸ Pause):</strong> Detén la lectura a la mitad. Aprovecha el momento para hacer una pregunta rápida de sondeo (ej. "Who are we reading about?") y asegurar que nadie haya perdido el hilo.</li>   
+                <li><strong>Pausa Estratégica (⏸ Pause):</strong> Detén la lectura a la mitad. Aprovecha el momento para hacer una pregunta rápida de sondeo (ej. "Who are we reading about?") y asegurar que nadie haya perdido el hilo.</li>
             </ul>
 
             <h3>4. Ejecución y Monitoreo</h3>
@@ -189,11 +189,11 @@
         </div>
 
         <h2 id="readingTitle" class="reading-title"></h2>
-        
+
         <div style="text-align: center;">
             <img id="readingImage" class="reading-image" src="" alt="Contexto visual">
         </div>
-        
+
        <div class="reading-actions">
     <button id="btnListen" class="btn-listen">🔊 Escuchar Lectura (TTS)</button>
     <button id="btnPauseSpeech" class="btn-secondary" disabled>⏸ Pausar</button>
@@ -217,10 +217,39 @@
     <p id="speechSpeedHint" style="font-size: 14px;">Palabras por minuto aproximadas. Los cambios se aplican al siguiente fragmento.</p>
 </div>
 
+        <div class="reading-practice-layout">
+        <!-- Texto completo -->
+        <div id="readingText" class="reading-text"></div>
+
+        <!-- Práctica de Pronunciación (Speech Recognition) -->
+<div class="pronunciation-box">
+    <h3>Pronunciation Practice</h3>
+    <p style="font-size: 14px; margin-bottom: 15px; text-align: center;">Read the text out loud to check your pronunciation.</p>
+
+    <div style="text-align: center; margin-bottom: 15px;">
+        <button id="btnMic" class="btn-listen">🎤 Start Recording</button>
+    </div>
+
+    <div id="speechResult" class="answer-box hidden" style="font-size: 16px; margin-bottom: 10px; min-height: 40px;"></div>
+    <div id="speechFeedback" class="hidden" style="font-size: 18px; font-weight: bold; text-align: center;"></div>
+</div>
+
+        </div>
+
+        <!-- Sistema de Preguntas -->
+        <div class="quiz-box">
+            <h3>Comprehension Check</h3>
+            <div id="quizContainer"></div>
+
+            <button id="btnCheckAnswers" class="btn-primary">Submit Answers</button>
+
+            <div id="quizResult" class="quiz-result hidden"></div>
+        </div>
+
         <!-- Visor de Lectura Rápida (RSVP) -->
         <div class="rsvp-box">
             <h3>Visor de Lectura Rápida (RSVP)</h3>
-            
+
             <div style="margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 10px;">
                 <label for="rsvpSpeed"><strong>Speed:</strong></label>
                 <select id="rsvpSpeed" style="width: auto; padding: 5px;">
@@ -252,31 +281,6 @@
             <div id="rsvpStats" class="rsvp-stats">Palabra 0 de 0 · 0% completado · 00:00</div>
         </div>
 
-        <!-- Texto completo -->
-        <div id="readingText" class="reading-text"></div>
-
-        <!-- Práctica de Pronunciación (Speech Recognition) -->
-<div class="pronunciation-box">
-    <h3>Pronunciation Practice</h3>
-    <p style="font-size: 14px; margin-bottom: 15px; text-align: center;">Read the text out loud to check your pronunciation.</p>
-    
-    <div style="text-align: center; margin-bottom: 15px;">
-        <button id="btnMic" class="btn-listen">🎤 Start Recording</button>
-    </div>
-    
-    <div id="speechResult" class="answer-box hidden" style="font-size: 16px; margin-bottom: 10px; min-height: 40px;"></div>
-    <div id="speechFeedback" class="hidden" style="font-size: 18px; font-weight: bold; text-align: center;"></div>
-</div>
-        
-        <!-- Sistema de Preguntas -->
-        <div class="quiz-box">
-            <h3>Comprehension Check</h3>
-            <div id="quizContainer"></div>
-            
-            <button id="btnCheckAnswers" class="btn-primary">Submit Answers</button>
-            
-            <div id="quizResult" class="quiz-result hidden"></div>
-        </div>
 
     </div>
 
