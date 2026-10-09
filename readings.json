@@ -2468,5 +2468,128 @@
         "correcta": true
       }
     ]
+  },
+  {
+    "id": "ra12_22",
+    "nivel": "A1.2",
+    "unidad": "2",
+    "titulo": "My Small Desk",
+    "dificultad": "Introductory ●○○",
+    "imagen": null,
+    "audio": null,
+    "modoAudio": "tts",
+    "pdf": null,
+    "texto": "My <strong>desk</strong> is small, but it is very <strong>comfortable</strong> for my work. I have a <strong>new</strong> <strong>keyboard</strong> and many <strong>papers</strong> for my class. I keep my worksheets on a <strong>clipboard</strong> and use a <strong>highlighter</strong> to mark important dates. In my <strong>filing cabinet</strong>, I have an <strong>envelope</strong> and a <strong>stapler</strong>. I use <strong>sticky notes</strong> to remember my meetings. On the <strong>shelves</strong>, I have a <strong>tape dispenser</strong> and a <strong>disinfectant</strong> to keep everything clean. When I finish, I throw the trash into the <strong>waste basket</strong>.",
+    "vocabulario": [
+      {
+        "termino": "desk",
+        "traduccion": "escritorio",
+        "definicion": "a table used for work or study"
+      },
+      {
+        "termino": "comfortable",
+        "traduccion": "cómodo",
+        "definicion": "pleasant and easy to use"
+      },
+      {
+        "termino": "new",
+        "traduccion": "nuevo",
+        "definicion": "recently made or bought"
+      },
+      {
+        "termino": "keyboard",
+        "traduccion": "teclado",
+        "definicion": "the keys used to type on a computer"
+      },
+      {
+        "termino": "papers",
+        "traduccion": "papeles",
+        "definicion": "sheets used for writing or printing"
+      },
+      {
+        "termino": "clipboard",
+        "traduccion": "portapapeles",
+        "definicion": "a board with a clip that holds papers"
+      },
+      {
+        "termino": "highlighter",
+        "traduccion": "resaltador",
+        "definicion": "a pen used to mark important words or information"
+      },
+      {
+        "termino": "filing cabinet",
+        "traduccion": "archivador",
+        "definicion": "a cabinet used to store documents"
+      },
+      {
+        "termino": "envelope",
+        "traduccion": "sobre",
+        "definicion": "a paper cover used to hold a letter"
+      },
+      {
+        "termino": "stapler",
+        "traduccion": "engrapadora",
+        "definicion": "a tool used to join papers with staples"
+      },
+      {
+        "termino": "sticky notes",
+        "traduccion": "notas adhesivas",
+        "definicion": "small pieces of paper that stick to surfaces"
+      },
+      {
+        "termino": "shelves",
+        "traduccion": "estantes",
+        "definicion": "flat surfaces used to hold objects"
+      },
+      {
+        "termino": "tape dispenser",
+        "traduccion": "dispensador de cinta adhesiva",
+        "definicion": "a tool that holds and cuts sticky tape"
+      },
+      {
+        "termino": "disinfectant",
+        "traduccion": "desinfectante",
+        "definicion": "a substance used to kill germs on surfaces"
+      },
+      {
+        "termino": "waste basket",
+        "traduccion": "papelera",
+        "definicion": "a container used for trash"
+      }
+    ],
+    "preguntas_opcion_multiple": [
+      {
+        "pregunta": "Where does the speaker keep the worksheets?",
+        "opciones": [
+          "On a clipboard.",
+          "In the waste basket.",
+          "Inside an envelope."
+        ],
+        "correcta": "On a clipboard."
+      },
+      {
+        "pregunta": "What does the speaker use to remember meetings?",
+        "opciones": [
+          "A tape dispenser.",
+          "Sticky notes.",
+          "A keyboard."
+        ],
+        "correcta": "Sticky notes."
+      }
+    ],
+    "preguntas_vf": [
+      {
+        "pregunta": "The speaker has a new keyboard.",
+        "correcta": true
+      },
+      {
+        "pregunta": "The speaker uses a highlighter to mark important dates.",
+        "correcta": true
+      },
+      {
+        "pregunta": "The speaker keeps the disinfectant in the waste basket.",
+        "correcta": false
+      }
+    ]
   }
 ]
