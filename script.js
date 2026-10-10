@@ -2,8 +2,14 @@
 // English Journey - Reading module
 // =====================================================
 
+// ---- Enfoques pedagógicos (etiquetas válidas) ----
+const FOCUS_CONTENT = 'Content & Comprehension';
+const FOCUS_ORAL = 'Oral Fluency & Pronunciation';
+const FOCUS_LIST = [FOCUS_CONTENT, FOCUS_ORAL];
+
 let readings = [];
 let currentReading = null;
+let focusFilter = 'all'; // 'all' | FOCUS_CONTENT | FOCUS_ORAL
 
 // ---- RSVP state ----
 let rsvpWords = [];
@@ -13,7 +19,11 @@ let rsvpStartTime = null;
 let rsvpElapsedBeforePause = 0;
 let rsvpIsPlaying = false;
 
+// ---- TTS state ----
+let speechChunks = [], speechChunkIndex = 0, speechPaused = false, speechToken = 0;
+
 // ---- DOM refs ----
+const selectEnfoque = document.getElementById('selectEnfoque');
 const selectNivel = document.getElementById('selectNivel');
 const selectUnidad = document.getElementById('selectUnidad');
 const selectLectura = document.getElementById('selectLectura');
@@ -22,6 +32,7 @@ const readingCard = document.getElementById('readingCard');
 const badgeNivel = document.getElementById('badgeNivel');
 const badgeUnidad = document.getElementById('badgeUnidad');
 const badgeDificultad = document.getElementById('badgeDificultad');
+const focusChips = document.getElementById('focusChips');
 const readingTitle = document.getElementById('readingTitle');
 const readingImage = document.getElementById('readingImage');
 const readingText = document.getElementById('readingText');
@@ -46,14 +57,50 @@ const btnCheckAnswers = document.getElementById('btnCheckAnswers');
 const quizResult = document.getElementById('quizResult');
 
 // =====================================================
+// PARSEO DE ETIQUETAS (skills_focus / tags)
+// Acepta: ["A","B"]  |  "A; B"  |  "A"
+// =====================================================
+function canonicalFocus(label) {
+    const s = String(label || '').trim().toLowerCase();
+    if (!s) return null;
+    if (s.startsWith('content') || s.includes('comprehension')) return FOCUS_CONTENT;
+    if (s.startsWith('oral') || s.includes('fluency') || s.includes('pronunciation')) return FOCUS_ORAL;
+    return null; // etiqueta desconocida: se ignora
+}
+
+function parseFocus(raw) {
+    let list = [];
+    if (Array.isArray(raw)) {
+        list = raw;
+    } else if (typeof raw === 'string') {
+        list = raw.split(';');
+    }
+    const result = [];
+    list.forEach(item => {
+        const canon = canonicalFocus(item);
+        if (canon && !result.includes(canon)) result.push(canon);
+    });
+    // Orden consistente: Content primero, luego Oral
+    return FOCUS_LIST.filter(f => result.includes(f));
+}
+
+function normalizeReading(r) {
+    return {
+        ...r,
+        _focus: parseFocus(r.skills_focus !== undefined ? r.skills_focus : r.tags)
+    };
+}
+
+// =====================================================
 // INIT
 // =====================================================
-init();
-
 async function init() {
     try {
         const res = await fetch('readings.json', { cache: 'no-store' });
-        readings = await res.json();
+        const data = await res.json();
+        readings = data
+            .filter(r => r.active !== false)
+            .map(normalizeReading);
         populateNiveles();
     } catch (err) {
         console.error('No se pudo cargar readings.json', err);
@@ -62,17 +109,20 @@ async function init() {
 }
 
 // =====================================================
-// FILTROS EN CASCADA
+// FILTROS EN CASCADA (Enfoque + Nivel > Unidad > Lectura)
 // =====================================================
+function getVisibleReadings() {
+    if (focusFilter === 'all') return readings;
+    return readings.filter(r => r._focus.includes(focusFilter));
+}
+
 function populateNiveles() {
-    const niveles = [...new Set(readings.map(r => r.nivel))].sort();
+    const niveles = [...new Set(getVisibleReadings().map(r => r.sub_level))].sort();
     fillSelect(selectNivel, niveles, 'Selecciona Nivel');
 }
 
-selectNivel.addEventListener('change', () => {
-    resetCard();
+function populateUnidades() {
     const nivel = selectNivel.value;
-
     selectUnidad.disabled = !nivel;
     selectLectura.disabled = true;
     fillSelect(selectLectura, [], 'Selecciona Lectura');
@@ -82,15 +132,14 @@ selectNivel.addEventListener('change', () => {
         return;
     }
 
-    // Unidades numéricas primero (ordenadas como número), luego texto (ej. "Midterm Review")
     const unidadesDelNivel = [...new Set(
-        readings.filter(r => r.nivel === nivel).map(r => r.unidad)
+        getVisibleReadings().filter(r => r.sub_level === nivel).map(r => String(r.unit))
     )];
 
+    // Numéricas primero (orden numérico), luego texto (ej. "Midterm Review")
     const numericas = unidadesDelNivel
         .filter(u => !isNaN(u))
         .sort((a, b) => Number(a) - Number(b));
-
     const textuales = unidadesDelNivel
         .filter(u => isNaN(u))
         .sort();
@@ -98,10 +147,9 @@ selectNivel.addEventListener('change', () => {
     fillSelect(selectUnidad, [...numericas, ...textuales], 'Selecciona Unidad', (u) => {
         return isNaN(u) ? u : `Unidad ${u}`;
     });
-});
+}
 
-selectUnidad.addEventListener('change', () => {
-    resetCard();
+function populateLecturas() {
     const nivel = selectNivel.value;
     const unidad = selectUnidad.value;
 
@@ -112,8 +160,48 @@ selectUnidad.addEventListener('change', () => {
         return;
     }
 
-    const lecturas = readings.filter(r => r.nivel === nivel && r.unidad === unidad);
+    const lecturas = getVisibleReadings().filter(
+        r => r.sub_level === nivel && String(r.unit) === unidad
+    );
     fillSelectByObject(selectLectura, lecturas, 'Selecciona Lectura');
+}
+
+function setIfExists(selectEl, value) {
+    if (!value) return false;
+    const exists = [...selectEl.options].some(o => o.value === value);
+    if (exists) selectEl.value = value;
+    return exists;
+}
+
+// Cambio de enfoque: reconstruye listas y conserva la selección si sigue disponible
+selectEnfoque.addEventListener('change', () => {
+    focusFilter = selectEnfoque.value || 'all';
+
+    const prevNivel = selectNivel.value;
+    const prevUnidad = selectUnidad.value;
+    const prevLectura = selectLectura.value;
+
+    populateNiveles();
+    const nivelOk = setIfExists(selectNivel, prevNivel);
+
+    populateUnidades();
+    const unidadOk = nivelOk && setIfExists(selectUnidad, prevUnidad);
+
+    populateLecturas();
+    const lecturaOk = unidadOk && setIfExists(selectLectura, prevLectura);
+
+    // Si la lectura abierta ya no cumple el filtro, se cierra la tarjeta
+    if (!lecturaOk) resetCard();
+});
+
+selectNivel.addEventListener('change', () => {
+    resetCard();
+    populateUnidades();
+});
+
+selectUnidad.addEventListener('change', () => {
+    resetCard();
+    populateLecturas();
 });
 
 selectLectura.addEventListener('change', () => {
@@ -141,7 +229,7 @@ function fillSelectByObject(selectEl, items, placeholder) {
     items.forEach(item => {
         const opt = document.createElement('option');
         opt.value = item.id;
-        opt.textContent = item.titulo;
+        opt.textContent = item.title;
         selectEl.appendChild(opt);
     });
 }
@@ -149,34 +237,53 @@ function fillSelectByObject(selectEl, items, placeholder) {
 // =====================================================
 // RENDER DE LA LECTURA
 // =====================================================
+function renderFocusChips(focusArray) {
+    focusChips.innerHTML = '';
+    focusArray.forEach(f => {
+        const chip = document.createElement('span');
+        chip.className = 'focus-chip ' + (f === FOCUS_CONTENT ? 'focus-content' : 'focus-oral');
+        chip.textContent = (f === FOCUS_CONTENT ? '📖 ' : '🎤 ') + f;
+        focusChips.appendChild(chip);
+    });
+}
+
 function renderReading(data) {
     readingCard.classList.remove('hidden');
 
-    badgeNivel.textContent = data.nivel;
-    badgeUnidad.textContent = isNaN(data.unidad) ? data.unidad : `Unidad ${data.unidad}`;
-    badgeDificultad.textContent = data.dificultad;
+    badgeNivel.textContent = data.sub_level;
+    badgeUnidad.textContent = isNaN(data.unit) ? data.unit : `Unidad ${data.unit}`;
+    badgeDificultad.textContent = data.difficulty;
 
-    readingTitle.textContent = data.titulo;
+    renderFocusChips(data._focus);
 
-    readingImage.src = data.imagen;
-    readingImage.alt = data.titulo;
+    readingTitle.textContent = data.title;
+
+    readingImage.src = data.image || '';
+    readingImage.alt = data.title;
     readingImage.onerror = () => { readingImage.style.display = 'none'; };
     readingImage.onload = () => { readingImage.style.display = 'block'; };
 
-    readingText.innerHTML = data.texto;
+    readingText.innerHTML = data.text;
 
-    btnPdf.href = data.pdf;
-    
-// --- NUEVO: Ajustar velocidad automática según el nivel ---
-    if (data.nivel === "A1.1" || data.dificultad === "Principiante") {
-        rsvpSpeed.value = "60"; // O la velocidad lenta por defecto que prefieras
+    // El PDF es opcional: solo se muestra si la lectura tiene el campo "pdf"
+    if (data.pdf) {
+        btnPdf.href = data.pdf;
+        btnPdf.style.display = '';
     } else {
-        rsvpSpeed.value = "100"; // Valor estándar para otros niveles
+        btnPdf.removeAttribute('href');
+        btnPdf.style.display = 'none';
     }
-    // ---------------------------------------------------------
+
+    // Velocidad automática según el nivel
+    if (data.sub_level === 'A1.1') {
+        rsvpSpeed.value = '60';
+    } else {
+        rsvpSpeed.value = '100';
+    }
+
     stopRsvp();
     stopSpeech();
-    prepareRsvp(data.texto);
+    prepareRsvp(data.text);
 
     renderQuiz(data);
 
@@ -193,8 +300,6 @@ function resetCard() {
 // =====================================================
 // TTS - Text to Speech (temporal, hasta tener audio grabado)
 // =====================================================
-let speechChunks = [], speechChunkIndex = 0, speechPaused = false;
-
 btnListen.addEventListener('click', () => {
     if (!currentReading) return;
 
@@ -204,7 +309,7 @@ btnListen.addEventListener('click', () => {
     }
 
     window.speechSynthesis.cancel();
-    speechChunks = stripHtml(currentReading.texto).split(/(?<=[.!?])\s+/).filter(Boolean);
+    speechChunks = stripHtml(currentReading.text).split(/(?<=[.!?])\s+/).filter(Boolean);
     speechChunkIndex = 0; speechPaused = false;
     speechSeek.max = Math.max(0, speechChunks.length - 1); speechSeek.value = 0; speechSeek.disabled = false;
     btnPauseSpeech.disabled = false; btnStopSpeech.disabled = false; btnPauseSpeech.textContent = '⏸ Pausar';
@@ -213,14 +318,18 @@ btnListen.addEventListener('click', () => {
 
 function speakSpeechChunk() {
     if (speechChunkIndex >= speechChunks.length) { stopSpeech(); return; }
+    const myToken = ++speechToken; // invalida callbacks de fragmentos cancelados
     speechPosition.textContent = `Fragmento ${speechChunkIndex + 1} de ${speechChunks.length}`;
     speechSeek.value = speechChunkIndex;
     const utterance = new SpeechSynthesisUtterance(speechChunks[speechChunkIndex]);
     utterance.lang = 'en-US';
-    // Estimate from a 150 WPM base; actual cadence depends on the installed voice.
+    // Estimación a partir de una base de 150 WPM; la cadencia real depende de la voz instalada.
     const requestedWpm = Number(speechSpeed.value);
     utterance.rate = ([60, 80, 100, 150].includes(requestedWpm) ? requestedWpm : 100) / 150;
-    utterance.onend = () => { if (!speechPaused) { speechChunkIndex++; speakSpeechChunk(); } };
+    utterance.onend = () => {
+        if (myToken !== speechToken) return;
+        if (!speechPaused) { speechChunkIndex++; speakSpeechChunk(); }
+    };
     window.speechSynthesis.speak(utterance);
 }
 btnPauseSpeech.addEventListener('click', () => {
@@ -232,9 +341,11 @@ speechSeek.addEventListener('input', () => {
     speechChunkIndex = Number(speechSeek.value); speechPaused = false; window.speechSynthesis.cancel(); speakSpeechChunk();
 });
 function stopSpeech() {
-    // Keep the end callback from starting another fragment after cancel().
-    window.speechSynthesis.cancel(); speechPaused = true; speechChunkIndex = 0;
+    speechToken++; // evita que un onend pendiente inicie otro fragmento
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    speechPaused = true; speechChunkIndex = 0;
     btnPauseSpeech.disabled = true; btnStopSpeech.disabled = true; speechSeek.disabled = true;
+    btnPauseSpeech.textContent = '⏸ Pausar';
     speechPosition.textContent = `Fragmento 0 de ${speechChunks.length}`;
 }
 
@@ -273,7 +384,7 @@ btnPause.addEventListener('click', () => {
 
 btnRestart.addEventListener('click', () => {
     stopRsvp();
-    if (currentReading) prepareRsvp(currentReading.texto);
+    if (currentReading) prepareRsvp(currentReading.text);
 });
 
 function tickRsvp() {
@@ -332,6 +443,8 @@ function updateRsvpStats() {
 
 // =====================================================
 // PREGUNTAS DE COMPRENSIÓN
+// multiple_choice: correct_answer = índice base 1
+// true_false: correct_answer = "T" / "F"
 // =====================================================
 function renderQuiz(data) {
     quizContainer.innerHTML = '';
@@ -340,23 +453,27 @@ function renderQuiz(data) {
 
     let qIndex = 0;
 
-    (data.preguntas_opcion_multiple || []).forEach(q => {
+    (data.multiple_choice || []).forEach(q => {
         qIndex++;
+        const options = q.options || [];
+        const correctText = options[Number(q.correct_answer) - 1];
         quizContainer.appendChild(buildQuestionBlock(
             `mc-${qIndex}`,
-            `${qIndex}. ${q.pregunta}`,
-            q.opciones,
-            q.correcta
+            `${qIndex}. ${q.question}`,
+            options,
+            correctText
         ));
     });
 
-    (data.preguntas_vf || []).forEach(q => {
+    (data.true_false || []).forEach(q => {
         qIndex++;
+        const ca = q.correct_answer;
+        const isTrue = ca === true || String(ca).trim().toUpperCase() === 'T' || String(ca).trim().toLowerCase() === 'true';
         quizContainer.appendChild(buildQuestionBlock(
             `vf-${qIndex}`,
-            `${qIndex}. ${q.pregunta}`,
+            `${qIndex}. ${q.statement}`,
             ['True', 'False'],
-            q.correcta ? 'True' : 'False'
+            isTrue ? 'True' : 'False'
         ));
     });
 }
@@ -371,7 +488,7 @@ function buildQuestionBlock(name, questionText, options, correctValue) {
     qText.textContent = questionText;
     block.appendChild(qText);
 
-    options.forEach((opt, i) => {
+    options.forEach((opt) => {
         const label = document.createElement('label');
         label.className = 'option-label';
 
@@ -419,9 +536,9 @@ btnCheckAnswers.addEventListener('click', () => {
     quizResult.classList.remove('hidden');
     quizResult.textContent = `Puntaje: ${correctCount}/${total}  (${pct}%)`;
 });
+
 /* ============================================================
    Pronunciation Practice — Speech Recognition
-   Agregar este bloque a tu script.js existente.
    Requiere que el HTML tenga: #btnMic, #speechResult, #speechFeedback
    ============================================================ */
 
@@ -441,9 +558,9 @@ btnCheckAnswers.addEventListener('click', () => {
 
   // 2) Configurar el reconocimiento
   const recognition = new SpeechRecognitionAPI();
-  recognition.lang = "en-US";        // inglés, para practicar pronunciación
-  recognition.continuous = true;    // no se detiene solo al terminar de hablar
-  recognition.interimResults = true; // muestra texto mientras se habla
+  recognition.lang = "en-US";
+  recognition.continuous = true;
+  recognition.interimResults = true;
 
   let isListening = false;
 
@@ -467,17 +584,13 @@ btnCheckAnswers.addEventListener('click', () => {
     btnMic.textContent = "⏹ Stop Recording";
   };
 
-// 5) Resultados en tiempo real (parciales y finales)
+  // 5) Resultados en tiempo real (parciales y finales)
   recognition.onresult = (event) => {
     let transcript = "";
-    // Recorremos todos los resultados acumulados en la sesión
     for (let i = 0; i < event.results.length; i++) {
       transcript += event.results[i][0].transcript + " ";
     }
     speechResult.textContent = transcript.trim();
-
-    // Nota: Como ahora es continuo, la validación final se hará 
-    // cuando el usuario presione el botón de Stop para detenerlo manualmente.
   };
 
   // 6) Cuando termina de escuchar (por silencio, error, o stop manual)
@@ -494,9 +607,8 @@ btnCheckAnswers.addEventListener('click', () => {
   };
 
   // 7) Comparación simple entre lo escuchado y el texto de la lectura
+  //    (igual que en tu versión: definida pero aún no se invoca)
   function compararConTexto(transcript) {
-    // ⚠️ AJUSTAR: reemplaza "readingText.textContent" por la variable
-    // o elemento donde tu script.js guarda el texto de la lectura actual.
     const textoOriginal = document.getElementById("readingText").textContent;
 
     const limpiar = (str) =>
@@ -525,3 +637,6 @@ btnCheckAnswers.addEventListener('click', () => {
     }
   }
 })();
+
+// Se inicia al final para que todas las variables ya estén definidas
+init();
