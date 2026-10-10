@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* Estilos específicos para el acordeón (por si no quieres agregarlos en línea) */
+        /* Estilos específicos para el acordeón */
         details.instrucciones-desplegables {
             background: #f8f9fa;
             border-left: 8px solid #0060AA;
@@ -53,8 +53,7 @@
             margin-bottom: 8px;
         }
 
-        /* Ficha Pedagógica: mismo patrón visual que la ficha técnica,
-           pero con acento distinto para identificarla como guía docente */
+        /* Ficha Pedagógica */
         details.ficha-pedagogica {
             background: #f3effa;
             border-left: 8px solid #6a3fa0;
@@ -75,6 +74,30 @@
         details.ficha-pedagogica .instrucciones-contenido h3 {
             color: #6a3fa0;
         }
+
+        /* Chips de enfoque pedagógico (skills_focus) */
+        .focus-chips {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin: 0 0 15px 0;
+        }
+        .focus-chips:empty {
+            display: none;
+        }
+        .focus-chip {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.2;
+        }
+        .focus-chip.focus-content { background: #0060AA; }
+        .focus-chip.focus-oral { background: #008D36; }
     </style>
 </head>
 <body>
@@ -116,7 +139,7 @@
 
             <h3>📌 Instrucciones</h3>
             <ul>
-                <li>Selecciona tu Nivel, Unidad y la Lectura que deseas explorar en los filtros iniciales.</li>
+                <li>Selecciona el Enfoque (opcional), tu Nivel, Unidad y la Lectura que deseas explorar en los filtros iniciales.</li>
                 <li>Ajusta la velocidad de palabras por minuto en el visor rápido (RSVP).</li>
                 <li>Inicia la reproducción y mantén la vista fija en el texto dinámico.</li>
                 <li>Lee el texto completo a tu propio ritmo únicamente como repaso si es necesario.</li>
@@ -169,6 +192,11 @@
 
     <!-- Filtros de selección -->
     <div class="filters">
+        <select id="selectEnfoque" aria-label="Filtrar por enfoque pedagógico">
+            <option value="all" selected>Todos los enfoques</option>
+            <option value="Content & Comprehension">📖 Content & Comprehension</option>
+            <option value="Oral Fluency & Pronunciation">🎤 Oral Fluency & Pronunciation</option>
+        </select>
         <select id="selectNivel">
             <option value="" disabled selected>Selecciona Nivel</option>
         </select>
@@ -187,6 +215,9 @@
             <span id="badgeUnidad" class="badge unit">Unidad</span>
             <span id="badgeDificultad" class="badge topic">Dificultad</span>
         </div>
+
+        <!-- Chips de enfoque pedagógico (se llenan desde script.js) -->
+        <div id="focusChips" class="focus-chips"></div>
 
         <h2 id="readingTitle" class="reading-title"></h2>
 
