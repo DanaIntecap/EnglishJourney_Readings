@@ -2670,5 +2670,21 @@
     "image": "images/a2.1/unit7/acatproblem.jpg",
     "multiple_choice": [],
     "true_false": []
+  },
+  {
+    "id": "ra12_23",
+    "level": "A1",
+    "sub_level": "A1.2",
+    "unit": 4,
+    "title": "My grocery shopping",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "",
+    "active": true,
+    "text": "I need to go to the store to buy groceries for a special dinner. I will buy chicken and pasta, but I won't take bacon because it is expensive. I also need oil, flour, and rice for my week. I try to choose the fruits that look fresh. I always choose a different vegetable for the salad. I always get a big bottle of water and sometimes a bottle of wine, but today I'm buying some juice for the party. I like this place because the service is fast, even if some packages look ugly or old.",
+    "image": null,
+    "multiple_choice": [],
+    "true_false": []
   }
 ]
