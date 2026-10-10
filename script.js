@@ -9,7 +9,7 @@ const FOCUS_LIST = [FOCUS_CONTENT, FOCUS_ORAL];
 
 let readings = [];
 let currentReading = null;
-let focusFilter = 'all'; // 'all' | FOCUS_CONTENT | FOCUS_ORAL
+let focusFilter = FOCUS_CONTENT;
 
 // ---- RSVP state ----
 let rsvpWords = [];
@@ -112,7 +112,6 @@ async function init() {
 // FILTROS EN CASCADA (Enfoque + Nivel > Unidad > Lectura)
 // =====================================================
 function getVisibleReadings() {
-    if (focusFilter === 'all') return readings;
     return readings.filter(r => r._focus.includes(focusFilter));
 }
 
@@ -175,7 +174,7 @@ function setIfExists(selectEl, value) {
 
 // Cambio de enfoque: reconstruye listas y conserva la selección si sigue disponible
 selectEnfoque.addEventListener('change', () => {
-    focusFilter = selectEnfoque.value || 'all';
+    focusFilter = selectEnfoque.value || FOCUS_CONTENT;
 
     const prevNivel = selectNivel.value;
     const prevUnidad = selectUnidad.value;
