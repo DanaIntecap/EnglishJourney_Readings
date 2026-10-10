@@ -1,2594 +1,602 @@
 [
   {
     "id": "RA11_1",
-    "nivel": "A1.1",
-    "unidad": "3",
-    "titulo": "Greetings and alphabet",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.1/unit3/greetingsandalphabet.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Good <strong>afternoon</strong>! My name is Paulo. I am from <strong>Brazil</strong>. In my English class, we practice <strong>capital letters</strong> and <strong>small letters</strong>. I know the <strong>vowels</strong> and <strong>consonants</strong>. How are you? I am very happy today. <strong>Nice to meet you!</strong>",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.1",
+    "unit": 3,
+    "title": "Greetings and alphabet",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Introductory ●○○",
+    "active": true,
+    "text": "Good afternoon! My name is Paulo. I am from Brazil. In my English class, we practice capital letters and small letters. I know the vowels and consonants. How are you? I am very happy today. Nice to meet you!",
+    "image": "images/a1.1/unit3/readingsandalphabet.png",
+    "multiple_choice": [
       {
-        "pregunta": "Where is he from?",
-        "opciones": [
-          "Mexico",
-          "Guatemala",
-          "Brazil"
-        ],
-        "correcta": "Brazil"
+        "question": "Where is he from?",
+        "options": ["Mexico", "Guatemala", "Brazil"],
+        "correct_answer": 3
       },
       {
-        "pregunta": "How is he?",
-        "opciones": [
-          "He is very happy.",
-          "He is very sad.",
-          "He is not happy."
-        ],
-        "correcta": "He is very happy."
+        "question": "How is he?",
+        "options": ["He is very happy.", "He is very sad.", "He is not happy."],
+        "correct_answer": 1
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "His name is Marcos.",
-        "correcta": false
+        "statement": "His name is Marcos.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "The students practice capital letters and small letters",
-        "correcta": true
+        "statement": "The students practice capital letters and small letters",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "He is in an English class",
-        "correcta": true
+        "statement": "He is in an English class",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "RA11_2",
-    "nivel": "A1.1",
-    "unidad": "3",
-    "titulo": "The big S Supermarket",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.1/unit3/thebigssupermarket.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "We are at the <strong>supermarket</strong>. The name of this supermarket is \"The big S\". The <strong>watermelons</strong> and <strong>oranges</strong> are on <strong>sale</strong>. The <strong>carrots</strong> are in front of the <strong>tomatoes</strong>. I check the regular price of the <strong>milk</strong> and the <strong>bread</strong>. It is a good day to shop.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.1",
+    "unit": 3,
+    "title": "The big S Supermarket",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Introductory ●○○",
+    "active": true,
+    "text": "We are at the supermarket. The name of this supermarket is \"The big S\". The watermelons and oranges are on sale. The carrots are in front of the tomatoes. I check the regular price of the milk and the bread. It is a good day to shop.",
+    "image": "images/a1.1/unit3/thebigssupermarketpng",
+    "multiple_choice": [
       {
-        "pregunta": "Which fruits are on sale?",
-        "opciones": [
-          "Apples and bananas",
-          "Watermelons and oranges",
-          "Tomatoes and carrots"
-        ],
-        "correcta": "Watermelons and oranges"
+        "question": "Which fruits are on sale?",
+        "options": ["Apples and bananas", "Watermelons and oranges", "Tomatoes and carrots"],
+        "correct_answer": 2
       },
       {
-        "pregunta": "Where are the carrots?",
-        "opciones": [
-          "Next to the milk",
-          "Behind the tomatoes",
-          "In front of the tomatoes"
-        ],
-        "correcta": "In front of the tomatoes"
+        "question": "Where are the carrots?",
+        "options": ["Next to the milk", "Behind the tomatoes", "In front of the tomatoes"],
+        "correct_answer": 3
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "The watermelons are on sale.",
-        "correcta": true
+        "statement": "The watermelons are on sale.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The carrots are behind the tomatoes.",
-        "correcta": false
+        "statement": "The carrots are behind the tomatoes.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "It is a good day to shop.",
-        "correcta": true
+        "statement": "It is a good day to shop.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "RA11_3",
-    "nivel": "A1.1",
-    "unidad": "3",
-    "titulo": "My german friend Alex",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.1/unit3/mygermanfriendalex.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Hi! Let me tell you about my <strong>friend</strong> Alex. My friend is from <strong>Germany</strong>, but now he lives in <strong>China</strong>. His <strong>favorite food</strong> are <strong>American meat</strong> and <strong>Guatemalan apples</strong>. He eats them every <strong>Sunday</strong>. His favorite number is <strong>100</strong>. He is a very kind person. How old is he? He is <strong>30</strong> years old. We are good friends, and we like to study English together when we connect on Teams or Whatsapp.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.1",
+    "unit": 3,
+    "title": "My german friend Alex",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Introductory ●○○",
+    "active": true,
+    "text": "Hi! Let me tell you about my friend Alex. My friend is from Germany, but now he lives in China. His favorite food are American meat and Guatemalan apples. He eats them every Sunday. His favorite number is 100. He is a very kind person. How old is he? He is 30 years old. We are good friends, and we like to study English together when we connect on Teams or Whatsapp.",
+    "image": "images/a1.1/unit3/mygermanfriendalex.png",
+    "multiple_choice": [
       {
-        "pregunta": "Where is the friend from?",
-        "opciones": [
-          "Germany",
-          "China",
-          "Brazil"
-        ],
-        "correcta": "Germany"
+        "question": "Where is the friend from?",
+        "options": ["Germany", "China", "Brazil"],
+        "correct_answer": 1
       },
       {
-        "pregunta": "What is his favorite food?",
-        "opciones": [
-          "Bread and milk",
-          "Apples and oranges",
-          "Meat and apples"
-        ],
-        "correcta": "Meat and apples"
+        "question": "What is his favorite food?",
+        "options": ["Bread and milk", "Apples and oranges", "Meat and apples"],
+        "correct_answer": 3
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "The friend lives in China.",
-        "correcta": true
+        "statement": "The friend lives in China.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "His favorite number is 30.",
-        "correcta": false
+        "statement": "His favorite number is 30.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "We like to study German",
-        "correcta": false
+        "statement": "We like to study German",
+        "correct_answer": "F"
       }
     ]
   },
   {
     "id": "RA11_4",
-    "nivel": "A1.1",
-    "unidad": "4",
-    "titulo": "The Global Bakery",
-    "dificultad": "Challenging ●●●",
-    "imagen": "images/a1.1/unit4/theglobalbakery.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Let me give you a tour by my <strong>favorite</strong> store\n\nThis is 'The Global Bakery'. The <strong>bread</strong> here is very good. The owner is Mr. <strong>Cook</strong>; he is from <strong>Greece</strong>, but the coffee is from <strong>Brazil</strong>. On Thursdays, the <strong>Japanese</strong> rice cookies are <strong>on sale</strong>, and on <strong>Fridays </strong> you can buy <strong>Italian</strong> paninis! \n\nToday is <strong>Tuesday</strong>, and the bakery is very busy. People love to buy <strong>French</strong> products like the bagettes. They are delicious! I need <strong>11</strong> croissants for a meeting. The price is <strong>fourteen dollars ($14)</strong>. I have a coupon: <strong>$14 minus $3.50 is $10.50.</strong>.  They always give coupons to the regular costumers. Now you <strong>see why</strong> this is my <strong>favorite</strong> bakery!",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.1",
+    "unit": 4,
+    "title": "The Global Bakery",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Challenging ●●●",
+    "active": true,
+    "text": "Let me give you a tour by my favorite store This is 'The Global Bakery'. The bread here is very good. The owner is Mr. Cook; he is from Greece, but the coffee is from Brazil. On Thursdays, the Japanese rice cookies are on sale, and on Fridays you can buy Italian paninis! Today is Tuesday, and the bakery is very busy. People love to buy French products like the bagettes. They are delicious! I need 11 croissants for a meeting. The price is fourteen dollars ($14). I have a coupon: $14 minus $3.50 is $10.50.. They always give coupons to the regular costumers. Now you see why this is my favorite bakery!",
+    "image": "images/a1.1/unit4/theglobalbakery.png",
+    "multiple_choice": [
       {
-        "pregunta": "Where is the coffee from?",
-        "opciones": [
-          "Greece",
-          "Brazil",
-          "Italy"
-        ],
-        "correcta": "Brazil"
+        "question": "Where is the coffee from?",
+        "options": ["Greece", "Brazil", "Italy"],
+        "correct_answer": 2
       },
       {
-        "pregunta": "2. How much does the speaker pay after using the coupon?",
-        "opciones": [
-          "$14.00",
-          "$3.50",
-          "$10.50"
-        ],
-        "correcta": "$10.50"
+        "question": "How much does the speaker pay after using the coupon?",
+        "options": ["$14.00", "$3.50", "$10.50"],
+        "correct_answer": 3
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "On Tuesdays Italian products are on sale.",
-        "correcta": false
+        "statement": "On Tuesdays Italian products are on sale.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "You can buy Chinese cookies on Thursdays",
-        "correcta": false
+        "statement": "You can buy Chinese cookies on Thursdays",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "Today is Tuesday and I buy French products ",
-        "correcta": true
+        "statement": "Today is Tuesday and I buy French products",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra12_1",
-    "nivel": "A1.2",
-    "unidad": "1",
-    "titulo": "My Life in Canada",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a1.2/unit1/mylifeincanada.avif",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "I am a <strong>young</strong> student. I am living in Canada, so every day I put some <strong>cream</strong> on my face because it is very <strong>cold</strong> outside. I drink a cup of <strong>hot</strong> coffee for a <strong>fast</strong> start to my day.\n\nThis is a picture of me. I am the curly girl that is smiling. I am <strong>thin</strong>, and a little tall. I am currently living in a new apartment with other students. I always try to be <strong>nice</strong> and <strong>polite</strong> with them. They say I'm creative and funny. This is an <strong>old</strong> building, but my bedroom is very <strong>comfortable</strong>.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.2",
+    "unit": 1,
+    "title": "My Life in Canada",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Progressive ●●○",
+    "active": true,
+    "text": "I am a young student. I am living in Canada, so every day I put some cream on my face because it is very cold outside. I drink a cup of hot coffee for a fast start to my day. This is a picture of me. I am the curly girl that is smiling. I am thin, and a little tall. I am currently living in a new apartment with other students. I always try to be nice and polite with them. They say I'm creative and funny. This is an old building, but my bedroom is very comfortable.",
+    "image": "images/a1.2/unit1/mylifeincanada.png",
+    "multiple_choice": [
       {
-        "pregunta": "Why does the student put cream on her face?",
-        "opciones": [
-          "Because it is very hot outside.",
-          "Because it is very cold outside.",
-          "Because she wants a fast start to her day."
-        ],
-        "correcta": "Because it is very cold outside."
+        "question": "Why does the student put cream on her face?",
+        "options": ["Because it is very hot outside.", "Because it is very cold outside.", "Because she wants a fast start to her day."],
+        "correct_answer": 2
       },
       {
-        "pregunta": "Who does she live with?",
-        "opciones": [
-          "Other students.",
-          "Her family.",
-          "Her teachers."
-        ],
-        "correcta": "Other students."
+        "question": "Who does she live with?",
+        "options": ["Other students.", "Her family.", "Her teachers."],
+        "correct_answer": 1
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "The student has curly hair.",
-        "correcta": true
+        "statement": "The student has curly hair.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The building is new.",
-        "correcta": false
+        "statement": "The building is new.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "Her bedroom is very comfortable.",
-        "correcta": true
+        "statement": "Her bedroom is very comfortable.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra12_2",
-    "nivel": "A1.2",
-    "unidad": "5",
-    "titulo": "The Real Routine of Cristiano Ronaldo",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a1.2/unit5/therealroutineofcristianoronaldo.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "What does Cristiano Ronaldo do away from the football cameras? His routine includes exercise, good food and family time.\n\nIn the morning, he <strong>drinks water</strong>, takes a short cold bath and <strong>takes a shower</strong>. He enjoys some morning sunlight before his coffee. To stay fit, he <strong>runs</strong> on the pitch and <strong>lifts weights</strong> in the gym. \n\nHe <strong>eats</strong> fish, chicken, fruit and vegetables, and tries to avoid sugary foods. Cristiano also <strong>takes care of his body</strong> through rest. He checks his sleep with a small device on his wrist. His routine is not only about hard training.\n\nIn his free time, he <strong>spends time with his partner and children</strong>. Family time helps him relax. He also <strong>plays padel</strong> with close friends and likes to <strong>watch fights</strong>. Even a famous football player needs time for other interests and the people he loves.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.2",
+    "unit": 5,
+    "title": "The Real Routine of Cristiano Ronaldo",
+    "skills_focus": [
+      "Content & Comprehension"
+    ],
+    "difficulty": "Progressive ●●○",
+    "active": true,
+    "text": "What does Cristiano Ronaldo do away from the football cameras? His routine includes exercise, good food and family time. In the morning, he drinks water, takes a short cold bath and takes a shower. He enjoys some morning sunlight before his coffee. To stay fit, he runs on the pitch and lifts weights in the gym. He eats fish, chicken, fruit and vegetables, and tries to avoid sugary foods. Cristiano also takes care of his body through rest. He checks his sleep with a small device on his wrist. His routine is not only about hard training. In his free time, he spends time with his partner and children. Family time helps him relax. He also plays padel with close friends and likes to watch fights. Even a famous football player needs time for other interests and the people he loves.",
+    "image": "images/a1.2/unit5/therealroutineofcristianoronaldo.jpg",
+    "multiple_choice": [
       {
-        "pregunta": "How does Cristiano check his sleep?",
-        "opciones": [
-          "With a small device on his wrist.",
-          "With a camera in his bedroom.",
-          "With a notebook next to his bed."
-        ],
-        "correcta": "With a small device on his wrist."
+        "question": "How does Cristiano check his sleep?",
+        "options": ["With a small device on his wrist.", "With a camera in his bedroom.", "With a notebook next to his bed."],
+        "correct_answer": 1
       },
       {
-        "pregunta": "Which sport does he play with close friends?",
-        "opciones": [
-          "Basketball.",
-          "Padel.",
-          "Volleyball."
-        ],
-        "correcta": "Padel."
+        "question": "Which sport does he play with close friends?",
+        "options": ["Basketball.", "Padel.", "Volleyball."],
+        "correct_answer": 2
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "Cristiano drinks coffee before he enjoys the morning sunlight.",
-        "correcta": false
+        "statement": "Cristiano drinks coffee before he enjoys the morning sunlight.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "He runs on the pitch and lifts weights in the gym.",
-        "correcta": true
+        "statement": "He runs on the pitch and lifts weights in the gym.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "His routine includes time with his partner and children.",
-        "correcta": true
+        "statement": "His routine includes time with his partner and children.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra12_3",
-    "nivel": "A1.2",
-    "unidad": "5",
-    "titulo": "The Real Routine of Lester Martínez",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a1.2/unit5/therealroutineoflestermartinez.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Lester Martínez is a professional boxer from Petén, Guatemala. His work takes him far from home, but Guatemala remains an important part of his life.\n\nHe <strong>trains</strong> in Guatemala and the United States. During training camps, he <strong>practices with other boxers</strong> and works closely with his coaches. These practice fights prepare him for the ring. Food experts help him <strong>eat well</strong>, keep his energy up and <strong>control his weight</strong>. Before a fight, he pays special attention to his food and water.\n\nWhat does he miss away from home? Tortillas and Guatemalan food! He wants to enjoy these foods with <strong>family and friends</strong> when he returns. For Lester, going home means more than a break from boxing.\n\nThere is also a lighter side to his training. In one video on social media, he <strong>dances</strong> with Terence Crawford after a practice fight. They enjoy the song “Tu Sonrisa.” His training camp includes hard work, but also music and fun with a friend.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.2",
+    "unit": 5,
+    "title": "The Real Routine of Lester Martínez",
+    "skills_focus": [
+      "Content & Comprehension"
+    ],
+    "difficulty": "Progressive ●●○",
+    "active": true,
+    "text": "Lester Martínez is a professional boxer from Petén, Guatemala. His work takes him far from home, but Guatemala remains an important part of his life. He trains in Guatemala and the United States. During training camps, he practices with other boxers and works closely with his coaches. These practice fights prepare him for the ring. Food experts help him eat well, keep his energy up and control his weight. Before a fight, he pays special attention to his food and water. What does he miss away from home? Tortillas and Guatemalan food! He wants to enjoy these foods with family and friends when he returns. For Lester, going home means more than a break from boxing. There is also a lighter side to his training. In one video on social media, he dances with Terence Crawford after a practice fight. They enjoy the song “Tu Sonrisa.” His training camp includes hard work, but also music and fun with a friend.",
+    "image": "images/a1.2/unit5/therealroutineoflestermartinez.png",
+    "multiple_choice": [
       {
-        "pregunta": "Who helps Lester with his food and weight?",
-        "opciones": [
-          "His fans.",
-          "Food experts.",
-          "Music teachers."
-        ],
-        "correcta": "Food experts."
+        "question": "Who helps Lester with his food and weight?",
+        "options": ["His fans.", "Food experts.", "Music teachers."],
+        "correct_answer": 2
       },
       {
-        "pregunta": "What does Lester do with Terence Crawford in the video?",
-        "opciones": [
-          "He cooks tortillas.",
-          "He plays football.",
-          "He dances after a practice fight."
-        ],
-        "correcta": "He dances after a practice fight."
+        "question": "What does Lester do with Terence Crawford in the video?",
+        "options": ["He cooks tortillas.", "He plays football.", "He dances after a practice fight."],
+        "correct_answer": 3
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "Lester trains only in Guatemala.",
-        "correcta": false
+        "statement": "Lester trains only in Guatemala.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "He pays special attention to his food and water before a fight.",
-        "correcta": true
+        "statement": "He pays special attention to his food and water before a fight.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "He wants to enjoy Guatemalan food with family and friends.",
-        "correcta": true
+        "statement": "He wants to enjoy Guatemalan food with family and friends.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra12_4",
-    "nivel": "A1.2",
-    "unidad": "5",
-    "titulo": "The Scientist Who Saved Millions",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a1.2/unit5/thescientistwhosavedmillions.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong> A Big Problem</strong>: Tu Youyou is a scientist in China. She wants to help people. There is a terrible sickness called malaria. Many people get sick, and doctors need a new <strong>cure</strong>.\n\nLooking for Answers: Tu Youyou does not give up. She reads very old books about traditional medicine and plants. She studies day and night, testing hundreds of different <strong>herbs</strong> to find a solution.\nFinally, she finds a special plant called sweet wormwood. She discovers a clever way to get the medicine from the plant using cold liquids instead of hot ones, so the medicine does not break.\n\nA Great Success: The new medicine is called <strong>artemisinin</strong>. It works perfectly and cures the sickness. Tu Youyou saves millions of lives around the world and wins the Nobel Prize in Medicine.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.2",
+    "unit": 5,
+    "title": "The Scientist Who Saved Millions",
+    "skills_focus": [
+      "Content & Comprehension"
+    ],
+    "difficulty": "Progressive ●●○",
+    "active": true,
+    "text": "A Big Problem: Tu Youyou is a scientist in China. She wants to help people. There is a terrible sickness called malaria. Many people get sick, and doctors need a new cure. Looking for Answers: Tu Youyou does not give up. She reads very old books about traditional medicine and plants. She studies day and night, testing hundreds of different herbs to find a solution. Finally, she finds a special plant called sweet wormwood. She discovers a clever way to get the medicine from the plant using cold liquids instead of hot ones, so the medicine does not break. A Great Success: The new medicine is called artemisinin. It works perfectly and cures the sickness. Tu Youyou saves millions of lives around the world and wins the Nobel Prize in Medicine.",
+    "image": "images/a1.2/unit5/thescientistwhosavedmillions.jpg",
+    "multiple_choice": [
       {
-        "pregunta": "Where does Tu Youyou look for answers?",
-        "opciones": [
-          "In books about ocean animals.",
-          "In old books about medicine and plants.",
-          "In books about modern machines."
-        ],
-        "correcta": "In old books about medicine and plants."
+        "question": "Where does Tu Youyou look for answers?",
+        "options": ["In books about ocean animals.", "In old books about medicine and plants.", "In books about modern machines."],
+        "correct_answer": 2
       },
       {
-        "pregunta": "Why does she use cold liquids?",
-        "opciones": [
-          "To protect the medicine from damage.",
-          "To make the plant grow faster.",
-          "To change the color of the plant."
-        ],
-        "correcta": "To protect the medicine from damage."
+        "question": "Why does she use cold liquids?",
+        "options": ["To protect the medicine from damage.", "To make the plant grow faster.", "To change the color of the plant."],
+        "correct_answer": 1
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "Tu Youyou tests only one herb.",
-        "correcta": false
+        "statement": "Tu Youyou tests only one herb.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "She gets the medicine from a plant called sweet wormwood.",
-        "correcta": true
+        "statement": "She gets the medicine from a plant called sweet wormwood.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "She wins the Nobel Prize in Medicine.",
-        "correcta": true
+        "statement": "She wins the Nobel Prize in Medicine.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra21_1",
-    "nivel": "A2.1",
-    "unidad": "5",
-    "titulo": "Boyan Slat – Cleaning the Oceans",
-    "dificultad": "Challenging ●●●",
-    "imagen": "images/a2.1/unit5/boyanslatcleaningtheoceans.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Boyan Slat is a young Dutch inventor. When he was sixteen years old, he went diving in Greece and saw more plastic bags than fish in the sea. He felt deeply inspired to solve this global environmental problem. He was determined to make the oceans <strong>as clean as a whistle</strong> again.\n\nBoyan is an active and passionate leader. At the beginning, some people doubted his project. A few critics said he was just a fast talker who wanted easy attention. However, Boyan stayed confident. He designed advanced technology to trap plastic waste in rivers before it reaches the sea. His organization, The Ocean Cleanup, became one of the largest cleaning projects in history.\n\nToday, Boyan focuses on <strong>constructive solutions</strong> for our planet. His floating barriers are more productive than traditional boats with nets, and his team maintains a reliable system in the water. Thanks to his work, many rivers are now cleaner than before.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A2.1",
+    "unit": 5,
+    "title": "Boyan Slat – Cleaning the Oceans",
+    "skills_focus": [
+      "Content & Comprehension"
+    ],
+    "difficulty": "Challenging ●●●",
+    "active": true,
+    "text": "Boyan Slat is a young Dutch inventor. When he was sixteen years old, he went diving in Greece and saw more plastic bags than fish in the sea. He felt deeply inspired to solve this global environmental problem. He was determined to make the oceans as clean as a whistle again. Boyan is an active and passionate leader. At the beginning, some people doubted his project. A few critics said he was just a fast talker who wanted easy attention. However, Boyan stayed confident. He designed advanced technology to trap plastic waste in rivers before it reaches the sea. His organization, The Ocean Cleanup, became one of the largest cleaning projects in history. Today, Boyan focuses on constructive solutions for our planet. His floating barriers are more productive than traditional boats with nets, and his team maintains a reliable system in the water. Thanks to his work, many rivers are now cleaner than before.",
+    "image": "images/a2.1/unit5/boyanslatcleaningtheoceans.jpg",
+    "multiple_choice": [
       {
-        "pregunta": "Why is collecting plastic in rivers important for Boyan’s goal?",
-        "opciones": [
-          "It stops some plastic from reaching the oceans.",
-          "It moves plastic from the oceans into rivers.",
-          "It makes more space for fishing boats."
-        ],
-        "correcta": "It stops some plastic from reaching the oceans."
+        "question": "Why is collecting plastic in rivers important for Boyan’s goal?",
+        "options": ["It stops some plastic from reaching the oceans.", "It moves plastic from the oceans into rivers.", "It makes more space for fishing boats."],
+        "correct_answer": 1
       },
       {
-        "pregunta": "What do Boyan’s actions show about him?",
-        "opciones": [
-          "He changes his goals whenever people criticize him.",
-          "He prefers attention to finding useful solutions.",
-          "He continues working even when others doubt him."
-        ],
-        "correcta": "He continues working even when others doubt him."
+        "question": "What do Boyan’s actions show about him?",
+        "options": ["He changes his goals whenever people criticize him.", "He prefers attention to finding useful solutions.", "He continues working even when others doubt him."],
+        "correct_answer": 3
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "The expression “as clean as a whistle” describes how clean Boyan wants the oceans to be.",
-        "correcta": true
+        "statement": "The expression “as clean as a whistle” describes how clean Boyan wants the oceans to be.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The writer agrees with the critics who call Boyan a “fast talker.”",
-        "correcta": false
+        "statement": "The writer agrees with the critics who call Boyan a “fast talker.”",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "Boyan’s project shows how a personal experience can lead to action on a global problem.",
-        "correcta": true
+        "statement": "Boyan’s project shows how a personal experience can lead to action on a global problem.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra21_2",
-    "nivel": "A2.1",
-    "unidad": "5",
-    "titulo": "Katherine Johnson: A Brilliant Mind",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a2.1/unit5/katherinejohnsonabrilliantmind.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Katherine Johnson was an extraordinary African American mathematician who worked for NASA. From an early age, Katherine was an <strong>energetic</strong> and <strong>enthusiastic</strong> student. She loved numbers and was always the brightest pupil in her school.\n\nDuring the Space Race, NASA needed experts to calculate complex trajectories for astronauts. Katherine was a <strong>visionary</strong> thinker with a special talent for geometry. She was remarkably <strong>diligent</strong> with her calculations. In the 1960s, NASA began using <strong>sophisticated</strong> electronic machines, but the astronauts trusted Katherine more. Her work was more <strong>accurate</strong> than the early computers, and she showed the world that women were fully <strong>capable</strong> of leading scientific missions.\n\nKatherine felt deeply <strong>accountable</strong> for the lives of the astronauts. She was always <strong>committed</strong> to excellence and checked every equation several times. Even though she became one of the most important figures in space history, she was never <strong>big headed</strong>; she remained humble and always praised the power of teamwork.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A2.1",
+    "unit": 5,
+    "title": "Katherine Johnson: A Brilliant Mind",
+    "skills_focus": [
+      "Content & Comprehension",
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Progressive ●●○",
+    "active": true,
+    "text": "Katherine Johnson was an extraordinary African American mathematician who worked for NASA. From an early age, Katherine was an energetic and enthusiastic student. She loved numbers and was always the brightest pupil in her school. During the Space Race, NASA needed experts to calculate complex trajectories for astronauts. Katherine was a visionary thinker with a special talent for geometry. She was remarkably diligent with her calculations. In the 1960s, NASA began using sophisticated electronic machines, but the astronauts trusted Katherine more. Her work was more accurate than the early computers, and she showed the world that women were fully capable of leading scientific missions. Katherine felt deeply accountable for the lives of the astronauts. She was always committed to excellence and checked every equation several times. Even though she became one of the most important figures in space history, she was never big headed; she remained humble and always praised the power of teamwork.",
+    "image": "images/a2.1/unit5/katherinejohnsonabrilliantmind.jpg",
+    "multiple_choice": [
       {
-        "pregunta": "Why did NASA need Katherine Johnson?",
-        "opciones": [
-          "To calculate complex trajectories for astronauts.",
-          "To design electronic machines.",
-          "To train astronauts to fly."
-        ],
-        "correcta": "To calculate complex trajectories for astronauts."
+        "question": "Why did NASA need Katherine Johnson?",
+        "options": ["To calculate complex trajectories for astronauts.", "To design electronic machines.", "To train astronauts to fly."],
+        "correct_answer": 1
       },
       {
-        "pregunta": "What made Katherine’s calculations special?",
-        "opciones": [
-          "They were more accurate than the early computers.",
-          "They were faster than every modern computer.",
-          "They were written by astronauts."
-        ],
-        "correcta": "They were more accurate than the early computers."
+        "question": "What made Katherine’s calculations special?",
+        "options": ["They were more accurate than the early computers.", "They were faster than every modern computer.", "They were written by astronauts."],
+        "correct_answer": 1
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "Katherine loved numbers from an early age.",
-        "correcta": true
+        "statement": "Katherine loved numbers from an early age.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The astronauts trusted the early electronic machines more than Katherine.",
-        "correcta": false
+        "statement": "The astronauts trusted the early electronic machines more than Katherine.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "Katherine remained humble and valued teamwork.",
-        "correcta": true
+        "statement": "Katherine remained humble and valued teamwork.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra21_3",
-    "nivel": "A2.1",
-    "unidad": "6",
-    "titulo": "The bookstore interview",
-    "dificultad": "Introductory ●○○",
-    "imagen": null,
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Last year, I found a job opening at a new bookstore in my town. It was a wonderful <strong>opportunity</strong> for me because I love reading. However, more than thirty people applied for the position, so I felt that getting the job would <strong>be a long shot</strong>.\n\nOn the morning of the interview, my best friend texted me: \"<strong>Break a leg</strong>!\" That message made me smile and gave me confidence. \n\nAt the store, I met the manager. I stayed calm and <strong>focused</strong> on every question. We talked about my professional <strong>goals</strong> for the future. I looked at the manager and said: \"<strong>I can</strong> learn your cash register system fast, and I am a <strong>reliable</strong> worker who is always on time.\" \n\nAt the end of our conversation, I smiled and said: \"Thank you for your time. <strong>I look forward to</strong> hearing from you soon.\" The next day, the manager called me to say I got the job!",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A2",
+    "sub_level": "A2.1",
+    "unit": 6,
+    "title": "The bookstore interview",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Introductory ●○○",
+    "active": true,
+    "text": "Last year, I found a job opening at a new bookstore in my town. It was a wonderful opportunity for me because I love reading. However, more than thirty people applied for the position, so I felt that getting the job would be a long shot. On the morning of the interview, my best friend texted me: \"Break a leg!\" That message made me smile and gave me confidence. At the store, I met the manager. I stayed calm and focused on every question. We talked about my professional goals for the future. I looked at the manager and said: \"I can learn your cash register system fast, and I am a reliable worker who is always on time.\" At the end of our conversation, I smiled and said: \"Thank you for your time. I look forward to hearing from you soon.\" The next day, the manager called me to say I got the job!",
+    "image": "images/a2.1/unit6/thebookstoreinterview.png",
+    "multiple_choice": [
       {
-        "pregunta": "Where did the speaker apply for a job?",
-        "opciones": [
-          "At a hotel.",
-          "At a bookstore.",
-          "At a café."
-        ],
-        "correcta": "At a bookstore."
+        "question": "Where did the speaker apply for a job?",
+        "options": ["At a hotel.", "At a bookstore.", "At a café."],
+        "correct_answer": 2
       },
       {
-        "pregunta": "Who sent the speaker a message before the interview?",
-        "opciones": [
-          "The manager.",
-          "A customer.",
-          "Their best friend."
-        ],
-        "correcta": "Their best friend."
+        "question": "Who sent the speaker a message before the interview?",
+        "options": ["The manager.", "A customer.", "Their best friend."],
+        "correct_answer": 3
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "More than thirty people applied for the bookstore job.",
-        "correcta": true
+        "statement": "More than thirty people applied for the bookstore job.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The speaker said they could learn the cash register system fast.",
-        "correcta": true
+        "statement": "The speaker said they could learn the cash register system fast.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The manager called the speaker one month after the interview.",
-        "correcta": false
+        "statement": "The manager called the speaker one month after the interview.",
+        "correct_answer": "F"
       }
     ]
   },
   {
     "id": "ra21_4",
-    "nivel": "A2.1",
-    "unidad": "6",
-    "titulo": "The receptionist position",
-    "dificultad": "Introductory ●○○",
-    "imagen": null,
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Two years ago, I applied for a job as a receptionist at an international hotel. I studied interview questions every evening because I did not want my preparation to <strong>go down the drain</strong>.\n\nDuring the interview, the front desk manager asked about my previous work. I talked about my customer service <strong>experience</strong> in a small café. I also explained how my computer <strong>skills</strong> could help me register guests quickly. Before the meeting, I visited their website and read their <strong>mission statement</strong>. They wanted to make every traveler feel at home, and I expressed my sincere <strong>respect</strong> for that value.\n\nThe manager told me that the schedule changes often. I told her that I am very <strong>flexible</strong> with morning and evening shifts. I also explained that I am a <strong>methodical</strong> person who likes to follow checklists and keep the reception desk clean and organized. She was very happy with my answers, and I started working there the following week.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A2",
+    "sub_level": "A2.1",
+    "unit": 6,
+    "title": "The receptionist position",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Introductory ●○○",
+    "active": true,
+    "text": "Two years ago, I applied for a job as a receptionist at an international hotel. I studied interview questions every evening because I did not want my preparation to go down the drain. During the interview, the front desk manager asked about my previous work. I talked about my customer service experience in a small café. I also explained how my computer skills could help me register guests quickly. Before the meeting, I visited their website and read their mission statement. They wanted to make every traveler feel at home, and I expressed my sincere respect for that value. The manager told me that the schedule changes often. I told her that I am very flexible with morning and evening shifts. I also explained that I am a methodical person who likes to follow checklists and keep the reception desk clean and organized. She was very happy with my answers, and I started working there the following week.",
+    "image": "images/a2.1/unit6/thereceptionistposition.png",
+    "multiple_choice": [
       {
-        "pregunta": "What job did the speaker apply for?",
-        "opciones": [
-          "A receptionist at a hotel.",
-          "A manager at a café.",
-          "A cashier at a bookstore."
-        ],
-        "correcta": "A receptionist at a hotel."
+        "question": "What job did the speaker apply for?",
+        "options": ["A receptionist at a hotel.", "A manager at a café.", "A cashier at a bookstore."],
+        "correct_answer": 1
       },
       {
-        "pregunta": "Where did the speaker have customer service experience?",
-        "opciones": [
-          "At an airport.",
-          "In a small café.",
-          "At a school."
-        ],
-        "correcta": "In a small café."
+        "question": "Where did the speaker have customer service experience?",
+        "options": ["At an airport.", "In a small café.", "At a school."],
+        "correct_answer": 2
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "The speaker read the hotel’s mission statement on its website.",
-        "correcta": true
+        "statement": "The speaker read the hotel’s mission statement on its website.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The speaker could work only morning shifts.",
-        "correcta": false
+        "statement": "The speaker could work only morning shifts.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "The speaker started working at the hotel the following week.",
-        "correcta": true
+        "statement": "The speaker started working at the hotel the following week.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra21_5",
-    "nivel": "A2.1",
-    "unidad": "6",
-    "titulo": "The neighborhood donation campaign",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a2.1/unit6/theneighborhooddonationcampaign.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Last month, our neighborhood organized a big donation campaign for a local shelter.\nWe wanted to help families in need, and the event was a great success.\nHere is what people donated and what we did:\n• First, we shared important <strong>information</strong> and news about the event on social media.\n• Many neighbors <strong>arrived</strong> and brought old <strong>luggage</strong> filled with winter <strong>clothes</strong> made of <strong>wool</strong> and <strong>cotton</strong>.\n• For the food bank, families collected a lot of <strong>produce</strong>, especially <strong>onions</strong> and <strong>carrots</strong>.\n• We didn't accept raw <strong>seafood</strong> or <strong>poultry</strong> products because we didn't have refrigerators at the park.\n• Instead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks.\n• A local store helped us and provided some <strong>dairy</strong> products.\n• Some volunteers built small boxes using wood and steel to organize all the donations.\n• At the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!\n",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A2",
+    "sub_level": "A2.1",
+    "unit": 6,
+    "title": "The neighborhood donation campaign",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Introductory ●○○",
+    "active": true,
+    "text": "Last month, our neighborhood organized a big donation campaign for a local shelter. We wanted to help families in need, and the event was a great success. Here is what people donated and what we did: • First, we shared important information and news about the event on social media. • Many neighbors arrived and brought old luggage filled with winter clothes made of wool and cotton. • For the food bank, families collected a lot of produce, especially onions and carrots. • We didn't accept raw seafood or poultry products because we didn't have refrigerators at the park. • Instead, people gave non-perishable food and beverages, like bottled water, tea, and cold drinks. • A local store helped us and provided some dairy products. • Some volunteers built small boxes using wood and steel to organize all the donations. • At the end of the day, we felt a lot of love and happiness. We worked hard, but we had good luck with the weather!",
+    "image": "images/a2.1/unit6/theneighborhooddonationcampaign.png",
+    "multiple_choice": [
       {
-        "pregunta": "Who did the neighborhood want to help?",
-        "opciones": [
-          "Families in need.",
-          "Tourists at a hotel.",
-          "Workers at a bookstore."
-        ],
-        "correcta": "Families in need."
+        "question": "Who did the neighborhood want to help?",
+        "options": ["Families in need.", "Tourists at a hotel.", "Workers at a bookstore."],
+        "correct_answer": 1
       },
       {
-        "pregunta": "Why did they not accept raw seafood or poultry?",
-        "opciones": [
-          "Nobody brought any food.",
-          "They did not have refrigerators at the park.",
-          "The shelter only needed clothes."
-        ],
-        "correcta": "They did not have refrigerators at the park."
+        "question": "Why did they not accept raw seafood or poultry?",
+        "options": ["Nobody brought any food.", "They did not have refrigerators at the park.", "The shelter only needed clothes."],
+        "correct_answer": 2
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "People shared information about the event on social media.",
-        "correcta": true
+        "statement": "People shared information about the event on social media.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The neighbors collected onions and carrots.",
-        "correcta": true
+        "statement": "The neighbors collected onions and carrots.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The volunteers had bad luck with the weather.",
-        "correcta": false
+        "statement": "The volunteers had bad luck with the weather.",
+        "correct_answer": "F"
       }
     ]
   },
   {
     "id": "ra21_6",
-    "nivel": "A2.1",
-    "unidad": "4",
-    "titulo": "Teamwork at My First Internship",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a2.1/unit4/teamworkatmyfirstinternship.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Last month, I started an internship at a new office. On my first morning, our manager organized a group project. She explained that building good <strong>interpersonal</strong> connections is the first step to successful collaboration.\n\nAt first, I felt nervous, but the team welcomed me warmly. After the first two days, our tasks were running smoothly, and I said to myself, \"<strong>So far, so good</strong>.\" I wanted to be a helpful <strong>team player</strong>, so I practiced my <strong>communication skills</strong> by listening carefully to my coworkers. During our planning meetings, I spoke with calm <strong>assertiveness</strong> to share my opinions politely. This daily practice gave me more <strong>self-confidence</strong>.\n\nOur project required good <strong>time management</strong> because we had only three days to prepare the final presentation. When we had doubts about our project plan, we used <strong>critical thinking</strong> to analyze the situation. We also shared the <strong>decision-making</strong> process by voting on the best ideas. Working long hours was tiring, but my partner smiled and said, \"<strong>No pain, no gain</strong>!\"\n\nOn Wednesday, a computer error deleted our presentation file. We were suddenly <strong>back to square one</strong>, but nobody panicked. We applied quick <strong>problem-solving</strong> methods and recreated the slides together. Thanks to our honest <strong>teamwork</strong> and strong <strong>work ethic</strong>, we finished the project before the deadline. At the end of the week, our supervisor gave us <strong>constructive feedback</strong> and praised our great rapport.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A2",
+    "sub_level": "A2.1",
+    "unit": 4,
+    "title": "Teamwork at My First Internship",
+    "skills_focus": [
+      "Oral Fluency & Pronunciation"
+    ],
+    "difficulty": "Progressive ●●○",
+    "active": true,
+    "text": "Last month, I started an internship at a new office. On my first morning, our manager organized a group project. She explained that building good interpersonal connections is the first step to successful collaboration. At first, I felt nervous, but the team welcomed me warmly. After the first two days, our tasks were running smoothly, and I said to myself, \"So far, so good.\" I wanted to be a helpful team player, so I practiced my communication skills by listening carefully to my coworkers. During our planning meetings, I spoke with calm assertiveness to share my opinions politely. This daily practice gave me more self-confidence. Our project required good time management because we had only three days to prepare the final presentation. When we had doubts about our project plan, we used critical thinking to analyze the situation. We also shared the decision-making process by voting on the best ideas. Working long hours was tiring, but my partner smiled and said, \"No pain, no gain!\" On Wednesday, a computer error deleted our presentation file. We were suddenly back to square one, but nobody panicked. We applied quick problem-solving methods and recreated the slides together. Thanks to our honest teamwork and strong work ethic, we finished the project before the deadline. At the end of the week, our supervisor gave us constructive feedback and praised our great rapport.",
+    "image": "images/a2.1/unit4/teamworkatmyfirstinternship.png",
+    "multiple_choice": [
       {
-        "pregunta": "How did the team choose the best ideas?",
-        "opciones": [
-          "The intern chose all the ideas alone.",
-          "They voted on the best ideas.",
-          "They asked another company to choose."
-        ],
-        "correcta": "They voted on the best ideas."
+        "question": "How did the team choose the best ideas?",
+        "options": ["The intern chose all the ideas alone.", "They voted on the best ideas.", "They asked another company to choose."],
+        "correct_answer": 2
       },
       {
-        "pregunta": "What did the team do after the computer error?",
-        "opciones": [
-          "They recreated the slides together.",
-          "They canceled the presentation.",
-          "They waited for a new supervisor."
-        ],
-        "correcta": "They recreated the slides together."
+        "question": "What did the team do after the computer error?",
+        "options": ["They recreated the slides together.", "They canceled the presentation.", "They waited for a new supervisor."],
+        "correct_answer": 1
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "The intern listened carefully to coworkers to practice communication skills.",
-        "correcta": true
+        "statement": "The intern listened carefully to coworkers to practice communication skills.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "The team had three weeks to prepare the final presentation.",
-        "correcta": false
+        "statement": "The team had three weeks to prepare the final presentation.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "The team finished the project before the deadline.",
-        "correcta": true
+        "statement": "The team finished the project before the deadline.",
+        "correct_answer": "T"
       }
     ]
   },
   {
     "id": "ra12_7",
-    "nivel": "A1.2",
-    "unidad": "4",
-    "titulo": "Organic Food: Healthy and Local?",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a1.2/unit4/organicfoodhealthyandlocal.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Organic food is food that is produced without using chemicals.\nPeople buy organic food because they think it is healthy. But is it healthy for the planet?\nMost people think that organic food is grown by small local farmers. But today, giant food companies like Coca Cola also grow organic food. Many of these big companies still use conventional farming methods that are very bad for the environment, even if the food they grow is more \"healthy.\"\n\nAnother problem is that a lot of organic food actually comes from faraway countries. Gases from the trucks and airplanes that we use to transport our groceries across continents and countries are a major cause of global warming.\nWhat can you do if you want to buy organic food, but you also want to help the environment?\nOne solution is to support your local farmer and encourage him to grow organic food. You can also join a community agriculture program. Members help pay for seeds, fertilizer, water, equipment, etc., and in return, the farm provides a healthy supply of fresh food.\nSo the answer is to buy organic, but also buy local!",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
+    "level": "A1",
+    "sub_level": "A1.2",
+    "unit": 4,
+    "title": "Organic Food: Healthy and Local?",
+    "skills_focus": [
+      "Content & Comprehension"
+    ],
+    "difficulty": "Progressive ●●○",
+    "active": true,
+    "text": "Organic food is food that is produced without using chemicals. People buy organic food because they think it is healthy. But is it healthy for the planet? Most people think that organic food is grown by small local farmers. But today, giant food companies like Coca Cola also grow organic food. Many of these big companies still use conventional farming methods that are very bad for the environment, even if the food they grow is more \"healthy.\" Another problem is that a lot of organic food actually comes from faraway countries. Gases from the trucks and airplanes that we use to transport our groceries across continents and countries are a major cause of global warming. What can you do if you want to buy organic food, but you also want to help the environment? One solution is to support your local farmer and encourage him to grow organic food. You can also join a community agriculture program. Members help pay for seeds, fertilizer, water, equipment, etc., and in return, the farm provides a healthy supply of fresh food. So the answer is to buy organic, but also buy local!",
+    "image": "images/a1.2/unit4/organicfoodhealthyandlocal.png",
+    "multiple_choice": [
       {
-        "pregunta": "Why do many people buy organic food?",
-        "opciones": [
-          "Because they think it is healthy.",
-          "Because it is always cheap.",
-          "Because it comes from airplanes."
-        ],
-        "correcta": "Because they think it is healthy."
+        "question": "Why do many people buy organic food?",
+        "options": ["Because they think it is healthy.", "Because it is always cheap.", "Because it comes from airplanes."],
+        "correct_answer": 1
       },
       {
-        "pregunta": "What is one way to help the environment?",
-        "opciones": [
-          "Buy organic food from faraway countries.",
-          "Support a local farmer.",
-          "Use more conventional farming methods."
-        ],
-        "correcta": "Support a local farmer."
+        "question": "What is one way to help the environment?",
+        "options": ["Buy organic food from faraway countries.", "Support a local farmer.", "Use more conventional farming methods."],
+        "correct_answer": 2
       }
     ],
-    "preguntas_vf": [
+    "true_false": [
       {
-        "pregunta": "Organic food always comes from small local farmers.",
-        "correcta": false
+        "statement": "Organic food always comes from small local farmers.",
+        "correct_answer": "F"
       },
       {
-        "pregunta": "Transporting food long distances can cause global warming.",
-        "correcta": true
+        "statement": "Transporting food long distances can cause global warming.",
+        "correct_answer": "T"
       },
       {
-        "pregunta": "A community agriculture program can provide fresh food.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_8",
-    "nivel": "A1.2",
-    "unidad": "4",
-    "titulo": "A Green Box: Is It Organic?",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a1.2/unit4/agreenboxisitorganic.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Emma is at the supermarket with her dad. She wants some cereal for breakfast.\n\n“Look! This box is green. It has a tree and the words “100% natural.” Is it organic?” she asks.\n\n“Let’s read the label,” says Dad. “A picture of a tree does not mean the food is organic.”\n\nThey look at another box. It has a small circle with the words “USDA Organic.”\n\n“This is an official seal in the United States,” Dad explains. “Farmers and food companies must follow special rules to use it.”\n\n“Does it mean all the ingredients are organic?” asks Emma.\n\n“Not always. For cereal with this seal, at least 95% of the ingredients must be organic. Water and salt do not count.”\n\nEmma looks at the two boxes again.\n\n“So, a green box and a nice picture are not enough!”\n\n“That’s right. Read the words, too.”\n\nBefore they buy the cereal, Emma checks one more thing: the price!\n\nUseful words\nlabel: etiqueta\nseal: sello\nrules: reglas\nat least: al menos\nenough: suficiente",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What does a green box with a tree prove?",
-        "opciones": [
-          "That the food is cheap.",
-          "That the food is organic.",
-          "Nothing by itself."
-        ],
-        "correcta": "Nothing by itself."
-      },
-      {
-        "pregunta": "How many ingredients must be organic for the USDA seal?",
-        "opciones": [
-          "At least 50%.",
-          "At least 75%.",
-          "At least 95%."
-        ],
-        "correcta": "At least 95%."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "The words “100% natural” always mean “organic.”",
-        "correcta": false
-      },
-      {
-        "pregunta": "The USDA Organic seal is an official seal in the United States.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Water and salt count as organic ingredients.",
-        "correcta": false
-      }
-    ]
-  },
-  {
-    "id": "ra12_9",
-    "nivel": "A1.2",
-    "unidad": "5",
-    "titulo": "How to Pack an Emergency Backpack",
-    "dificultad": "Introductory ●○○",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>How to Pack an Emergency Backpack</strong>\n\nAn emergency backpack can help you stay safe during an earthquake, a storm, or another emergency.\n\n<strong>First</strong>, find a strong backpack.\n\n<strong>Next</strong>, put three bottles of water inside.\n\n<strong>Then</strong>, add some food that does not need a refrigerator, such as crackers or canned food.\n\n<strong>After that</strong>, pack a flashlight and extra batteries.\n\n<strong>Next</strong>, add a first-aid kit with bandages and basic medicine.\n\n<strong>Then</strong>, put important documents in a waterproof bag.\n\n<strong>After that</strong>, add a cell phone charger, a whistle, and a change of clothes.\n\n<strong>Finally</strong>, keep the backpack in an easy-to-find place and check it every six months.\n\n<strong>Vocabulary</strong>\nemergency backpack\nflashlight\nbatteries\nfirst-aid kit\nwhistle\nwaterproof\ndocument\ncheck",
-    "vocabulario": [
-      {
-        "termino": "emergency backpack",
-        "traduccion": "mochila de emergencia",
-        "definicion": "a backpack with supplies for an emergency"
-      },
-      {
-        "termino": "flashlight",
-        "traduccion": "linterna",
-        "definicion": "a small portable light"
-      },
-      {
-        "termino": "batteries",
-        "traduccion": "baterías",
-        "definicion": "small objects that give power to devices"
-      },
-      {
-        "termino": "first-aid kit",
-        "traduccion": "botiquín de primeros auxilios",
-        "definicion": "a box or bag with basic medical supplies"
-      },
-      {
-        "termino": "whistle",
-        "traduccion": "silbato",
-        "definicion": "a small object that makes a loud sound"
-      },
-      {
-        "termino": "waterproof",
-        "traduccion": "impermeable",
-        "definicion": "able to keep water out"
-      },
-      {
-        "termino": "document",
-        "traduccion": "documento",
-        "definicion": "an official or important paper"
-      },
-      {
-        "termino": "check",
-        "traduccion": "revisar",
-        "definicion": "to look at something to make sure it is ready"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What should you pack first?",
-        "opciones": [
-          "A strong backpack.",
-          "Three bottles of water.",
-          "A cell phone charger."
-        ],
-        "correcta": "A strong backpack."
-      },
-      {
-        "pregunta": "What type of food should you add?",
-        "opciones": [
-          "Food that needs a refrigerator.",
-          "Food that does not need a refrigerator.",
-          "Only fresh fruit."
-        ],
-        "correcta": "Food that does not need a refrigerator."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Extra batteries can help keep the flashlight working.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Important documents should go in a waterproof bag.",
-        "correcta": true
-      },
-      {
-        "pregunta": "You should check the backpack every month.",
-        "correcta": false
-      }
-    ],
-    "imagen": null
-  },
-  {
-    "id": "ra12_10",
-    "nivel": "A1.2",
-    "unidad": "5",
-    "titulo": "How to Stay Safe During an Earthquake",
-    "dificultad": "Introductory ●○○",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>How to Stay Safe During an Earthquake</strong>\n\nEarthquakes can happen without warning. It is important to know what to do before, during, and after an earthquake.\n\n<strong>First</strong>, stay calm. Do not run or panic.\n\n<strong>Next</strong>, get under a strong table or desk. If there is no table, sit next to an inside wall and protect your head and neck with your arms.\n\n<strong>Then</strong>, stay away from windows, mirrors, and tall furniture. These objects can break or fall.\n\n<strong>After that</strong>, wait until the shaking stops. Do not use elevators during an earthquake.\n\n<strong>Next</strong>, check yourself and other people for injuries. Help others if you can.\n\n<strong>Then</strong>, listen to the radio or check official information on your phone for emergency updates.\n\n<strong>After that</strong>, if the building is damaged, leave carefully and go to an open area away from buildings, trees, and power lines.\n\n<strong>Finally</strong>, stay with your family or friends and follow the instructions of emergency workers.\n\n<strong>Vocabulary</strong>\nearthquake\nwarning\nstrong\ninjury\ndamaged\npower line",
-    "vocabulario": [
-      {
-        "termino": "earthquake",
-        "traduccion": "terremoto",
-        "definicion": "a sudden movement of the ground"
-      },
-      {
-        "termino": "warning",
-        "traduccion": "advertencia",
-        "definicion": "a message about possible danger"
-      },
-      {
-        "termino": "strong",
-        "traduccion": "resistente",
-        "definicion": "able to support weight without breaking"
-      },
-      {
-        "termino": "injury",
-        "traduccion": "lesión",
-        "definicion": "damage to a person's body"
-      },
-      {
-        "termino": "damaged",
-        "traduccion": "dañado",
-        "definicion": "harmed or broken"
-      },
-      {
-        "termino": "power line",
-        "traduccion": "línea eléctrica",
-        "definicion": "a cable that carries electricity"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What should you do first during an earthquake?",
-        "opciones": [
-          "Stay calm.",
-          "Run outside.",
-          "Use an elevator."
-        ],
-        "correcta": "Stay calm."
-      },
-      {
-        "pregunta": "What parts of your body should you protect?",
-        "opciones": [
-          "Your hands and feet.",
-          "Your head and neck.",
-          "Your back and legs."
-        ],
-        "correcta": "Your head and neck."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Windows can break or fall during an earthquake.",
-        "correcta": true
-      },
-      {
-        "pregunta": "You can leave a damaged building carefully after the shaking stops.",
-        "correcta": true
-      },
-      {
-        "pregunta": "After leaving a damaged building, you should go to an open area away from buildings, trees, and power lines.",
-        "correcta": true
-      }
-    ],
-    "imagen": null
-  },
-  {
-    "id": "ra12_11",
-    "nivel": "A1.2",
-    "unidad": "5",
-    "titulo": "Paula Nicho Cumez's Daily Routine",
-    "dificultad": "Introductory ●○○",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>Paula Nicho Cumez's Daily Routine</strong>\n\n<strong>Paula Nicho Cumez is a Maya Kaqchikel artist from San Juan Comalapa. She is famous for her colorful paintings about Maya culture, nature, and community life.</strong>\n\nPaula <strong>usually</strong> gets up early in the morning. She <strong>always</strong> has breakfast before she starts working. After breakfast, she goes to her studio and begins painting.\n\nShe <strong>often</strong> paints scenes from Maya traditions, nature, and daily life. She <strong>sometimes</strong> listens to music while she works. She <strong>often</strong> spends many hours painting and developing new ideas.\n\nAt lunchtime, she takes a break and has lunch with her family. In the afternoon, she continues working on her paintings. She <strong>sometimes</strong> meets other artists and talks about art projects.\n\nPaula <strong>rarely</strong> travels for long periods because she enjoys spending time in her community, but she may travel for exhibitions and cultural events. She <strong>often</strong> observes nature and local traditions to find inspiration for her artwork.\n\nIn the evening, she spends time with her family and reviews her sketches. She <strong>sometimes</strong> plans new paintings for the next day.\n\nShe <strong>never</strong> stops learning about her culture and sharing it through her art. At night, she goes to bed and prepares for another creative day.\n\n<strong>Frequency Words in the Reading</strong>\nAlways = 100%\nOften = muchas veces\nSometimes = algunas veces\nRarely = rara vez\nNever = nunca\n\n<strong>Discussion</strong>\nWhat do you always do in the morning?\nWhat do you often do after class?\nWhat do you sometimes do on weekends?\nWhat do you rarely do?\nWhat do you never do?",
-    "vocabulario": [
-      {
-        "termino": "always",
-        "traduccion": "siempre",
-        "definicion": "every time or on every occasion"
-      },
-      {
-        "termino": "often",
-        "traduccion": "a menudo",
-        "definicion": "many times"
-      },
-      {
-        "termino": "sometimes",
-        "traduccion": "a veces",
-        "definicion": "on some occasions"
-      },
-      {
-        "termino": "rarely",
-        "traduccion": "rara vez",
-        "definicion": "not often"
-      },
-      {
-        "termino": "never",
-        "traduccion": "nunca",
-        "definicion": "at no time"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Which activity does Paula always do?",
-        "opciones": [
-          "She has breakfast before she starts working.",
-          "She travels for long periods.",
-          "She meets other artists."
-        ],
-        "correcta": "She has breakfast before she starts working."
-      },
-      {
-        "pregunta": "What does Paula often paint?",
-        "opciones": [
-          "Scenes from large international cities.",
-          "Scenes from Maya traditions, nature, and daily life.",
-          "Only portraits of other artists."
-        ],
-        "correcta": "Scenes from Maya traditions, nature, and daily life."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Paula sometimes listens to music while she paints.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Paula rarely travels for long periods.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Paula never stops learning about her culture and sharing it through her art.",
-        "correcta": true
-      }
-    ],
-    "imagen": null
-  },
-  {
-    "id": "ra12_12",
-    "nivel": "A1.2",
-    "unidad": "4",
-    "titulo": "The Baby's Tenth Day Celebration",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.2/unit4/thebabystenthdaycelebration.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>The Baby's Tenth Day Celebration</strong>\n\nIn this painting, by the famous artist Rosa Elena Curruchich, <strong>there is</strong> a baby who is ten days old. The family is celebrating an important moment. In the past, reaching ten days of life was a reason for great joy because many babies did not survive their first days.\n\n<strong>There is</strong> a large clay pot with hot water and medicinal herbs. The steam fills the room with pleasant aromas. <strong>There is</strong> a mother with her baby, and <strong>there is</strong> a group of women wearing colorful traditional huipiles. The women are helping and accompanying the family during the celebration.\n\n<strong>There are</strong> musicians playing traditional music. <strong>There are</strong> men playing the chirimía and the drum. Their music creates a ceremonial atmosphere. <strong>There are</strong> family members and neighbors sharing this special occasion together.\n\n<strong>There is</strong> a feeling of gratitude and happiness in the house. <strong>There are</strong> many traditions that make this celebration important. The painting shows community life, family support, and the protection of a newborn child.\n\n<strong>Vocabulary</strong>\nnewborn child\nsteam\nclay pot",
-    "vocabulario": [
-      {
-        "termino": "newborn child",
-        "traduccion": "recién nacido",
-        "definicion": "a baby that was born very recently"
-      },
-      {
-        "termino": "steam",
-        "traduccion": "vapor",
-        "definicion": "hot water in the form of gas"
-      },
-      {
-        "termino": "clay pot",
-        "traduccion": "olla de barro",
-        "definicion": "a container made of baked clay"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "How old is the baby?",
-        "opciones": [
-          "Ten days old.",
-          "Ten months old.",
-          "One year old."
-        ],
-        "correcta": "Ten days old."
-      },
-      {
-        "pregunta": "What instruments are the men playing?",
-        "opciones": [
-          "The guitar and the violin.",
-          "The chirimía and the drum.",
-          "The piano and the flute."
-        ],
-        "correcta": "The chirimía and the drum."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "There is a large clay pot in the house.",
-        "correcta": true
-      },
-      {
-        "pregunta": "There are musicians at the celebration.",
-        "correcta": true
-      },
-      {
-        "pregunta": "The people feel gratitude and happiness during the celebration.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra21_11",
-    "nivel": "A2.1",
-    "unidad": "6",
-    "titulo": "Marjane Satrapi's Rights and Responsibilities",
-    "dificultad": "Progressive ●●○",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>Marjane Satrapi's Rights and Responsibilities</strong>\n\nMarjane Satrapi grew up in Iran during a time of major political change. When she was a child, new laws affected many people's daily lives. Marjane wanted to understand what was happening in her country and often asked questions about politics and society.\n\nAs a student, Marjane had the right to receive an education. She could learn about different subjects and discuss ideas with her family. However, life was not always easy. After the Revolution, girls had to wear a veil at school. Students had to follow new school rules, even if they did not always agree with them.\n\nMarjane's parents believed that children should think independently. At home, she could express her opinions and ask difficult questions. She may not have understood every political event, but she was encouraged to learn and think critically.\n\nMarjane also had responsibilities. She had to study, respect her teachers, and follow school policies. Her parents had to protect her and help her understand the changes taking place in Iran.\n\nAs she grew older, Marjane learned that people can have rights and responsibilities at the same time. Citizens can express their beliefs, but they also have to respect others. Her experiences taught her that understanding history and society is an important responsibility for everyone.\n\n<strong>Vocabulary</strong>\npolitical change\nright\nveil\nindependently\npolicy\ncitizen",
-    "vocabulario": [
-      {
-        "termino": "political change",
-        "traduccion": "cambio político",
-        "definicion": "a major change in a government or political system"
-      },
-      {
-        "termino": "right",
-        "traduccion": "derecho",
-        "definicion": "something a person is allowed to have or do"
-      },
-      {
-        "termino": "veil",
-        "traduccion": "velo",
-        "definicion": "a piece of cloth worn to cover the hair or face"
-      },
-      {
-        "termino": "independently",
-        "traduccion": "de forma independiente",
-        "definicion": "without being controlled or helped by others"
-      },
-      {
-        "termino": "policy",
-        "traduccion": "norma",
-        "definicion": "an official rule or plan"
-      },
-      {
-        "termino": "citizen",
-        "traduccion": "ciudadano",
-        "definicion": "a person who legally belongs to a country"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Where did Marjane Satrapi grow up?",
-        "opciones": [
-          "In Iran.",
-          "In France.",
-          "In Turkey."
-        ],
-        "correcta": "In Iran."
-      },
-      {
-        "pregunta": "What right did Marjane have as a student?",
-        "opciones": [
-          "The right to ignore school rules.",
-          "The right to receive an education.",
-          "The right to make new laws."
-        ],
-        "correcta": "The right to receive an education."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "After the Revolution, girls had to wear a veil at school.",
-        "correcta": true
-      },
-      {
-        "pregunta": "At home, Marjane could express her opinions and ask difficult questions.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Marjane had to study, respect her teachers, and follow school policies, while her parents had to protect her and help her understand the changes in Iran.",
-        "correcta": true
-      }
-    ],
-    "imagen": null
-  },
-  {
-    "id": "ra21_7",
-    "nivel": "A2.1",
-    "unidad": "5",
-    "titulo": "Hawaii vs. Puerto Rico",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a2.1/unit5/hawaiivspuertorico.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>Hawaii vs. Puerto Rico</strong>\n\n<strong>Which Island Destination Is Better?</strong>\n\nMany people dream about visiting tropical islands. Two popular destinations are <strong>Hawaii</strong> and <strong>Puerto Rico</strong>. Both places have beautiful beaches, warm weather, and interesting cultures, but they are different in several ways.\n\nHawaii is <strong>larger than</strong> Puerto Rico and has <strong>more famous volcanoes</strong>. It is also <strong>farther from</strong> Guatemala. Puerto Rico is <strong>closer to</strong> Guatemala, so flights are often shorter.\n\nPuerto Rico is generally <strong>more Spanish-speaking than</strong> Hawaii. For many Guatemalans, Puerto Rico may feel <strong>more familiar</strong> because Spanish is the main language. In contrast, English is <strong>more common</strong> in Hawaii.\n\nWhen it comes to nature, Hawaii has some of <strong>the most spectacular landscapes</strong> in the world. Its volcanoes are <strong>more impressive than</strong> those of many other destinations. Puerto Rico, however, has <strong>one of the most beautiful rainforests</strong> in the Caribbean, El Yunque.\n\nBoth destinations have excellent beaches. Some travelers think Hawaii has <strong>the best surfing beaches</strong>, while others prefer Puerto Rico because it is <strong>less expensive than</strong> Hawaii. In general, Hawaii is <strong>one of the most expensive</strong> vacation destinations in the United States.\n\nFood is another interesting difference. Puerto Rican food is <strong>spicier than</strong> Hawaiian food in some cases, while Hawaiian cuisine is <strong>more influenced by Asian cultures</strong>.\n\nIn the end, neither destination is clearly <strong>better than</strong> the other. Hawaii may be <strong>the most exciting</strong> choice for travelers who love volcanoes and surfing. Puerto Rico may be <strong>the most convenient</strong> option for people who want a Caribbean experience in a Spanish-speaking environment.",
-    "vocabulario": [
-      {
-        "termino": "larger than",
-        "traduccion": "más grande que",
-        "definicion": "used to compare the size of two things"
-      },
-      {
-        "termino": "more famous than",
-        "traduccion": "más famoso que",
-        "definicion": "better known than another person or place"
-      },
-      {
-        "termino": "farther from",
-        "traduccion": "más lejos de",
-        "definicion": "at a greater distance from a place"
-      },
-      {
-        "termino": "closer to",
-        "traduccion": "más cerca de",
-        "definicion": "at a shorter distance from a place"
-      },
-      {
-        "termino": "more familiar",
-        "traduccion": "más familiar",
-        "definicion": "easier to recognize or understand"
-      },
-      {
-        "termino": "more impressive than",
-        "traduccion": "más impresionante que",
-        "definicion": "causing more admiration than something else"
-      },
-      {
-        "termino": "less expensive than",
-        "traduccion": "menos caro que",
-        "definicion": "costing less money than something else"
-      },
-      {
-        "termino": "spicier than",
-        "traduccion": "más picante que",
-        "definicion": "having a stronger spicy taste than something else"
-      },
-      {
-        "termino": "the most spectacular landscapes",
-        "traduccion": "los paisajes más espectaculares",
-        "definicion": "the landscapes that are more impressive than all others"
-      },
-      {
-        "termino": "one of the most beautiful rainforests",
-        "traduccion": "uno de los bosques tropicales más hermosos",
-        "definicion": "a rainforest considered among the most beautiful"
-      },
-      {
-        "termino": "the best surfing beaches",
-        "traduccion": "las mejores playas para surfear",
-        "definicion": "the beaches considered better than all others for surfing"
-      },
-      {
-        "termino": "one of the most expensive destinations",
-        "traduccion": "uno de los destinos más caros",
-        "definicion": "a destination considered among those that cost the most"
-      },
-      {
-        "termino": "the most exciting choice",
-        "traduccion": "la opción más emocionante",
-        "definicion": "the choice that creates the most excitement"
-      },
-      {
-        "termino": "the most convenient option",
-        "traduccion": "la opción más conveniente",
-        "definicion": "the option that is easiest or most useful"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Which destination is warmer, Hawaii or Puerto Rico?",
-        "opciones": [
-          "Hawaii.",
-          "Puerto Rico.",
-          "Hawaii is as warm as Puerto Rico."
-        ],
-        "correcta": "Hawaii is as warm as Puerto Rico."
-      },
-      {
-        "pregunta": "Which destination is closer to Guatemala?",
-        "opciones": [
-          "Hawaii.",
-          "Puerto Rico.",
-          "Both are equally close."
-        ],
-        "correcta": "Puerto Rico."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Spanish is more common in Puerto Rico than in Hawaii.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Hawaii has more famous volcanoes than Puerto Rico.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Some travelers prefer Puerto Rico because it is less expensive than Hawaii.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra21_8",
-    "nivel": "A2.1",
-    "unidad": "5",
-    "titulo": "Digital Credit Cards vs. Physical Credit Cards",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a2.1/unit5/digitalcreditcardsvsphysicalcreditcards.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>Digital Credit Cards vs. Physical Credit Cards</strong>\n\nMany people use credit cards to pay for products and services. Today, customers can choose between <strong>digital credit cards</strong> and <strong>physical credit cards</strong>. Both options are convenient, but they have important differences.\n\nA digital credit card is stored on a smartphone or smartwatch. A physical credit card is a plastic card that people carry in their wallets.\n\nDigital credit cards are generally <strong>more convenient than</strong> physical credit cards because people usually carry their phones everywhere. They are also <strong>faster than</strong> physical cards in many stores because customers can simply tap their devices.\n\nOn the other hand, physical credit cards are <strong>more widely accepted than</strong> digital cards in some places. Not every business accepts digital payments. Physical cards are also <strong>easier to use than</strong> digital cards for people who are not comfortable with technology.\n\nIn terms of security, many experts believe that digital credit cards are <strong>safer than</strong> physical cards because they often use biometric verification such as fingerprints or facial recognition. If a wallet is stolen, a thief may use a physical card more easily. However, if a phone is lost, users can often lock it remotely.\n\nDigital cards are also <strong>more environmentally friendly than</strong> physical cards because they do not require plastic. Physical cards, however, may be <strong>the most practical option</strong> when a phone battery is dead.\n\nFor frequent travelers, digital wallets are often <strong>the most convenient payment method</strong> because they allow people to carry several cards on one device. However, many consumers still believe that physical cards are <strong>the most reliable option</strong> in emergencies.\n\nIn conclusion, neither option is perfect. Digital credit cards are generally <strong>faster, safer, and more convenient</strong>, while physical credit cards are often <strong>more practical and more widely accepted</strong>. The best choice depends on the user's needs.",
-    "vocabulario": [
-      {
-        "termino": "digital credit card",
-        "traduccion": "tarjeta de crédito digital",
-        "definicion": "a credit card stored on a smartphone or smartwatch"
-      },
-      {
-        "termino": "physical credit card",
-        "traduccion": "tarjeta de crédito física",
-        "definicion": "a plastic credit card carried in a wallet"
-      },
-      {
-        "termino": "widely accepted",
-        "traduccion": "ampliamente aceptado",
-        "definicion": "accepted in many places"
-      },
-      {
-        "termino": "biometric verification",
-        "traduccion": "verificación biométrica",
-        "definicion": "identity checking through fingerprints, facial recognition, or other body features"
-      },
-      {
-        "termino": "remotely",
-        "traduccion": "a distancia",
-        "definicion": "from another place using technology"
-      },
-      {
-        "termino": "environmentally friendly",
-        "traduccion": "ecológico",
-        "definicion": "causing less harm to the environment"
-      },
-      {
-        "termino": "practical",
-        "traduccion": "práctico",
-        "definicion": "useful and suitable for a situation"
-      },
-      {
-        "termino": "reliable",
-        "traduccion": "confiable",
-        "definicion": "able to work well when needed"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Where is a digital credit card stored?",
-        "opciones": [
-          "On a smartphone or smartwatch.",
-          "Only in a plastic wallet.",
-          "On a paper receipt."
-        ],
-        "correcta": "On a smartphone or smartwatch."
-      },
-      {
-        "pregunta": "Why do many experts consider digital credit cards safer?",
-        "opciones": [
-          "They never require a phone.",
-          "They often use biometric verification.",
-          "They are accepted by every business."
-        ],
-        "correcta": "They often use biometric verification."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Digital credit cards are more widely accepted than physical cards in every place.",
-        "correcta": false
-      },
-      {
-        "pregunta": "Digital credit cards can be more environmentally friendly because they do not require plastic.",
-        "correcta": true
-      },
-      {
-        "pregunta": "A physical card may be the most practical option when a phone battery is dead.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_13",
-    "nivel": "A2.1",
-    "unidad": "5",
-    "titulo": "Backstreet Boys vs. NSYNC: Which Boy Band Was More Successful?",
-    "dificultad": "Progressive ●●○",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>Backstreet Boys vs. NSYNC: Which Boy Band Was More Successful?</strong>\n\nIn the late 1990s and early 2000s, <strong>Backstreet Boys</strong> and <strong>NSYNC</strong> were two of the biggest boy bands in the world.\n\nBackstreet Boys sold more than <strong>100 million records</strong> worldwide. NSYNC sold about <strong>70 million records</strong> worldwide. Therefore, Backstreet Boys were <strong>more successful than</strong> NSYNC in total record sales.\n\nHowever, NSYNC released one of <strong>the fastest-selling albums</strong> in music history. Their album <em>No Strings Attached</em> sold about <strong>2.4 million copies in its first week</strong> in the United States. That was <strong>more than</strong> any other album at the time.\n\nBackstreet Boys had <strong>more international success than</strong> NSYNC. Their music was popular in Europe, Asia, and Latin America. They also completed <strong>larger world tours</strong> and performed in more countries.\n\nWhen it comes to awards, both groups were very successful. Backstreet Boys received <strong>more than 200 awards</strong>, while NSYNC won <strong>over 150 awards</strong>. Backstreet Boys were <strong>more recognized internationally</strong>, but NSYNC was often <strong>more popular among teenagers</strong> in the United States.\n\nAnother important difference is the members' careers after the groups slowed down. <strong>Justin Timberlake</strong> became <strong>the most successful solo artist</strong> from either band. He won multiple Grammy Awards and sold millions of albums as a solo singer.\n\nToday, Backstreet Boys are still performing together more than 30 years after they were formed. They are one of <strong>the longest-lasting boy bands</strong> in pop music history. Many fans think they have <strong>the strongest vocal harmonies</strong>, while others believe NSYNC had <strong>the most exciting dance performances</strong>.\n\nIn the end, Backstreet Boys were <strong>more successful in total sales</strong>, but NSYNC had <strong>one of the biggest albums ever released</strong>. Both groups remain among <strong>the most famous boy bands of all time</strong>.\n\n<strong>Statistics</strong>\nBackstreet Boys: 100+ million records sold\nNSYNC: 70+ million records sold\nNo Strings Attached (NSYNC): 2.4 million copies sold in one week\nBackstreet Boys: 200+ awards\nNSYNC: 150+ awards\nJustin Timberlake: the most successful solo artist from either group\n\n<strong>Vocabulary</strong>\nrecord sales\nworldwide\nfastest-selling album\ncopies\nworld tour\nrecognized\nsolo artist\nvocal harmonies",
-    "vocabulario": [
-      {
-        "termino": "record sales",
-        "traduccion": "ventas de discos",
-        "definicion": "the number of music records or albums sold"
-      },
-      {
-        "termino": "worldwide",
-        "traduccion": "en todo el mundo",
-        "definicion": "in all parts of the world"
-      },
-      {
-        "termino": "fastest-selling album",
-        "traduccion": "álbum vendido más rápidamente",
-        "definicion": "an album that sells the most copies in a short time"
-      },
-      {
-        "termino": "copies",
-        "traduccion": "copias",
-        "definicion": "individual examples of an album, book, or other product"
-      },
-      {
-        "termino": "world tour",
-        "traduccion": "gira mundial",
-        "definicion": "a series of performances in different countries"
-      },
-      {
-        "termino": "recognized",
-        "traduccion": "reconocido",
-        "definicion": "known and respected by many people"
-      },
-      {
-        "termino": "solo artist",
-        "traduccion": "artista solista",
-        "definicion": "a performer who works independently rather than as part of a group"
-      },
-      {
-        "termino": "vocal harmonies",
-        "traduccion": "armonías vocales",
-        "definicion": "different sung notes that sound pleasant together"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Which group sold more records worldwide?",
-        "opciones": [
-          "Backstreet Boys.",
-          "NSYNC.",
-          "Both groups sold the same number."
-        ],
-        "correcta": "Backstreet Boys."
-      },
-      {
-        "pregunta": "How many records did Backstreet Boys sell worldwide?",
-        "opciones": [
-          "About 50 million.",
-          "More than 100 million.",
-          "About 70 million."
-        ],
-        "correcta": "More than 100 million."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "NSYNC's No Strings Attached sold about 2.4 million copies in its first week.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Backstreet Boys had more international success than NSYNC.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Justin Timberlake became the most successful solo artist from either group.",
-        "correcta": true
-      }
-    ],
-    "imagen": null
-  },
-  {
-    "id": "ra21_9",
-    "nivel": "A2.1",
-    "unidad": "4",
-    "titulo": "Erling Haaland and Carrots",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a2.1/unit4/erlinghaalandandcarrots.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>Erling Haaland and Carrots</strong>\n\nErling Haaland is a famous football player from Norway. He likes to eat carrots as a snack. Many people see videos of him eating carrots.\n\nIn 2026, more people in Norway started buying carrots. Some farmers said this happened because of Haaland. They called it the “Haaland Effect.”\n\nMany children like Haaland. Some children started eating carrots instead of candy. A few children even called carrots “Haaland candy.”\n\nHaaland was also in a vegetable advertisement during the World Cup. This helped more people see him eating healthy food.\n\nToday, carrots are very popular in Norway. Many people think Haaland helped make them more popular.",
-    "vocabulario": [
-      {
-        "termino": "healthy",
-        "traduccion": "saludable",
-        "definicion": "good for your body"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Where is Erling Haaland from?",
-        "opciones": [
-          "Norway.",
-          "Spain.",
-          "Germany."
-        ],
-        "correcta": "Norway."
-      },
-      {
-        "pregunta": "What vegetable does Haaland like to eat?",
-        "opciones": [
-          "Potatoes.",
-          "Carrots.",
-          "Onions."
-        ],
-        "correcta": "Carrots."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "The story happens in Spain.",
-        "correcta": false
-      },
-      {
-        "pregunta": "Some children started eating carrots instead of candy.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Farmers called the trend the “Haaland Effect.”",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra21_10",
-    "nivel": "A2.1",
-    "unidad": "5",
-    "titulo": "Australia vs. Canada: Job Opportunities Abroad",
-    "dificultad": "Progressive ●●○",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>Australia vs. Canada: Job Opportunities Abroad</strong>\n\nMany Latin Americans consider Australia and Canada when looking for better job opportunities abroad. Canada is often more popular because it has immigration programs for skilled workers and a large multicultural population. Nearly <strong>23% of Canada's population consists of immigrants</strong>, so newcomers can meet people from many different cultures.\n\nOn the other hand, Australia usually offers higher salaries in some industries, especially construction, mining, and engineering. About <strong>31% of Australia's population was born overseas</strong>, which is a higher proportion than Canada's. This also makes Australia a very multicultural country.\n\nCanada is generally colder than Australia, but many people think it is easier to settle there because of its immigrant-friendly policies. For many newcomers, Canada is one of the most accessible countries for starting a new life.\n\nAustralia is warmer than Canada and has a relaxed outdoor lifestyle that attracts many immigrants. However, it is farther from Latin America, so visiting family can be more difficult and expensive. Canada has larger Latin American communities, while Australia has some of the highest wages in the world.\n\nBoth countries are safer than many Latin American countries and offer a high quality of life. Choosing between them depends on personal priorities. If someone wants the easiest immigration process, Canada may be the best option. If someone prefers a warmer climate and potentially higher earnings, Australia could be the better choice.",
-    "vocabulario": [
-      {
-        "termino": "skilled worker",
-        "traduccion": "trabajador calificado",
-        "definicion": "a person trained to do a specific type of work"
-      },
-      {
-        "termino": "multicultural",
-        "traduccion": "multicultural",
-        "definicion": "including people from many different cultures"
-      },
-      {
-        "termino": "wages",
-        "traduccion": "salarios",
-        "definicion": "money that workers receive for their work"
-      },
-      {
-        "termino": "overseas",
-        "traduccion": "en el extranjero",
-        "definicion": "in or from another country across the sea"
-      },
-      {
-        "termino": "settle",
-        "traduccion": "establecerse",
-        "definicion": "to begin living permanently in a new place"
-      },
-      {
-        "termino": "immigrant-friendly",
-        "traduccion": "favorable para inmigrantes",
-        "definicion": "welcoming and supportive toward immigrants"
-      },
-      {
-        "termino": "accessible",
-        "traduccion": "accesible",
-        "definicion": "relatively easy to enter, reach, or use"
-      },
-      {
-        "termino": "priorities",
-        "traduccion": "prioridades",
-        "definicion": "the things that are most important to a person"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Why is Canada often popular with skilled workers?",
-        "opciones": [
-          "It has immigration programs and a multicultural population.",
-          "It is warmer than Australia.",
-          "It is closer to every Latin American country."
-        ],
-        "correcta": "It has immigration programs and a multicultural population."
-      },
-      {
-        "pregunta": "In which industries can Australia offer higher salaries?",
-        "opciones": [
-          "Construction, mining, and engineering.",
-          "Only education and tourism.",
-          "Farming and fishing only."
-        ],
-        "correcta": "Construction, mining, and engineering."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Canada is generally colder than Australia.",
-        "correcta": true
-      },
-      {
-        "pregunta": "About 31% of Australia's population was born overseas.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Australia is closer to Latin America than Canada.",
-        "correcta": false
-      }
-    ],
-    "imagen": null
-  },
-  {
-    "id": "ra12_5",
-    "nivel": "A1.2",
-    "unidad": "1",
-    "titulo": "A Big Problem in Space",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a1.2/unit1/abigprobleminspace.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>A Big Problem in Space</strong>\n\nThree astronauts travel to space on Apollo 13. Two days into the trip, an oxygen tank explodes. It is a serious emergency. The spacecraft loses electricity, water, and air. The astronauts are far away from Earth and are in great danger.\n\nIn Houston, Texas, flight director Gene Kranz calls his entire team to Mission Control. He needs <strong>to rally the troops</strong>. The engineers are worried and scared, but Gene stays calm.\n\nHe explains the situation clearly. He tells them, “Do not panic, and do not guess. Look at what still works and find solutions. Our only job is to bring our team home.”\n\nThe team works together immediately:\n- One group calculates a new flight path around the Moon.\n- Another group finds ways to save battery power and water.\n- In a special room, engineers use simple items like tape, plastic bags, and socks to build an air filter for the astronauts.\n\nEveryone works day and night without stopping. After four days, the three astronauts land safely in the Pacific Ocean. Gene Kranz rallies the troops, and great teamwork saves three lives. This story is portrayed in the movie <em>Apollo 13</em>, starring Tom Hanks.",
-    "vocabulario": [
-      {
-        "termino": "astronaut",
-        "traduccion": "astronauta",
-        "definicion": "a person who travels and works in space"
-      },
-      {
-        "termino": "oxygen tank",
-        "traduccion": "tanque de oxígeno",
-        "definicion": "a container that stores oxygen"
-      },
-      {
-        "termino": "spacecraft",
-        "traduccion": "nave espacial",
-        "definicion": "a vehicle designed to travel in space"
-      },
-      {
-        "termino": "flight director",
-        "traduccion": "director de vuelo",
-        "definicion": "the person who leads a mission control team"
-      },
-      {
-        "termino": "air filter",
-        "traduccion": "filtro de aire",
-        "definicion": "a device that removes harmful material from the air"
-      },
-      {
-        "termino": "rally the troops",
-        "traduccion": "reunir y motivar al equipo",
-        "definicion": "to bring people together and motivate them to reach a goal"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What happens two days into the Apollo 13 trip?",
-        "opciones": [
-          "An oxygen tank explodes.",
-          "The astronauts land on the Moon.",
-          "The spacecraft returns to Earth."
-        ],
-        "correcta": "An oxygen tank explodes."
-      },
-      {
-        "pregunta": "What do the engineers use to build an air filter?",
-        "opciones": [
-          "Metal tools and glass.",
-          "Tape, plastic bags, and socks.",
-          "Wood, paper, and water."
-        ],
-        "correcta": "Tape, plastic bags, and socks."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "The astronauts are close to Earth when the emergency happens.",
-        "correcta": false
-      },
-      {
-        "pregunta": "Gene Kranz tells the team not to panic or guess.",
-        "correcta": true
-      },
-      {
-        "pregunta": "After four days, the astronauts land safely in the Pacific Ocean.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_6",
-    "nivel": "A1.2",
-    "unidad": "1",
-    "titulo": "Simone Biles Raises the Bar",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.2/unit1/simonebilesraisesthebar.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>Simone Biles Raises the Bar</strong>\n\nSimone Biles is a famous gymnast from the United States. She is one of the best gymnasts in history.\n\nSimone works very hard. She can do very difficult skills that many gymnasts cannot do. Because of this, she changed the sport of gymnastics.\n\nPeople say Simone Biles <strong>raised the bar</strong>. This means she made the standard higher. Other gymnasts now try to reach her level. One of her famous skills is called <strong>The Biles II</strong>. Even today, many people use this name. The skill is very difficult and shows Simone's talent.\n\nSimone inspires athletes around the world. She teaches people that hard work and courage can help them achieve great things. Because of her success, gymnastics is different today. Simone Biles raised the bar for everyone.",
-    "vocabulario": [
-      {
-        "termino": "gymnast",
-        "traduccion": "gimnasta",
-        "definicion": "a person who performs gymnastics"
-      },
-      {
-        "termino": "skill",
-        "traduccion": "habilidad o movimiento",
-        "definicion": "an ability or movement learned through practice"
-      },
-      {
-        "termino": "standard",
-        "traduccion": "estándar o nivel",
-        "definicion": "a level used to measure quality or performance"
-      },
-      {
-        "termino": "talent",
-        "traduccion": "talento",
-        "definicion": "a natural ability to do something well"
-      },
-      {
-        "termino": "courage",
-        "traduccion": "valentía",
-        "definicion": "the ability to act even when something is difficult or frightening"
-      },
-      {
-        "termino": "achieve",
-        "traduccion": "lograr",
-        "definicion": "to successfully reach a goal"
-      },
-      {
-        "termino": "raise the bar",
-        "traduccion": "aumentar el nivel",
-        "definicion": "to make a standard higher or more difficult to reach"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Where is Simone Biles from?",
-        "opciones": [
-          "The United States.",
-          "Norway.",
-          "Canada."
-        ],
-        "correcta": "The United States."
-      },
-      {
-        "pregunta": "What does “raise the bar” mean?",
-        "opciones": [
-          "To make the standard higher.",
-          "To make the standard lower.",
-          "To stop practicing a skill."
-        ],
-        "correcta": "To make the standard higher."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Simone Biles only does easy skills.",
-        "correcta": false
-      },
-      {
-        "pregunta": "The Biles II is a famous gymnastics skill.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Simone inspires athletes around the world.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_14",
-    "nivel": "A1.2",
-    "unidad": "1",
-    "titulo": "James Cameron Pulls the Plug",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.2/unit1/jamescameronpullstheplug.png",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>James Cameron Pulls the Plug</strong>\n\nJames Cameron is a famous movie director. He plans to make a comedy movie about terrorists. The name of the movie is <em>True Lies 2</em>.\n\nHowever, the terrible tragedy of September 11 happens in the real world. James changes his mind. He thinks terrorism is not a funny topic anymore.\nSo, he <strong>pulls the plug</strong> on the movie. Literally, this phrase means to disconnect an electrical cable. Figuratively, it means that he cancels the project completely. He never films it.\n\nThis action shows his ethical personality. He respects real-world problems and cares about people's feelings.",
-    "vocabulario": [
-      {
-        "termino": "movie director",
-        "traduccion": "director de cine",
-        "definicion": "a person who guides the creation of a movie"
-      },
-      {
-        "termino": "terrorist",
-        "traduccion": "terrorista",
-        "definicion": "a person who uses violence to create fear for political reasons"
-      },
-      {
-        "termino": "tragedy",
-        "traduccion": "tragedia",
-        "definicion": "a very sad event that causes suffering or death"
-      },
-      {
-        "termino": "cancel",
-        "traduccion": "cancelar",
-        "definicion": "to decide that a planned activity will not happen"
-      },
-      {
-        "termino": "project",
-        "traduccion": "proyecto",
-        "definicion": "a planned piece of work"
-      },
-      {
-        "termino": "ethical",
-        "traduccion": "ético",
-        "definicion": "showing concern for what is right and fair"
-      },
-      {
-        "termino": "pull the plug",
-        "traduccion": "cancelar o poner fin",
-        "definicion": "to stop or cancel a project completely"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What kind of movie does James Cameron plan to make?",
-        "opciones": [
-          "A comedy about terrorists.",
-          "A documentary about space.",
-          "A musical about athletes."
-        ],
-        "correcta": "A comedy about terrorists."
-      },
-      {
-        "pregunta": "Why does James Cameron cancel the movie?",
-        "opciones": [
-          "He does not have enough actors.",
-          "The tragedy of September 11 changes how he sees the topic.",
-          "The movie is already finished."
-        ],
-        "correcta": "The tragedy of September 11 changes how he sees the topic."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Literally, “pull the plug” means to disconnect an electrical cable.",
-        "correcta": true
-      },
-      {
-        "pregunta": "James Cameron films True Lies 2 after September 11.",
-        "correcta": false
-      },
-      {
-        "pregunta": "His decision shows that he cares about people's feelings.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_15",
-    "nivel": "A1.2",
-    "unidad": "6",
-    "titulo": "A Day at the Office",
-    "dificultad": "Progressive ●●○",
-    "imagen": null,
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "<strong>A Day at the Office</strong>\n\nEvery day is busy at Bright Ideas Company. <strong>Daniel is a Sales Representative.</strong> He <strong>goes to work</strong> at 8:00 a.m. and <strong>starts work</strong> at 8:30. In the morning, he <strong>makes phone calls</strong> and <strong>talks to customers</strong>. He also <strong>makes appointments</strong> with new clients. He keeps a yellow notebook on his desk and writes down each customer's name before a call. Daniel <strong>believes</strong> good communication helps the company <strong>achieve</strong> its goals.\n\n<strong>Sofia is a Marketing Specialist.</strong> She usually <strong>starts work</strong> at 8:30 a.m., but on Mondays she arrives at 7:00 to prepare a special meeting. Every Monday, she <strong>attends a meeting</strong> with the marketing team. She <strong>prepares reports</strong> about marketing campaigns and <strong>focuses</strong> on new ideas. Her team <strong>advertises</strong> the company's products on social media and <strong>promotes</strong> special offers. Sofia <strong>anticipates</strong> customers' needs to help <strong>boost</strong> sales.\n\n<strong>Carlos is a Project Manager.</strong> He usually <strong>attends meetings</strong> with different departments and <strong>gives presentations</strong> about new projects. He also <strong>talks to customers</strong> and checks his team's results. Carlos <strong>believes</strong> everybody <strong>benefits from</strong> good teamwork.\n\nHis team works hard to <strong>achieve</strong> its objectives. When they have new projects, they sometimes <strong>finish work</strong> at 7:00 p.m. On these evenings, Carlos always orders dinner for them and pays them for the extra hours. They share pizza around the meeting table before going home. He thanks his team for <strong>keeping their eyes on the prize</strong>: finishing the project well.",
-    "vocabulario": [
-      {
-        "termino": "sales representative",
-        "traduccion": "representante de ventas",
-        "definicion": "a person who sells products or services for a company"
-      },
-      {
-        "termino": "marketing specialist",
-        "traduccion": "especialista en marketing",
-        "definicion": "a person who helps a company attract customers"
-      },
-      {
-        "termino": "project manager",
-        "traduccion": "gerente de proyectos",
-        "definicion": "a person who organizes a project and its team"
-      },
-      {
-        "termino": "make appointments",
-        "traduccion": "concertar citas",
-        "definicion": "to arrange times to meet people"
-      },
-      {
-        "termino": "prepare reports",
-        "traduccion": "preparar informes",
-        "definicion": "to write information about work or results"
-      },
-      {
-        "termino": "achieve",
-        "traduccion": "lograr",
-        "definicion": "to succeed in reaching a goal"
-      },
-      {
-        "termino": "focus on",
-        "traduccion": "concentrarse en",
-        "definicion": "to give your attention to something"
-      },
-      {
-        "termino": "advertise",
-        "traduccion": "anunciar",
-        "definicion": "to tell people about a product or service"
-      },
-      {
-        "termino": "promote",
-        "traduccion": "promocionar",
-        "definicion": "to help people become interested in a product or offer"
-      },
-      {
-        "termino": "anticipate",
-        "traduccion": "anticipar",
-        "definicion": "to think about what someone will need before they ask"
-      },
-      {
-        "termino": "boost sales",
-        "traduccion": "aumentar las ventas",
-        "definicion": "to help a company sell more"
-      },
-      {
-        "termino": "benefit from",
-        "traduccion": "beneficiarse de",
-        "definicion": "to get something good from something"
-      },
-      {
-        "termino": "keep your eyes on the prize",
-        "traduccion": "mantener la vista en la meta",
-        "definicion": "to stay focused on your goal"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What does Daniel write in his yellow notebook?",
-        "opciones": [
-          "The price of the pizza.",
-          "Each customer's name.",
-          "The names of new projects."
-        ],
-        "correcta": "Each customer's name."
-      },
-      {
-        "pregunta": "Why does Sofia arrive at 7:00 a.m. on Mondays?",
-        "opciones": [
-          "To prepare a special meeting.",
-          "To order dinner for the team.",
-          "To give a presentation to customers."
-        ],
-        "correcta": "To prepare a special meeting."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Daniel starts work at 8:00 a.m.",
-        "correcta": false
-      },
-      {
-        "pregunta": "Carlos pays his team for the extra hours they work.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Keeping their eyes on the prize means staying focused on their goal.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_16",
-    "nivel": "A1.2",
-    "unidad": "3",
-    "titulo": "Sarah’s Café",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.2/unit3/sarahscafe.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Sarah loves coffee, so she decides to <strong>manage</strong> a small café in her town. She wants to <strong>sell</strong> fresh drinks and delicious bread. First, she needs to <strong>buy</strong> modern machines and <strong>invest</strong> her savings into the store. Running a business has difficult moments: she has to <strong>bite the bullet</strong> and spend money on expensive permits. Sometimes, customers <strong>complain</strong> about high prices when she has to <strong>charge for</strong> extra milk or delivery. Still, Sarah tries to <strong>avoid</strong> stress and <strong>look at the big picture</strong>: her dream is to build a happy community space.",
-    "vocabulario": [
-      {
-        "termino": "manage",
-        "traduccion": "administrar",
-        "definicion": "to organize and run a business"
-      },
-      {
-        "termino": "sell",
-        "traduccion": "vender",
-        "definicion": "to give something to someone in exchange for money"
-      },
-      {
-        "termino": "buy",
-        "traduccion": "comprar",
-        "definicion": "to get something by paying money"
-      },
-      {
-        "termino": "invest",
-        "traduccion": "invertir",
-        "definicion": "to use money to help a business grow"
-      },
-      {
-        "termino": "bite the bullet",
-        "traduccion": "afrontar algo difícil",
-        "definicion": "to do something difficult or unpleasant that is necessary"
-      },
-      {
-        "termino": "complain",
-        "traduccion": "quejarse",
-        "definicion": "to say that you are unhappy about something"
-      },
-      {
-        "termino": "charge for",
-        "traduccion": "cobrar por",
-        "definicion": "to ask someone to pay for a product or service"
-      },
-      {
-        "termino": "avoid",
-        "traduccion": "evitar",
-        "definicion": "to stay away from something or prevent it"
-      },
-      {
-        "termino": "look at the big picture",
-        "traduccion": "ver el panorama general",
-        "definicion": "to think about the whole situation and your main goal"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What does Sarah want to sell?",
-        "opciones": [
-          "Modern machines and permits.",
-          "Fresh drinks and delicious bread.",
-          "Recycled t-shirts."
-        ],
-        "correcta": "Fresh drinks and delicious bread."
-      },
-      {
-        "pregunta": "Why does Sarah have to bite the bullet?",
-        "opciones": [
-          "She needs to pay for expensive permits.",
-          "She wants to stop selling coffee.",
-          "She needs to send emails to customers."
-        ],
-        "correcta": "She needs to pay for expensive permits."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Sarah invests her savings into the café.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Sarah never charges for extra milk or delivery.",
-        "correcta": false
-      },
-      {
-        "pregunta": "Sarah wants to build a happy community space.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_17",
-    "nivel": "A1.2",
-    "unidad": "3",
-    "titulo": "Lucas’s Recycled T-Shirts",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.2/unit3/lucassrecycledtshirts.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Lucas wants to <strong>develop</strong> a brand of recycled t-shirts. To start the company, he has to <strong>jump through hoops</strong> with lots of government paperwork, but he stays patient. Finally, city officials <strong>approve</strong> his business license. Lucas sends regular emails to <strong>inform</strong> his customers about how the clothes are made. He is very honest: if an order is late, he is quick to <strong>admit</strong> the error and fix it immediately. When people <strong>accept</strong> sustainable habits, sales <strong>increase</strong> and plastic waste begins to <strong>decrease</strong>.",
-    "vocabulario": [
-      {
-        "termino": "develop",
-        "traduccion": "desarrollar",
-        "definicion": "to create or improve something over time"
-      },
-      {
-        "termino": "jump through hoops",
-        "traduccion": "superar muchos trámites",
-        "definicion": "to complete many difficult steps to achieve something"
-      },
-      {
-        "termino": "approve",
-        "traduccion": "aprobar",
-        "definicion": "to officially agree to or allow something"
-      },
-      {
-        "termino": "inform",
-        "traduccion": "informar",
-        "definicion": "to give someone information"
-      },
-      {
-        "termino": "admit",
-        "traduccion": "admitir",
-        "definicion": "to say that something is true, especially a mistake"
-      },
-      {
-        "termino": "accept",
-        "traduccion": "aceptar",
-        "definicion": "to agree to use or do something"
-      },
-      {
-        "termino": "increase",
-        "traduccion": "aumentar",
-        "definicion": "to become greater in number or amount"
-      },
-      {
-        "termino": "decrease",
-        "traduccion": "disminuir",
-        "definicion": "to become smaller in number or amount"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What kind of products does Lucas want to develop?",
-        "opciones": [
-          "Modern coffee machines.",
-          "Plastic bottles.",
-          "Recycled t-shirts."
-        ],
-        "correcta": "Recycled t-shirts."
-      },
-      {
-        "pregunta": "What does Lucas do if an order is late?",
-        "opciones": [
-          "He admits the error and fixes it immediately.",
-          "He stops informing his customers.",
-          "He closes his company."
-        ],
-        "correcta": "He admits the error and fixes it immediately."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "City officials approve Lucas’s business license.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Lucas sends emails about how his clothes are made.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Plastic waste increases when people accept sustainable habits.",
-        "correcta": false
-      }
-    ]
-  },
-  {
-    "id": "ra12_18",
-    "nivel": "A1.2",
-    "unidad": "3",
-    "titulo": "Sixto Rodriguez Finds His Fans",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.2/unit3/sixtorodriguezfindshisfans.webp",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "In the 1970s, Sixto Rodriguez records two beautiful albums in Detroit, but people in the United States do not <strong>buy</strong> his music. Rodriguez has to <strong>bite the bullet</strong> and work in difficult construction jobs to live. He does not know that thousands of young people in South Africa <strong>accept</strong> his songs as anthems of freedom. Over the years, his popularity begins to <strong>increase</strong> across the ocean, but nobody in South Africa knows who he is. Two loyal fans decide to <strong>look at the big picture</strong> and search for the truth. After years of questions, they finally <strong>inform</strong> Rodriguez of his legendary status, and he travels to play massive concerts for thousands of happy fans.",
-    "vocabulario": [
-      {
-        "termino": "buy",
-        "traduccion": "comprar",
-        "definicion": "to get something by paying money"
-      },
-      {
-        "termino": "bite the bullet",
-        "traduccion": "afrontar algo difícil",
-        "definicion": "to do something difficult or unpleasant that is necessary"
-      },
-      {
-        "termino": "accept",
-        "traduccion": "aceptar",
-        "definicion": "to welcome or agree to something"
-      },
-      {
-        "termino": "increase",
-        "traduccion": "aumentar",
-        "definicion": "to become greater in number or amount"
-      },
-      {
-        "termino": "look at the big picture",
-        "traduccion": "ver el panorama general",
-        "definicion": "to think about the whole situation and the main goal"
-      },
-      {
-        "termino": "inform",
-        "traduccion": "informar",
-        "definicion": "to give someone information"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Where does Rodriguez record his two albums?",
-        "opciones": [
-          "In South Africa.",
-          "In Detroit.",
-          "In New York."
-        ],
-        "correcta": "In Detroit."
-      },
-      {
-        "pregunta": "Who searches for the truth about Rodriguez?",
-        "opciones": [
-          "Two loyal fans.",
-          "His construction coworkers.",
-          "Two American singers."
-        ],
-        "correcta": "Two loyal fans."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "People in the United States buy many copies of his music in the 1970s.",
-        "correcta": false
-      },
-      {
-        "pregunta": "Many young people in South Africa accept his songs as anthems of freedom.",
-        "correcta": true
-      },
-      {
-        "pregunta": "Rodriguez travels to play concerts after learning about his fans.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_19",
-    "nivel": "A1.2",
-    "unidad": "3",
-    "titulo": "Inktober and Nature in Guatemala",
-    "dificultad": "Progressive ●●○",
-    "imagen": null,
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Today is October 1st, and an exciting art challenge is starting! MUSHNAT, the Museum of Natural History in Guatemala, <strong>is hosting</strong> the Inktober challenge about native species of Guatemala. At the beginning of the month, the museum shares the official list: one unique species for each day of October. Right now, children and adults from everywhere <strong>are participating</strong> with great enthusiasm. Some participants are beginners and others are professional artists, but they are all sharing a deep love for nature and learning. They believe an important idea: we do not protect what we do not love, and we do not love what we do not know. Every single day, the museum <strong>is posting</strong> all the drawings on its official Instagram account. The artists are working very hard, and on the last day of October, MUSHNAT <strong>is giving</strong> special prizes to the most constant participants. https://www.instagram.com/mushnatusac/?hl=en",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What is the theme of the Inktober challenge at MUSHNAT?",
-        "opciones": [
-          "Modern art from Europe",
-          "Native species of Guatemala",
-          "History of world museums"
-        ],
-        "correcta": "Native species of Guatemala"
-      },
-      {
-        "pregunta": "Where does the museum post the drawings every day?",
-        "opciones": [
-          "On its official Instagram account.",
-          "In a local newspaper.",
-          "On a television show."
-        ],
-        "correcta": "On its official Instagram account."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Only professional artists can participate in the challenge.",
-        "correcta": false
-      },
-      {
-        "pregunta": "The museum shares a list with one unique species for each day of October.",
-        "correcta": true
-      },
-      {
-        "pregunta": "MUSHNAT gives special prizes to constant participants on the last day of October.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_20",
-    "nivel": "A1.2",
-    "unidad": "4",
-    "titulo": "Cooking with Loroco",
-    "dificultad": "Introductory ●○○",
-    "imagen": "images/a1.2/unit4/cookingwithloroco.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Loroco is a <strong>special flower</strong> used in Central American food. In Guatemala, <strong>many</strong> people use loroco to prepare delicious dishes. It has a strong smell and a special <strong>flavor</strong>. One popular dish is <strong>chicken with loroco</strong>. To prepare it, we need <strong>some chicken</strong>, <strong>some loroco</strong>, <strong>an onion</strong>, and <strong>a few tomatoes</strong>. We also need <strong>a little salt</strong> and <strong>some cream</strong>. We don't need <strong>much oil</strong>, but we need <strong>a lot of flavor</strong>! Loroco is also excellent with <strong>cheese</strong>. Some people make <strong>pupusas with cheese and loroco</strong>, and others add it to <strong>soups</strong>, <strong>rice</strong>, or <strong>sauces</strong>. Are there <strong>many ingredients</strong> in these dishes? Sometimes! But you don't need <strong>any difficult ingredients</strong> to enjoy loroco. With <strong>a few vegetables</strong>, <strong>some cheese</strong>, and <strong>a little loroco</strong>, you can prepare something delicious. For <strong>many families</strong>, loroco is more than an ingredient. It is part of <strong>traditional food</strong> and a flavor that makes a meal special.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What is loroco?",
-        "opciones": [
-          "A sweet dessert from Mexico",
-          "A special flower used in Central American food",
-          "A cold drink with fruit"
-        ],
-        "correcta": "A special flower used in Central American food"
-      },
-      {
-        "pregunta": "What ingredients do you need for chicken with loroco?",
-        "opciones": [
-          "Chicken, loroco, onion, tomatoes, salt, and cream",
-          "Beef, potatoes, carrots, and a lot of oil",
-          "Fish, rice, bread, and sugar"
-        ],
-        "correcta": "Chicken, loroco, onion, tomatoes, salt, and cream"
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Loroco has a strong smell and a special flavor.",
-        "correcta": true
-      },
-      {
-        "pregunta": "You need a lot of oil to prepare chicken with loroco.",
-        "correcta": false
-      },
-      {
-        "pregunta": "Some people make pupusas with cheese and loroco.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra11_5",
-    "nivel": "A1.1",
-    "unidad": "2",
-    "titulo": "Translating adresses",
-    "dificultad": "Progressive ●●○",
-    "imagen": null,
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "In Guatemala, addresses are <strong>special</strong>. In <strong>Guatemala City</strong>, people use words like <strong>calle</strong>, <strong>avenida</strong>, and <strong>zona</strong>. A common address is <strong>6a Avenida, Zona 1</strong>. A <strong>calle</strong> is a <strong>street</strong> and an <strong>avenida</strong> is an <strong>avenue</strong>. But when we speak English, we usually keep these names in <strong>Spanish</strong>. Outside the capital, addresses <strong>change</strong>. You can see words like <strong>municipio</strong>, <strong>aldea</strong>, <strong>cantón</strong>, and <strong>colonia</strong>. These words are not easy to <strong>translate</strong>. The United States uses words like <strong>city</strong>, <strong>town</strong>, <strong>village</strong>, <strong>drive</strong>, or <strong>lane</strong>. They are not the same thing. For this reason, do not translate your local <strong>address</strong>. Keep the original words so people can find your <strong>home</strong>. Learning English is not only about new <strong>words</strong>. It is also about learning how different people <strong>live</strong> and organize their <strong>communities</strong>. Every country has a unique way to show the <strong>way</strong>.",
-    "vocabulario": [
-      {
-        "termino": "address",
-        "traduccion": "dirección",
-        "definicion": "the details of where a building or home is located"
-      },
-      {
-        "termino": "street",
-        "traduccion": "calle",
-        "definicion": "a road in a city or town with houses or buildings"
-      },
-      {
-        "termino": "avenue",
-        "traduccion": "avenida",
-        "definicion": "a broad street or road"
-      },
-      {
-        "termino": "translate",
-        "traduccion": "traducir",
-        "definicion": "to change words from one language into another"
-      },
-      {
-        "termino": "community",
-        "traduccion": "comunidad",
-        "definicion": "a group of people living in the same area"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Why should you keep your local address in Spanish?",
-        "opciones": [
-          "So people can easily find your home.",
-          "Because English has no words for streets.",
-          "Because the post office is always closed."
-        ],
-        "correcta": "So people can easily find your home."
-      },
-      {
-        "pregunta": "Which words are commonly used outside Guatemala City?",
-        "opciones": [
-          "Drive, lane, and village",
-          "Street, avenue, and highway",
-          "Municipio, aldea, and cantón"
-        ],
-        "correcta": "Municipio, aldea, and cantón"
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "In Guatemala City, addresses often use calle, avenida, and zona.",
-        "correcta": true
-      },
-      {
-        "pregunta": "The text advises you to translate your home address into English.",
-        "correcta": false
-      },
-      {
-        "pregunta": "Learning English also includes understanding how communities organize themselves.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra11_6",
-    "nivel": "A1.1",
-    "unidad": "3",
-    "titulo": "The Man on the Green Cover",
-    "dificultad": "Introductory ●○○",
-    "imagen": null,
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Look at this man. His name is Al-Khwarizmi. He lived a long time ago. He is the father of algebra.\n\nToday, his face is on old stamps. But in Latin America, his face is very famous for a different reason: the green cover of the Álgebra de Baldor!\n\nRight now, students all over the world open their notebooks. They look at the green book. They read math problems. They write numbers, letters, and equations.\n\nFor example, they can write: 50 + 50 = 100. They say, “Fifty plus fifty equals one hundred.” They can also write: 100 - 25 = 75. They say, “One hundred minus twenty-five equals seventy-five.”\n\nIn algebra, students also use letters. For example: x + 20 = 100. What is x? The answer is 80! Eighty plus twenty equals one hundred.\n\nStudents also practice other math signs: + means plus, - means minus, × means times, ÷ means divided by, and = means equals.\n\nSometimes students say, “Oh no, more homework!” Al-Khwarizmi is quiet on the cover, but his math is in every school. Students practice numbers and equations every day!",
-    "vocabulario": [
-      {
-        "termino": "office supply",
-        "traduccion": "artículos de oficina",
-        "definicion": "materials and equipment used in an office"
-      },
-      {
-        "termino": "hit it out of the park",
-        "traduccion": "hacer un trabajo excelente",
-        "definicion": "to do something exceptionally well"
-      },
-      {
-        "termino": "shape up or ship out",
-        "traduccion": "mejorar o marcharse",
-        "definicion": "to improve work or behavior, or leave"
-      },
-      {
-        "termino": "coworker",
-        "traduccion": "compañero de trabajo",
-        "definicion": "a person with whom one works"
-      },
-      {
-        "termino": "shelf",
-        "traduccion": "estante",
-        "definicion": "a flat surface to hold objects"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Why is Al-Khwarizmi's face famous in Latin America?",
-        "opciones": [
-          "Because it appears on the cover of Álgebra de Baldor.",
-          "Because he was an international soccer player.",
-          "Because he lives in Guatemala today."
-        ],
-        "correcta": "Because it appears on the cover of Álgebra de Baldor."
-      },
-      {
-        "pregunta": "In the equation \"x + 20 = 100\", what is the value of x?",
-        "opciones": [
-          "50",
-          "75",
-          "80"
-        ],
-        "correcta": "80"
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "Al-Khwarizmi is known as the father of algebra.",
-        "correcta": true
-      },
-      {
-        "pregunta": "The math sign \"+\" means minus.",
-        "correcta": false
-      },
-      {
-        "pregunta": "In algebra, students practice both numbers and letters.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_21",
-    "nivel": "A1.2",
-    "unidad": "2",
-    "titulo": "My new office job",
-    "dificultad": "Progressive ●●○",
-    "imagen": "images/a1.2/unit2/mynewofficejob.jpg",
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "Today, I am <strong>starting</strong> a new job at an office supply company. My new boss is nice and polite. The boss is <strong>teaching</strong> me about the company, and I am <strong>learning</strong> quickly. I think I am <strong>hitting it out of the park!</strong>\n\nThe company is <strong>investing</strong> a lot of money in new products. The new products are <strong>arriving</strong> next week. Everyone is <strong>working hard</strong> to prepare the office. My coworkers are <strong>saying</strong> that we need to <strong>shape up or ship out</strong> because the company wants to be successful.\n\nRight now, I am organizing <strong>sticky notes</strong>, <strong>envelopes</strong>, and <strong>highlighters</strong>. My coworker is putting <strong>staplers</strong> and <strong>tape dispensers</strong> on the <strong>shelves</strong>. Another coworker is carrying <strong>clipboards</strong> around the office.\n\nThe office also has many <strong>desks</strong>, <strong>filing cabinets</strong>, and <strong>waste baskets</strong>. Everyone is doing an important job. We are <strong>helping</strong> customers and <strong>preparing</strong> for the new products.",
-    "vocabulario": [],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "What type of company is the speaker working for?",
-        "opciones": [
-          "An office supply company.",
-          "A computer repair shop.",
-          "A clothing factory."
-        ],
-        "correcta": "An office supply company."
-      },
-      {
-        "pregunta": "What items is the speaker organizing right now?",
-        "opciones": [
-          "Staplers and tape dispensers.",
-          "Sticky notes, envelopes, and highlighters.",
-          "Clipboards and filing cabinets."
-        ],
-        "correcta": "Sticky notes, envelopes, and highlighters."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "The new boss is nice and polite.",
-        "correcta": true
-      },
-      {
-        "pregunta": "The speaker is putting staplers on the shelves.",
-        "correcta": false
-      },
-      {
-        "pregunta": "New products are arriving next week.",
-        "correcta": true
-      }
-    ]
-  },
-  {
-    "id": "ra12_22",
-    "nivel": "A1.2",
-    "unidad": "2",
-    "titulo": "My Small Desk",
-    "dificultad": "Introductory ●○○",
-    "imagen": null,
-    "audio": null,
-    "modoAudio": "tts",
-    "pdf": null,
-    "texto": "My <strong>desk</strong> is small, but it is very <strong>comfortable</strong> for my work. I have a <strong>new</strong> <strong>keyboard</strong> and many <strong>papers</strong> for my class. I keep my worksheets on a <strong>clipboard</strong> and use a <strong>highlighter</strong> to mark important dates. In my <strong>filing cabinet</strong>, I have an <strong>envelope</strong> and a <strong>stapler</strong>. I use <strong>sticky notes</strong> to remember my meetings. On the <strong>shelves</strong>, I have a <strong>tape dispenser</strong> and a <strong>disinfectant</strong> to keep everything clean. When I finish, I throw the trash into the <strong>waste basket</strong>.",
-    "vocabulario": [
-      {
-        "termino": "desk",
-        "traduccion": "escritorio",
-        "definicion": "a table used for work or study"
-      },
-      {
-        "termino": "comfortable",
-        "traduccion": "cómodo",
-        "definicion": "pleasant and easy to use"
-      },
-      {
-        "termino": "new",
-        "traduccion": "nuevo",
-        "definicion": "recently made or bought"
-      },
-      {
-        "termino": "keyboard",
-        "traduccion": "teclado",
-        "definicion": "the keys used to type on a computer"
-      },
-      {
-        "termino": "papers",
-        "traduccion": "papeles",
-        "definicion": "sheets used for writing or printing"
-      },
-      {
-        "termino": "clipboard",
-        "traduccion": "portapapeles",
-        "definicion": "a board with a clip that holds papers"
-      },
-      {
-        "termino": "highlighter",
-        "traduccion": "resaltador",
-        "definicion": "a pen used to mark important words or information"
-      },
-      {
-        "termino": "filing cabinet",
-        "traduccion": "archivador",
-        "definicion": "a cabinet used to store documents"
-      },
-      {
-        "termino": "envelope",
-        "traduccion": "sobre",
-        "definicion": "a paper cover used to hold a letter"
-      },
-      {
-        "termino": "stapler",
-        "traduccion": "engrapadora",
-        "definicion": "a tool used to join papers with staples"
-      },
-      {
-        "termino": "sticky notes",
-        "traduccion": "notas adhesivas",
-        "definicion": "small pieces of paper that stick to surfaces"
-      },
-      {
-        "termino": "shelves",
-        "traduccion": "estantes",
-        "definicion": "flat surfaces used to hold objects"
-      },
-      {
-        "termino": "tape dispenser",
-        "traduccion": "dispensador de cinta adhesiva",
-        "definicion": "a tool that holds and cuts sticky tape"
-      },
-      {
-        "termino": "disinfectant",
-        "traduccion": "desinfectante",
-        "definicion": "a substance used to kill germs on surfaces"
-      },
-      {
-        "termino": "waste basket",
-        "traduccion": "papelera",
-        "definicion": "a container used for trash"
-      }
-    ],
-    "preguntas_opcion_multiple": [
-      {
-        "pregunta": "Where does the speaker keep the worksheets?",
-        "opciones": [
-          "On a clipboard.",
-          "In the waste basket.",
-          "Inside an envelope."
-        ],
-        "correcta": "On a clipboard."
-      },
-      {
-        "pregunta": "What does the speaker use to remember meetings?",
-        "opciones": [
-          "A tape dispenser.",
-          "Sticky notes.",
-          "A keyboard."
-        ],
-        "correcta": "Sticky notes."
-      }
-    ],
-    "preguntas_vf": [
-      {
-        "pregunta": "The speaker has a new keyboard.",
-        "correcta": true
-      },
-      {
-        "pregunta": "The speaker uses a highlighter to mark important dates.",
-        "correcta": true
-      },
-      {
-        "pregunta": "The speaker keeps the disinfectant in the waste basket.",
-        "correcta": false
+        "statement": "A community agriculture program can provide fresh food.",
+        "correct_answer": "T"
       }
     ]
   }
