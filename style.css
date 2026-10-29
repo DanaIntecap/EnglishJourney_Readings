@@ -366,11 +366,9 @@ button {
     .banner h1 { font-size: 34px; }
     .rsvp-word { font-size: 30px; }
 }
-/* style.css */
-.glossary-box { background:#f8f9fa; border-left:8px solid #008D36; border-radius:10px; padding:15px 20px; margin:25px 0; }
-.glossary-box summary { font-family:'Poppins',sans-serif; font-weight:600; color:#008D36; font-size:18px; cursor:pointer; }
-.glossary-list { list-style:none; padding:0; margin:15px 0 0; display:grid; gap:10px; }
-.glossary-item { display:grid; grid-template-columns:1fr 1fr; gap:2px 16px; padding-bottom:8px; border-bottom:1px solid #e3e6e8; }
-.glossary-term { font-weight:600; color:#0060AA; }
-.glossary-translation { color:#333; }
-.glossary-def { grid-column:1 / -1; font-size:13px; color:#666; }
+.reading-text mark.extra { background:#fff3bf; color:#7a4a00; font-weight:inherit; padding:1px 4px; border-radius:4px; border-bottom:2px dotted #e0a800; }
+.glossary-item.glossary-extra { border-left:4px solid #e0a800; padding-left:10px; }
+.glossary-item.glossary-extra .glossary-term::after { content:" ⭐"; }
+.reading-legend { text-align:left; font-size:14px; color:#555; margin:0 0 12px; }
+.legend-class { background:#eaf3fb; color:#0060AA; font-weight:700; padding:1px 6px; border-radius:4px; }
+.legend-extra { background:#fff3bf; color:#7a4a00; padding:1px 6px; border-radius:4px; border-bottom:2px dotted #e0a800; }
