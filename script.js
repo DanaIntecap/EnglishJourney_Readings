@@ -56,6 +56,9 @@ const quizContainer = document.getElementById('quizContainer');
 const btnCheckAnswers = document.getElementById('btnCheckAnswers');
 const quizResult = document.getElementById('quizResult');
 
+const glossaryBox = document.getElementById('glossaryBox');
+const glossaryList = document.getElementById('glossaryList');
+
 // =====================================================
 // PARSEO DE ETIQUETAS (skills_focus / tags)
 // Acepta: ["A","B"]  |  "A; B"  |  "A"
@@ -246,6 +249,30 @@ function renderFocusChips(focusArray) {
     });
 }
 
+// Glosario: se dibuja aparte, fuera de #readingText, para que TTS, RSVP y
+// pronunciación no lo lean. Cada parte lleva su idioma (lang).
+function renderGlossary(data) {
+    glossaryList.innerHTML = '';
+    const items = data.vocabulario || [];
+    glossaryBox.classList.toggle('hidden', items.length === 0);
+    items.forEach(v => {
+        const li = document.createElement('li');
+        li.className = 'glossary-item';
+        const parts = [
+            ['glossary-term', 'en', v.termino],
+            ['glossary-translation', 'es', v.traduccion],
+            ['glossary-def', 'en', v.definicion]
+        ];
+        parts.forEach(([cls, lang, text]) => {
+            if (!text) return;
+            const s = document.createElement('span');
+            s.className = cls; s.lang = lang; s.textContent = text;
+            li.appendChild(s);
+        });
+        glossaryList.appendChild(li);
+    });
+}
+
 function renderReading(data) {
     readingCard.classList.remove('hidden');
 
@@ -284,6 +311,7 @@ function renderReading(data) {
     stopSpeech();
     prepareRsvp(data.text);
 
+    renderGlossary(data);
     renderQuiz(data);
 
     readingCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
