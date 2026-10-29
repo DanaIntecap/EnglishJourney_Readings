@@ -58,6 +58,7 @@ const quizResult = document.getElementById('quizResult');
 
 const glossaryBox = document.getElementById('glossaryBox');
 const glossaryList = document.getElementById('glossaryList');
+const readingLegend = document.getElementById('readingLegend');
 
 // =====================================================
 // PARSEO DE ETIQUETAS (skills_focus / tags)
@@ -257,7 +258,7 @@ function renderGlossary(data) {
     glossaryBox.classList.toggle('hidden', items.length === 0);
     items.forEach(v => {
         const li = document.createElement('li');
-        li.className = 'glossary-item';
+        li.className = 'glossary-item' + (v.extra ? ' glossary-extra' : '');
         const parts = [
             ['glossary-term', 'en', v.termino],
             ['glossary-translation', 'es', v.traduccion],
@@ -290,6 +291,9 @@ function renderReading(data) {
     readingImage.onload = () => { readingImage.style.display = 'block'; };
 
     readingText.innerHTML = data.text;
+
+    // La leyenda de colores solo aparece si la lectura tiene palabras extra (<mark class="extra">)
+    readingLegend.classList.toggle('hidden', !readingText.querySelector('mark.extra'));
 
     // El PDF es opcional: solo se muestra si la lectura tiene el campo "pdf"
     if (data.pdf) {
