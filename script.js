@@ -261,13 +261,14 @@ function renderGlossary(data) {
         li.className = 'glossary-item' + (v.extra ? ' glossary-extra' : '');
         const parts = [
             ['glossary-term', 'en', v.termino],
-            ['glossary-translation', 'es', v.traduccion],
+            ['glossary-translation', 'es', v.traduccion ? `(${v.traduccion})` : ''],
             ['glossary-def', 'en', v.definicion]
         ];
         parts.forEach(([cls, lang, text]) => {
             if (!text) return;
             const s = document.createElement('span');
             s.className = cls; s.lang = lang; s.textContent = text;
+            if (li.childNodes.length) li.appendChild(document.createTextNode(' '));
             li.appendChild(s);
         });
         glossaryList.appendChild(li);
