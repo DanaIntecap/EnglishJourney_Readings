@@ -620,7 +620,7 @@
     "Vocabulary": "newborn child (recién nacido):: a baby that was born very recently | steam (vapor):: hot water in the form of gas | clay pot (olla de barro):: a container made of baked clay"
   },
   {
-    "Título": "ra21_6_marjane",
+    "Título": "ra21_11",
     "Level": "A2",
     "Sublevel": "A2.1",
     "Titulo_visible": "Marjane Satrapi's Rights and Responsibilities",
@@ -1147,7 +1147,7 @@
     "Vocabulary": "Cover (portada o cubierta):: The outer front or back part of a book | Face (rostro o cara):: The front part of a person's head with the eyes, nose, and mouth | Look at (mirar u observar):: To direct your eyes toward someone or something | Famous (famoso o conocida):: Known by many people | Lived (vivió):: The past form of live, meaning had life or a home in a specific time or place | Appear (aparecer):: To be seen or show up in a particular place | Centuries ago (hace siglos):: Many hundreds of years in the past"
   },
   {
-    "Título": "ra12_20_office",
+    "Título": "ra12_21",
     "Level": "A1",
     "Sublevel": "A1.2",
     "Titulo_visible": "My new office job",
@@ -1354,12 +1354,12 @@
     "TF2_Answer": "T",
     "TF3_Question": "You only hear the schwa in syllables with no stress (acento)",
     "TF3_Answer": "T",
-    "Difficulty": "Introductory ●○○",
+    "Difficulty": "Progressive ●●○",
     "Attachment": "",
-    "Picture": "images/a1.1/unit3/theenglishvowels.png",
+    "Picture": "images/a1.1/unit1/theenglishvowels.jpg",
     "Unit": 1,
     "Audio": "",
-    "skills_focus": "Oral Fluency & Pronunciation",
+    "skills_focus": "Content & Comprehension",
     "Active": "Yes",
     "Vocabulary": ""
   },
@@ -1367,7 +1367,7 @@
     "Título": "ra11_8",
     "Level": "A1",
     "Sublevel": "A1.1",
-    "Titulo_visible": "",
+    "Titulo_visible": "The origin of All Saints' Day",
     "Texto_lectura": "All Saints' Day is celebrated on November 1st. This celebration from the Celts, a group of people who lived in Europe many years ago. The Celts had a festival in early November because they believed that spirits visit the living on this date. Many years later, the Catholic Church chose November 1st to remember the saints and the people who are no longer in the world.\n\nToday, many countries use this date to celebrate and remember their family members:\nMexico: They celebrate the \"Day of the Dead\". Families put orange flowers and photos in their houses.\nSpain: People go to the cemetery and eat small traditional sweets.\nPhilippines: Families light candles and have a big picnic in the cemetery to be close to the spirits.",
     "Q1_MChoice1": "When did the Celts celebrate their festival?",
     "A1_MChoice1": "In early November.",
