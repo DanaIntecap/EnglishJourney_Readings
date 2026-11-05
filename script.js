@@ -88,9 +88,46 @@ function parseFocus(raw) {
     return FOCUS_LIST.filter(f => result.includes(f));
 }
 
-function normalizeReading(r) {
+function normalizeReading(r, index = 0) {
+    // Accept both the website schema and rows exported directly from Excel.
+    const text = String(r.text ?? r.Texto_lectura ?? '');
+    const active = r.active ?? r.Active ?? true;
+    const multipleChoice = r.multiple_choice ?? [1, 2].map(n => ({
+        question: r[n === 1 ? 'Q1_MChoice1' : 'Q2_MChoice2'],
+        options: [1, 2, 3].map(a => r[`A${a}_MChoice${n}`]),
+        correct_answer: Number(r[n === 1 ? 'Q1_Correct' : 'Q2_correct'])
+    })).filter(q => q.question && q.options.every(Boolean) && [1, 2, 3].includes(q.correct_answer));
+    const trueFalse = r.true_false ?? [
+        { statement: r.TF1, correct_answer: r.TF1_Answer },
+        { statement: r.TF2_Question, correct_answer: r.TF2_Answer },
+        { statement: r.TF3_Question, correct_answer: r.TF3_Answer }
+    ].filter(q => q.statement && q.correct_answer !== undefined && q.correct_answer !== '');
+    const extraTerms = [...text.matchAll(/<mark\b[^>]*class=["']extra["'][^>]*>(.*?)<\/mark>/gis)]
+        .map(m => m[1].trim().toLowerCase());
+    const vocabulary = r.vocabulario ?? String(r.Vocabulary ?? '').split('|')
+        .map(entry => entry.trim()).filter(Boolean).map(entry => {
+            const match = entry.match(/^(.*?)\s*\(([^()]*)\)\s*::\s*(.+)$/s);
+            return match ? {
+                termino: match[1].trim(), traduccion: match[2].trim(), definicion: match[3].trim(),
+                extra: extraTerms.includes(match[1].trim().toLowerCase())
+            } : { termino: entry, traduccion: '', definicion: '' };
+        });
     return {
         ...r,
+        id: String(r.id ?? r['Título'] ?? `reading-${index + 1}`),
+        level: r.level ?? r.Level,
+        sub_level: r.sub_level ?? r.Sublevel ?? r.level ?? r.Level,
+        unit: r.unit ?? r.Unit ?? '',
+        title: r.title ?? r.Titulo_visible ?? '',
+        difficulty: r.difficulty ?? r.Difficulty ?? '',
+        image: r.image ?? r.Picture ?? '',
+        pdf: r.pdf ?? r.Attachment ?? '',
+        audio: r.audio ?? r.Audio ?? '',
+        text,
+        active: ![false, 0, 'false', 'no', '0'].includes(typeof active === 'string' ? active.trim().toLowerCase() : active),
+        multiple_choice: multipleChoice,
+        true_false: trueFalse,
+        vocabulario: vocabulary,
         _focus: parseFocus(r.skills_focus !== undefined ? r.skills_focus : r.tags)
     };
 }
@@ -101,10 +138,20 @@ function normalizeReading(r) {
 async function init() {
     try {
         const res = await fetch('readings.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error(`readings.json: HTTP ${res.status}`);
         const data = await res.json();
+        if (!Array.isArray(data)) throw new Error('readings.json must contain an array');
+        const seenIds = new Set();
         readings = data
-            .filter(r => r.active !== false)
-            .map(normalizeReading);
+            .map(normalizeReading)
+            .filter(r => r.active && r.text)
+            .map(r => {
+                const base = r.id;
+                let suffix = 2;
+                while (seenIds.has(r.id)) r.id = `${base}-${suffix++}`;
+                seenIds.add(r.id);
+                return r;
+            });
         populateNiveles();
     } catch (err) {
         console.error('No se pudo cargar readings.json', err);
