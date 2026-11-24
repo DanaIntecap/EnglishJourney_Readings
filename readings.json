@@ -1765,5 +1765,36 @@
     "skills_focus": "Content & Comprehension",
     "Active": "Yes",
     "Vocabulary": "fiambre (fiambre):: a cold Guatemalan salad with vegetables, meats, cheese and eggs | All Saints' Day (Día de Todos los Santos):: November 1, a day to remember people who died | earthquake (terremoto):: a strong shaking of the ground | destroyed (destruyó):: the past form of destroy, meaning broke something completely | convent (convento):: a building where religious women live and work | made (hizo):: the past form of make, meaning prepared or created something | sausages (embutidos):: meat food in a tube shape, like chorizo | beets (remolacha):: a round red vegetable that gives color to food | cultural heritage (patrimonio cultural):: traditions and customs that a country protects"
-  }
+  },
+  {
+  "Título": "ra11_20",
+  "Level": "A1",
+  "Sublevel": "A1.1",
+  "Titulo_visible": "Mr. Luis, My School Bus Driver",
+  "Texto_lectura": "Every morning, I <strong>take</strong> the school bus. The <mark class=\"extra\">school bus driver</mark> <strong>is</strong> Mr. Luis. He <strong>is</strong> a <mark class=\"extra\">kind</mark> man. He <strong>is</strong> sixty years old. He always <strong>says</strong>, \"Good morning, Sofia!\"\n\nMr. Luis <strong>knows</strong> me. He <strong>knows</strong> I like the seat by the <mark class=\"extra\">window</mark>. He asks, \"How <strong>is</strong> your English class?\" I <strong>say</strong>, \"It <strong>is</strong> good!\" He <mark class=\"extra\">smiles</mark>.\n\nToday I <strong>am</strong> <mark class=\"extra\">sad</mark>. I <strong>have</strong> a <mark class=\"extra\">difficult</mark> test. I do not talk. Mr. Luis does not ask questions. He only <mark class=\"extra\">smiles</mark> and plays my <mark class=\"extra\">favorite</mark> song. I <strong>feel</strong> better.\n\nI <strong>think</strong> about other jobs. The <mark class=\"extra\">baker</mark> <strong>makes</strong> bread. The teacher helps students. The <mark class=\"extra\">nurse</mark> helps sick people. Every job <strong>is</strong> <mark class=\"extra\">important</mark>. A <mark class=\"extra\">school bus driver</mark> <strong>makes</strong> my morning happy.",
+  "Q1_MChoice1": "Who is Mr. Luis?",
+  "A1_MChoice1": "A school bus driver",
+  "A2_MChoice1": "A teacher",
+  "A3_MChoice1": "A baker",
+  "Q1_Correct": 1,
+  "Q2_MChoice2": "What does Mr. Luis do when Sofia is sad?",
+  "A1_MChoice2": "He asks many questions.",
+  "A2_MChoice2": "He gives her a test.",
+  "A3_MChoice2": "He plays her favorite song.",
+  "Q2_correct": 3,
+  "TF1": "Mr. Luis is a teacher.",
+  "TF1_Answer": false,
+  "TF2_Question": "Sofia likes the seat by the window.",
+  "TF2_Answer": true,
+  "TF3_Question": "Sofia has a difficult test.",
+  "TF3_Answer": true,
+  "Difficulty": "Introductory ●○○",
+  "Attachment": "",
+  "Picture": "images/a1.1/unit5/mrluismyschoolbusdriver.jpg",
+  "Unit": 5,
+  "Audio": "",
+  "skills_focus": "Content & Comprehension",
+  "Active": "Yes",
+  "Vocabulary": "school bus driver (conductor de bus escolar):: a person who drives children to school | kind (amable):: nice to other people | window (ventana):: the glass part of a bus or house where you can see outside | smiles (sonríe):: shows happiness with the mouth | sad (triste):: not happy | difficult (difícil):: not easy | favorite (favorito):: the one you like the most | baker (panadero/a):: a person who makes bread | nurse (enfermero/a):: a person who helps sick people | important (importante):: very special or necessary"
+}
 ]
